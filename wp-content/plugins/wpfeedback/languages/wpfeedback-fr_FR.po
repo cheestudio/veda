@@ -1,0 +1,1259 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: WP Feedback\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-08-30 06:27+0000\n"
+"PO-Revision-Date: 2019-08-30 07:22+0000\n"
+"Last-Translator: roivitopeleg <vito@acedigital.london>\n"
+"Language-Team: French (France)\n"
+"Language: fr_FR\n"
+"Plural-Forms: nplurals=2; plural=n > 1;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Loco https://localise.biz/\n"
+"X-Loco-Version: 2.3.0; wp-5.2.2"
+
+#: inc/admin/page-settings.php:555
+msgid "(WP 5.2 and up)"
+msgstr "(WP 5.2 et au-delà)"
+
+#: wpfeedback.php:97
+msgid "Add New WP feedBack"
+msgstr ""
+
+#: inc/admin/page-settings.php:146
+msgid "Additional Information"
+msgstr "Infomations Additionnelles"
+
+#: inc/admin/page-settings.php:92
+msgid "Admin"
+msgstr "Admin"
+
+#: inc/admin/wpf_backend_initial_setup.php:68
+msgid "Allow guests to create tickets, without the need to log in to the site."
+msgstr ""
+"Permettre aux utilisateurs de créer des tickets, sans avoir besoin de se "
+"connecter sur le site"
+
+#: inc/wpf_function.php:684
+msgid "Auto receive email notification for daily report"
+msgstr ""
+"Recevoir automatiquement un e-mail de notification pour le rapport quotidien"
+
+#: inc/wpf_function.php:696
+msgid "Auto receive email notification for weekly report"
+msgstr ""
+"Recevoir automatiquement un e-mail de notification pour le rapport "
+"hebdomadaire"
+
+#: inc/admin/wpf_backend_initial_setup.php:123 inc/admin/page-settings.php:381
+msgid "Auto send email notification for daily report"
+msgstr ""
+"Envoyer automatiquement un e-mail de notification pour le rapport quotidien"
+
+#: inc/admin/wpf_backend_initial_setup.php:128 inc/admin/page-settings.php:388
+msgid "Auto send email notification for weekly report"
+msgstr ""
+"Envoyer automatiquement un e-mail de notification pour le rapport "
+"hebdomadaire"
+
+#: inc/admin/page-settings.php:243
+msgid ""
+"By default you can create tasks on the front end AND on the back end. By "
+"ticking this option on, users will not be able to create tasks on any of the "
+"WP admin screens."
+msgstr ""
+"Par défaut, vous pouvez créer des taches sur le front-end et en back-end. En "
+"cochant cette otpion, les utilisateurs ne pourront pas créer des tâches sur "
+"toutes pages des écrans de l'administation WP."
+
+#: inc/admin/page-settings.php:106
+msgid "By Users"
+msgstr "Par Utilisateur"
+
+#: inc/admin/page-settings.php:306
+msgid ""
+"Can do everything except: Choose and change status and urgency, Access the "
+"settings, support, integration and upgrade screens. Can only delete his own "
+"tickets. "
+msgstr ""
+"Peut tout fair sauf : Choisir et changer les statuts et urgences, Accéder "
+"aux écrans de paramétrage, de support, d'intégration et de mise à niveau. "
+"Peut seulement effacer ses propres tickets"
+
+#: inc/admin/page-settings.php:304
+msgid ""
+"Can do everything except: Choose and change status, Access the settings, "
+"support and upgrade screens. Can only delete his own tickets. "
+msgstr ""
+"Peut tout faire sauf : Choisir et changer de statut, Accéder aux écrans de "
+"paramétrage, de support et de mise à niveau. Ne peut qu'effacer ses propres "
+"tickets"
+
+#: inc/admin/page-settings.php:510
+msgid "Can&#39;t send emails? Getting too many emails? Answers inside."
+msgstr ""
+"Vous ne pouvez pas envoyer vos emails ? Vous en recevez trop ? Des réponses "
+"à l'intérieur"
+
+#: inc/admin/page-settings.php:501
+msgid ""
+"Can&#39;t validate the license? You probably didn&#39;t add the domain. "
+"Follow the steps above."
+msgstr ""
+"Vous ne pouvez valider la licence ? Vous n'avez probablement pas ajouter le "
+"domaine. Suivez les étapes ci-dessus."
+
+#: inc/admin/page-settings.php:282
+msgid "Change the main color"
+msgstr "Changer la couleur dominante"
+
+#: inc/admin/page-settings.php:559
+msgid "Click here to get site health info"
+msgstr "Cliquer içi pour avoir les informations Site Health"
+
+#: inc/admin/page-settings.php:304
+msgid "Client (Website Owner) "
+msgstr "Client (Propriétaire du Site Internet)"
+
+#. Description of the plugin
+msgid "Client feedback in 1 click - WP Feedback"
+msgstr "Feedback Client en 1 clic - WP Feedback"
+
+#: inc/admin/page-settings.php:524
+msgid "Create a support ticket"
+msgstr "Créer un ticket de support"
+
+#: inc/admin/page-settings.php:409
+msgid ""
+"Create a user for the client and assign it here to allow the client to "
+"comment in guest mode but still be assigned to the tickets for replies and "
+"notifications."
+msgstr ""
+"Crée un utilisateur pour le client et l'assigne içi pour permettre au client "
+"de commenter en mode invité tout en permettant l'assignation des tickets "
+"pour les réponses et notifications"
+
+#: inc/admin/page-settings.php:303
+msgid "Customisations "
+msgstr "Personnalisation"
+
+#: inc/admin/page-settings.php:69
+msgid "Daily Report"
+msgstr "Rapport Quotidien"
+
+#: inc/admin/page-settings.php:519
+msgid ""
+"Dealing with clients is hard(!) This amazing charity for the WP community is "
+"here to help you grow and relax."
+msgstr ""
+"Faire avec les clients est difficile (!) Cette fantastique charité pour la "
+"communauté WP est içi pour vous aider à vous développer et relaxer"
+
+#: inc/admin/page-settings.php:391
+msgid "Default users"
+msgstr "Utilisateurs par défaut"
+
+#: inc/admin/page-settings.php:545
+msgid "Email"
+msgstr "E-mail"
+
+#: inc/admin/page-settings.php:330
+msgid "Email notifications"
+msgstr "Notifications par e-mail"
+
+#: inc/admin/page-settings.php:207
+msgid "Enable WP Feedback on this website"
+msgstr "Activer WP Feedback sur ce site internet"
+
+#: inc/admin/page-settings.php:223
+msgid ""
+"Enabling this will make WP Feedback visible to everyone who visits your site "
+"and will allow them to create tasks and comment on existing ones."
+msgstr ""
+"En autorisant cette option, vous rendrez visible WP Feedback à tout visiteur "
+"de votre site et leur permettra de créer des tâches et commentaires sur "
+"celles existantes"
+
+#: inc/admin/page-settings.php:518
+msgid "Feeling stressed? (WP&amp;UP)"
+msgstr "Vous êtes stressé ? (WP&UP)"
+
+#: inc/admin/page-settings.php:108
+msgid "Filter"
+msgstr "Filtre"
+
+#: inc/admin/page-settings.php:83
+msgid "Filter Tasks"
+msgstr "Filtrer les Tâches"
+
+#: inc/admin/page-settings.php:90
+msgid "General"
+msgstr "Générale"
+
+#: inc/admin/page-settings.php:187
+msgid "General Settings"
+msgstr "Paramètres Généraux"
+
+#: inc/admin/page-settings.php:115
+msgid "General Task"
+msgstr "Tâche Générale"
+
+#: inc/admin/page-settings.php:477
+msgid ""
+"Get faster answers by leveraging the community, we're there too of course!"
+msgstr ""
+"Bénéficier de réponses plus rapides en profitant de la communauté. Nous "
+"sommes là aussi, bien sûr !"
+
+#: inc/admin/page-settings.php:223
+msgid "Guest allowed"
+msgstr "Invité autorisé"
+
+#: inc/admin/page-settings.php:212
+msgid "Hold down the CTRL key to choose multiple options"
+msgstr "Garder la touche CTRL enfoncée pour séléctionner plusieurs options"
+
+#. URI of the plugin
+#. Author URI of the plugin
+msgid "https://wpfeedback.co/"
+msgstr ""
+
+#: inc/admin/page-settings.php:446 inc/admin/page-settings.php:452
+#: inc/admin/page-settings.php:458
+msgid "I want this add-on"
+msgstr ""
+
+#: inc/admin/page-settings.php:211
+msgid ""
+"If a user role is not selected, they will not be able to see WP Feedback on "
+"the front-end, they will still be able to access the plugin settings though "
+"unless you restrict this someone else."
+msgstr ""
+"Wenn eine Benutzerrolle nicht ausgewählt ist, werden deren Benutzer das WP "
+"Feedback nicht auf der Frontendseite sehen können, aber sie werden trotzdem "
+"Zugriff auf die Plugineinstellungen haben, sofern dies nicht auf jemanden "
+"anderen beschränkt wurde."
+
+#: inc/admin/page-settings.php:253
+msgid ""
+"If Font-Awesome is already integrated on this website, you might notice some "
+"icons not showing correctly. Ticking this removes WP Feedback’s integration "
+"to avoid this conflict."
+msgstr ""
+"Wenn Font-Awesome bereits auf dieser Webseite eingebunden ist, werden einige "
+"Icons möglicherweise nicht korrekt dargestellt. Durch Aktivieren dieser "
+"Option wird die WP Feedback Integration entfernt, um diesen Konflikten "
+"vorzubeugen."
+
+#: inc/admin/page-settings.php:233
+msgid ""
+"If this is switched off, you will not see stickers unless you open the "
+"sidebar while on the front-end"
+msgstr ""
+"Wenn dies ausgeschaltet ist werden Sie keine Markierungen sehen, außer Sie "
+"öffnen die Seitenleiste auf der Webseite im Frontend"
+
+#: inc/admin/page-settings.php:516
+msgid ""
+"If we&#39;re advocating for feedback we better lead by example. You&#39;re "
+"invited to request&nbsp;features."
+msgstr ""
+"Si nous nous faisons l'avocat des feedbacks, nous ferions mieux de montrer "
+"l'exemple. Vous êtes invités à demander de nouvelles fonctionnalités"
+
+#: inc/admin/page-settings.php:199
+msgid ""
+"If you don't have a valid license, <a href='https://wpfeedback.co/' "
+"target='_blank'>Please click here to get a new license key</a>"
+msgstr ""
+"Si vous ne possédez pas une licence valide, merci de cliquer içi pour "
+"recevoir une nouvelle clé de licence"
+
+#: inc/admin/page-settings.php:513
+msgid ""
+"If you&#39;re talking about us and send some peeps over - We wanna pay you!"
+msgstr ""
+"Si vous parlez de nous et nous renvoyez des visites - Nous voulons vous "
+"rémunérer !"
+
+#: inc/admin/page-settings.php:555
+msgid "Insert Site Health Info"
+msgstr "Insérer les informations Site Health"
+
+#: inc/admin/page-settings.php:42
+msgid "Integrate"
+msgstr "Intégrer"
+
+#: inc/admin/page-settings.php:475
+msgid "Join the tribe on Facebook"
+msgstr "Rejoindre la tribu sur Facebook"
+
+#: inc/admin/page-settings.php:500
+msgid "Licenses and domains"
+msgstr "Licences et domaines"
+
+#: inc/admin/page-settings.php:535
+msgid "Message"
+msgstr "Message"
+
+#: inc/admin/page-settings.php:540
+msgid "Name"
+msgstr "Nom"
+
+#: inc/admin/page-settings.php:129
+msgid "No Tasks found."
+msgstr "Aucune tâche trouvée"
+
+#: wpfeedback.php:104
+msgid "Not found WP feedBack"
+msgstr ""
+
+#: inc/admin/page-settings.php:508
+msgid ""
+"Notifications\n"
+"                                issues"
+msgstr "Problèmes de notifications"
+
+#: inc/admin/page-settings.php:310
+msgid "Notifications Settings"
+msgstr "Paramètres de Notifications"
+
+#: inc/admin/page-settings.php:169
+msgid "Notify Users"
+msgstr "Notifier les Utilisateurs"
+
+#: inc/admin/page-settings.php:255
+msgid "ONLY if you already have the script running on all pages of the site "
+msgstr "SEULEMENT si le script est déjà activé pour toutes les pages du site"
+
+#: inc/admin/page-settings.php:143
+msgid "Open Task's Page"
+msgstr "Ouvrir Page Tâche"
+
+#: inc/admin/page-settings.php:306
+msgid "Others "
+msgstr "Autres"
+
+#: inc/admin/page-settings.php:94
+msgid "Page"
+msgstr "Page"
+
+#: inc/admin/page-settings.php:512
+msgid "Partner with us"
+msgstr "Devenez notre partenaire"
+
+#: inc/admin/page-settings.php:129
+msgid "Please have a look at the video to understand the process."
+msgstr ""
+
+#: wpfeedback.php:118
+msgid "Post Type Description"
+msgstr "Merci de sélectionner quelqu'un"
+
+#: wpfeedback.php:88
+msgctxt "Post Type General Name"
+msgid "Wp feedback Types"
+msgstr ""
+
+#: wpfeedback.php:89
+msgctxt "Post Type Singular Name"
+msgid "Wp feedback Type"
+msgstr ""
+
+#: inc/admin/page-settings.php:515
+msgid "Public Roadmap"
+msgstr "Feuille de route (Roadmap) publique"
+
+#: inc/wpf_function.php:622
+msgid "Receive email notification for every new comment"
+msgstr "Recevoir un e-mail de notification pour chaque nouveau commentaire"
+
+#: inc/wpf_function.php:610
+msgid "Receive email notification for every new task"
+msgstr "Recevoir un e-mail de notification pour chaque nouvelle tâche"
+
+#: inc/wpf_function.php:646
+msgid "Receive email notification for every status change"
+msgstr "Recevoir un e-mail de notification pour chaque changement de statut"
+
+#: inc/wpf_function.php:634
+msgid "Receive email notification when a task is marked as complete"
+msgstr ""
+"Recevoir un e-mail de notification pour chaque tâche marquée comme complétée"
+
+#: inc/admin/page-settings.php:243
+msgid "Remove backend commenting"
+msgstr "Retirer du back-end la fonction de commentaire "
+
+#: inc/admin/page-settings.php:253
+msgid "Remove Font-Awesome Script"
+msgstr "Désactiver le script Font-Awesome"
+
+#: inc/admin/page-settings.php:293
+msgid "Remove the “Powered by” link"
+msgstr "Retirer le lien \"Powered by\""
+
+#: inc/admin/page-settings.php:285
+msgid "Replace the WP Feedback blue with your own brand color"
+msgstr "Remplacez le bleu WP Feedback par la couleur de votre propre marque"
+
+#: inc/admin/page-settings.php:270
+msgid "Replace the WP Feedback logo"
+msgstr "Remplacer le logo WP Feedback"
+
+#: inc/admin/page-settings.php:565
+msgid "Request Support"
+msgstr "Demander une assistance"
+
+#: inc/admin/page-settings.php:298
+msgid "Reset plugin settings"
+msgstr "Remise à zéro des paramètres de l'extension"
+
+#: inc/admin/page-settings.php:422
+msgid "Save Changes"
+msgstr "Sauvegarder les modifications"
+
+#: inc/admin/page-settings.php:411
+msgid "select"
+msgstr "Sélectionner"
+
+#: inc/admin/wpf_backend_initial_setup.php:98 inc/admin/page-settings.php:346
+msgid "Send email notification for every new comment"
+msgstr "Envoyer un e-mail de notification pour chaque nouveau commentaire"
+
+#: inc/admin/wpf_backend_initial_setup.php:93 inc/admin/page-settings.php:339
+msgid "Send email notification for every new task"
+msgstr "Envoyer un e-mail de notification pour chaque nouvelle tâche"
+
+#: inc/admin/wpf_backend_initial_setup.php:108 inc/admin/page-settings.php:360
+msgid "Send email notification for every status change"
+msgstr "Envoyer un e-mail de notification pour tout changement de statut"
+
+#: inc/admin/wpf_backend_initial_setup.php:113 inc/admin/page-settings.php:367
+msgid "Send email notification for last 24 hours report"
+msgstr ""
+"Envoyer un e-mail de notification pour le rapport des dernières 24 heures"
+
+#: inc/admin/wpf_backend_initial_setup.php:118 inc/admin/page-settings.php:374
+msgid "Send email notification for last 7 days report"
+msgstr "Envoyer un e-mail de notification pour le rapport des 7 derniers jours"
+
+#: inc/admin/wpf_backend_initial_setup.php:103 inc/admin/page-settings.php:353
+msgid "Send email notification when a task is marked as complete"
+msgstr ""
+"Envoyer un e-mail de notification quand une tâche est marquée comme complétée"
+
+#: inc/admin/page-settings.php:319
+msgid "Set a \"From\" email address to send all notifications."
+msgstr "Paramétrer un e-mail"
+
+#: inc/admin/page-settings.php:37
+msgid "Settings"
+msgstr "Paramètres"
+
+#: inc/admin/page-settings.php:233
+msgid "Show task stickers by default"
+msgstr "Afficher les étiquettes de tâche par défaut"
+
+#: inc/admin/page-settings.php:566
+msgid "Sorry! Your message was not sent, please try after some time."
+msgstr ""
+"Désolé ! Votre message n'a pas été envoyé, merci d'essayer un peu plus tard"
+
+#: inc/admin/page-settings.php:506
+msgid ""
+"Step by step guide to integrating WP Feedback to 1500+ apps - Connect your "
+"workflow."
+msgstr ""
+"Guide pas à pas d'intégration de WP Feedback aux + de 1500 apps - Connectez "
+"votre flux de travail"
+
+#: inc/admin/page-settings.php:532
+msgid "Subject"
+msgstr "Sujet"
+
+#: inc/admin/page-settings.php:305
+msgid "Super admin – he has full capabilities for all the plugin’s functions. "
+msgstr ""
+"Super admin - Il a les pleines capacités sur toutes les fonctionnalités de "
+"l'extension"
+
+#: inc/admin/page-settings.php:46
+msgid "Support"
+msgstr "Support"
+
+#: inc/admin/page-settings.php:468
+msgid "Support From WP Feedback"
+msgstr "Support de WP Feedback"
+
+#: inc/admin/page-settings.php:525
+msgid "Support will only be given in English"
+msgstr "Le support ne sera proposé qu'en anglais"
+
+#: inc/admin/page-settings.php:141
+msgid "Task Attributes"
+msgstr "Attributs de Tâche"
+
+#: inc/admin/page-settings.php:98 inc/admin/page-settings.php:153
+msgid "Task Status"
+msgstr "Statut des Tâches"
+
+#: inc/admin/page-settings.php:86
+msgid "Task Types"
+msgstr "Types de Tâches"
+
+#: inc/admin/page-settings.php:103 inc/admin/page-settings.php:159
+msgid "Task Urgency"
+msgstr "Urgence de la Tâche"
+
+#: inc/admin/page-settings.php:32
+msgid "Tasks"
+msgstr "Tâches"
+
+#: inc/admin/page-settings.php:63
+msgid "Tasks Center"
+msgstr "Centre des Tâches"
+
+#: inc/admin/page-settings.php:114
+msgid "Tasks Found"
+msgstr "Tâches Trouvée"
+
+#: inc/admin/page-settings.php:408
+msgid "The client"
+msgstr "Le client"
+
+#: inc/admin/page-settings.php:271
+msgid "The new logo should be 180px width X 45px height"
+msgstr "Le nouveau logo doit faire 180px de largeur sur 45px de hauteur "
+
+#: inc/admin/page-settings.php:190
+msgid ""
+"The plugin will not work unless you insert a valid license key and <a "
+"href=\"https://wpfeedback.co/knowledge-base/faq/installation/\" "
+"target=\"_blank\">link the domain</a>."
+msgstr ""
+"L'extension ne fonctionnera pas sans l'insertion d'une clé de licence valide "
+"et Lier le domaine"
+
+#: inc/admin/page-settings.php:393
+msgid "The website builder"
+msgstr "Le constructeur du site internet"
+
+#: inc/admin/page-settings.php:394
+msgid ""
+"The website builder will add this user to all tasks by default, allowing the "
+"client to skip the \"choose a user\" tab when creating a task."
+msgstr ""
+"Le constructeur du site internet ajoutera par défaut cet utilisateur à "
+"toutes les tâches, permettant au client d'ignorer l'onglet \"choisir un "
+"utilisateur\" à la création d'une tâche"
+
+#: inc/admin/page-settings.php:332
+msgid ""
+"These are global notifications settings, then each user can choose the ones "
+"they would like to recieve (on the front end wizard or inside the WordPress "
+"user profile)."
+msgstr ""
+"Ce sont les paramètres de notifications globaux. Chaque utilisateur peut "
+"choisir les notifications qu'il souhaite recevoir (sur le frontend de "
+"l'assistant ou dans le profil utilisateur Wordpress"
+
+#: inc/admin/page-settings.php:303
+msgid ""
+"These names are for the setup wizard when you first installed the plugin. "
+"Every user who comes to the website after installation will have to go "
+"through it and you can name the 3 options here."
+msgstr ""
+"Ces noms sont pour l'assistant d'installation lors de votre première "
+"installation de l'extension. Chaque utilisateur venant sur le site internet "
+"après l'installation devra passer à travers, et vous pouvez nommer vos 3 "
+"options içi."
+
+#: inc/admin/page-settings.php:498
+msgid "These should help"
+msgstr "Ceci devrait aider"
+
+#: inc/admin/page-settings.php:207
+msgid ""
+"This is used to disable the plugin on this website, to save you the trouble "
+"of having to deactivate it in your plugin settings."
+msgstr ""
+"Utilisé pour désactiver l'extension sur ce site web, pour vous éviter le "
+"trouble de devoir la désactiver depuis vos paramètres d'extension"
+
+#: inc/admin/page-settings.php:325
+msgid ""
+"This option is in addition to the user emails. Seperate with comma for "
+"multipe addresses."
+msgstr ""
+"Cette option est en supplément des e-mails de l'utilisateur. Séparer avec "
+"une virgule pour plusieurs adresses"
+
+#: inc/admin/page-settings.php:270
+msgid ""
+"This will replace the logo in the top right of this page and the logo on the "
+"notification emails that are sent out."
+msgstr ""
+"Cela remplacera le logo dans le coin supérieur droit de votre page ainsi que "
+"le logo situé dans les emails de notification qui sont envoyés."
+
+#: inc/admin/page-settings.php:293
+msgid ""
+"Ticking this option will remove our WP Feedback link that is on the bottom "
+"of the sidebar."
+msgstr ""
+"Cocher cette option retire notre lien WP Feedback se situant en bas de la "
+"barre latérale"
+
+#: inc/admin/page-settings.php:50
+msgid "Upgrade"
+msgstr "Mise à niveau"
+
+#: wpfeedback.php:111
+msgid "Uploaded to this item"
+msgstr ""
+
+#: inc/admin/page-settings.php:211
+msgid "User roles allowed to create tasks"
+msgstr "Rôles d'Utilisateur autorisés à créer des tâches"
+
+#: inc/admin/page-settings.php:480
+msgid "Video walkthrough"
+msgstr "Procédure Vidéo"
+
+#: inc/admin/page-settings.php:528
+msgid ""
+"We collected your name, email, license key and domain so all you need to do, "
+"is tell us what's\n"
+"                        up."
+msgstr ""
+"Nous avons collecté votre nom, email, clé de licence et nom de domaine. Tout "
+"ce qui vous reste à faire : nous dire ce qu'il y a."
+
+#: inc/admin/page-settings.php:525
+msgid "We will reply via email in up to 24 hours (Weekdays)"
+msgstr "Nous vous répondrons par email en moins de 24h (lu-ve)"
+
+#: inc/admin/page-settings.php:305
+msgid "Webmaster "
+msgstr "Webmaster (\"webmestre\" in french also exists but less frequent)"
+
+#: inc/admin/page-settings.php:74
+msgid "Weekly Report"
+msgstr "Rapport Hebdomadaire"
+
+#: inc/admin/page-settings.php:282
+msgid ""
+"Where ever you see the blue, this option will change it to whatever colour "
+"you want!"
+msgstr ""
+"Où que vous puissiez voir la couleur bleue, cette option la changera pour la "
+"couleur que vous souhaitez"
+
+#: inc/admin/page-settings.php:268
+msgid "White Label"
+msgstr "Marque Blanche"
+
+#. Name of the plugin
+#. Author of the plugin
+msgid "WP Feedback"
+msgstr "WP Feedback"
+
+#: wpfeedback.php:90
+msgid "WP feedBack"
+msgstr "WP Feedback"
+
+#: wpfeedback.php:96
+msgid "WP feedBack Add New Item"
+msgstr ""
+
+#: wpfeedback.php:95
+msgid "WP feedBack All Items"
+msgstr ""
+
+#: wpfeedback.php:99
+msgid "WP feedBack Edit Item"
+msgstr ""
+
+#: wpfeedback.php:106
+msgid "WP feedBack Featured Image"
+msgstr ""
+
+#: wpfeedback.php:114
+msgid "WP feedBack Filter items list"
+msgstr ""
+
+#: inc/wpf_function.php:528
+msgid "WP Feedback Information"
+msgstr ""
+
+#: wpfeedback.php:110
+msgid "WP feedBack Insert into item"
+msgstr ""
+
+#: wpfeedback.php:92
+msgid "WP feedBack Item Archives"
+msgstr ""
+
+#: wpfeedback.php:93
+msgid "WP feedBack Item Attributes"
+msgstr ""
+
+#: wpfeedback.php:112
+msgid "WP feedBack Items list"
+msgstr ""
+
+#: wpfeedback.php:113
+msgid "WP feedBack Items list navigation"
+msgstr ""
+
+#: wpfeedback.php:98
+msgid "WP feedBack New Item"
+msgstr ""
+
+#: wpfeedback.php:105
+msgid "WP feedBack Not found in Trash"
+msgstr ""
+
+#: wpfeedback.php:94
+msgid "WP feedBack Parent Item:"
+msgstr ""
+
+#: wpfeedback.php:108
+msgid "WP feedBack Remove featured image"
+msgstr ""
+
+#: wpfeedback.php:103
+msgid "WP feedBack Search Item"
+msgstr ""
+
+#: wpfeedback.php:107
+msgid "WP feedBack Set featured image"
+msgstr ""
+
+#: inc/admin/page-settings.php:181
+msgid "WP Feedback Settings"
+msgstr ""
+
+#: wpfeedback.php:91
+msgid "WP feedBack Type"
+msgstr ""
+
+#: wpfeedback.php:117
+msgid "Wp feedback Type"
+msgstr ""
+
+#: wpfeedback.php:100
+msgid "WP feedBack Update Item"
+msgstr ""
+
+#: wpfeedback.php:109
+msgid "WP feedBack Use as featured image"
+msgstr ""
+
+#: wpfeedback.php:101
+msgid "WP feedBack View Item"
+msgstr ""
+
+#: wpfeedback.php:102
+msgid "WP feedBack View Items"
+msgstr ""
+
+#: inc/admin/page-settings.php:432
+msgid "WPFeedback Integrations"
+msgstr ""
+
+#: inc/admin/page-settings.php:567
+msgid ""
+"Your message was sent to the WP Feedback Team. Thanks for contacting us. We "
+"will reply to this email address shortly:"
+msgstr ""
+"Votre message a été envoyé à l'Equipe WP Feedback. Merci de nous avoir "
+"contacté. Nous répondrons à cette adresse dans les plus brefs délais : "
+"vito@acedigital.london"
+
+#: inc/admin/page-settings.php:65
+msgid "Your report was sent"
+msgstr "Votre rapport vient d'être envoyé"
+
+#: inc/wpf_function.php:400
+msgid "Your settings have been saved!"
+msgstr ""
+
+#: inc/wpf_function.php:407
+msgid "Your Settings not saved. "
+msgstr ""
+
+#: inc/admin/page-settings.php:505
+msgid "Zapier Integration"
+msgstr "Intégration Zapier"
+
+#: inc/admin/page-settings.php:189
+msgid "Validate Your Installation"
+msgstr "Valider votre installation"
+
+msgid "Send email notifications to the following address"
+msgstr "Envoyer les notifications par e-mail aux adresses suivantes"
+
+msgid "Sent from email address"
+msgstr "E-mail de l'expéditeur"
+
+msgid "Complete"
+msgstr "Complete"
+
+msgid "Open"
+msgstr "Ouverte"
+
+msgid "In Progress"
+msgstr "En progrès"
+
+msgid "Pending Review"
+msgstr "En attente d'examen"
+
+msgid "Critical"
+msgstr "Critique"
+
+msgid "High"
+msgstr "Élevée"
+
+msgid "Low"
+msgstr "Faible"
+
+msgid "Medium"
+msgstr "Moyenne"
+
+msgid "Upload image"
+msgstr "Téléverser l'image"
+
+msgid "Integrations"
+msgstr "Intégrations"
+
+msgid "On This Page"
+msgstr "Sur cette page"
+
+msgid "All Pages"
+msgstr "Toutes les pages"
+
+msgid "Frontend"
+msgstr "Front-End"
+
+msgid "Show Tasks"
+msgstr "Montrer les Tâches"
+
+msgid "Show Completed"
+msgstr "Montrer les Tâches Complétées"
+
+msgid "Powered by"
+msgstr "Propulsé par"
+
+msgid "Commenting enabled"
+msgstr "Commentaires activés"
+
+msgid "Cancel"
+msgstr "Annuler"
+
+msgid "Backend"
+msgstr "Backend"
+
+msgid "Task already exist for this element"
+msgstr "Une tâche existe déjà pour cet élément"
+
+msgid "Choose the emails you'd like to receive (Recommended to keep as is"
+msgstr ""
+"Choisissez les e-mails que vous souhaiteriez recevoir (recommandé de le "
+"laisser ainsi"
+
+msgid "Go to the Dashboard"
+msgstr "Aller au Tableau de Bord"
+
+msgid "Click to give your feedback!"
+msgstr "Cliquer pour donner votre feedback !"
+
+msgid "User Type"
+msgstr "Type d'Utilisateur"
+
+msgid "Let's get you up and running"
+msgstr "Commençons par vous"
+
+msgid "Good to have you here"
+msgstr "Ravis de vous avoir içi"
+
+msgid "1. Add your license key."
+msgstr "1. Ajouter votre clé de licence"
+
+msgid "Found on your purchase confirmation email or within"
+msgstr "Disponible dans votre e-mail de confirmation d'achat ou sur "
+
+msgid "Validate Domain"
+msgstr "Valider le domaine"
+
+msgid "The plugin will not work until you complete this step."
+msgstr "L'extension ne pourra fonctionner sans avoir complété cette étape"
+
+msgid "Skip Wizard"
+msgstr "Ignorer l'assistant"
+
+msgid "2. Who should comment?"
+msgstr "2. Qui devrait commenter ?"
+
+msgid "The user roles that are allowed to create tickets and give feedback."
+msgstr ""
+"Les rôles utilisateurs qui sont autorisés pour créer des tickets et faire du "
+"feedback"
+
+msgid ""
+"This is great for staging sites or during the build, but not ideal for live "
+"websites. The real magic is getting your clients used to using WordPress by "
+"encouraging them to log in to their own website."
+msgstr ""
+"C'est idéal pour les sites provisoires ou pendant le développement, mais pas "
+"idéal pour les sites en production. La vraie magie est d'habituer vos "
+"clients à utiliser Wordpress en les encourageant à se connecter à leur "
+"propre site internet. "
+
+msgid "<< Back"
+msgstr "Retour"
+
+msgid "Next >>"
+msgstr "Suivant"
+
+msgid "3. Choose notifications"
+msgstr "3. Choisir les notifications"
+
+msgid "Which notifications would you like the plugin to send out?"
+msgstr "Quelles notifications souhaitez-vous que l'extension envoit ?"
+
+msgid ""
+"These are global settings. Each user can then choose their own notifications "
+"out of the options selected here."
+msgstr ""
+"Voici les paramètres globaux. Chaque utilisateur peut alors choisir ses "
+"propres notifications parmi les options sélectionnées içi."
+
+msgid "4. All done!"
+msgstr "4. Tout est réglé !"
+
+msgid ""
+"Watch this short video to show you how to use WP Feedback to its full "
+"potential, saving you loaaaads of time and getting your client to love you "
+"even more."
+msgstr ""
+"Regardez cette courte vidéo pour vous montrer comment utiliser WP Feedback à "
+"son plein potentiel, et vous permettre d'économiser beaaaaaaucoup de temps "
+"et que vos clients vous aiment encore plus."
+
+msgid "Let's rock"
+msgstr "C'est parti !"
+
+msgid "your account."
+msgstr "votre compte"
+
+msgid "! There are only 4 steps."
+msgstr "! Il n'y a que 4 étapes."
+
+msgid "Hi "
+msgstr "Hi"
+
+msgid "To optimize your experience, which one describes you best?"
+msgstr "Pour optimiser votre expérience, lequel vous décrit le mieux ?"
+
+msgid "Please select anyone"
+msgstr "Merci de sélectionner quelqu'un"
+
+msgid "Notifications"
+msgstr "Notifications"
+
+msgid "Choose the emails you'd like to receive (Recommended to keep as is)"
+msgstr ""
+"Choisissez les e-mails que vous souhaiteriez recevoir (recommandé de le "
+"laisser ainsi)"
+
+msgid "One Last Step"
+msgstr "Une dernière étape"
+
+msgid "How to give feedback"
+msgstr "Comment faire un feedback"
+
+msgid "Watch this short tutorial to get started"
+msgstr "Regardez ce court tutoriel pour démarrer"
+
+msgid "Let's Start"
+msgstr "C'est parti !"
+
+msgid ", Let's give feedback"
+msgstr ", donnons un feedback"
+
+msgid "Screenshot The Current View"
+msgstr "Capture d'écran de la vue courante"
+
+msgid "Leave a comment..."
+msgstr "Laisser un commentaire..."
+
+msgid "Add comment"
+msgstr "Ajouter un commentaire"
+
+msgid "Open Task"
+msgstr "Ouvrir Tâche"
+
+msgid " seconds ago"
+msgstr "Il y a secondes"
+
+msgid " minutes ago"
+msgstr "Il y a minutes"
+
+msgid " hours ago"
+msgstr "Il y a ... heure(s)"
+
+msgid " days ago"
+msgstr "Il y a ... jour(s)"
+
+msgid " months ago"
+msgstr ""
+
+msgid " years ago"
+msgstr "Il y a  année(s)"
+
+msgid "A user must be selected to post a comment"
+msgstr "Un utilisateur doit être sélectionné pour poster un commentaire"
+
+msgid ""
+"You are trying to upload an invalid filetype <br>Allowd File Types: JPG, PNG,"
+" GIF, PDF, DOC, DOCX and XLSX, MP4, WEBM, MOV, WMV, AVI"
+msgstr ""
+"Vous essayer de téléverser un type de fichier non valide. Types de fichier "
+"autorisés : ..."
+
+msgid "Resolution:"
+msgstr "Résolution"
+
+msgid "Browser"
+msgstr "Navigateur"
+
+msgid "User Name:"
+msgstr "Nom d'Utilisateur :"
+
+msgid "User IP"
+msgstr "IP de l’utilisateur"
+
+msgid "Task ID"
+msgstr "ID de la tâche"
+
+msgid "Delete ticket"
+msgstr "Effacer le Ticket"
+
+msgid "Better to change the status to complete."
+msgstr ""
+"Il est conseillé de changer le statut à \"Complétée\". Êtes-vous certain de "
+"vouloir effacer ?"
+
+msgid "Are you sure you want to delete?"
+msgstr "Êtes-vous certain de vouloir effacer ?"
+
+msgid "Yes"
+msgstr "Oui"
+
+msgid "just now"
+msgstr "à l'instant"
+
+msgid "Please enter a comment before performing this action"
+msgstr "Merci de déposer un commentaire avant d'exécuter cette action"
+
+msgid "Send message"
+msgstr "Envoyer le message"
+
+msgid "by "
+msgstr "par"
+
+msgid "By "
+msgstr "par"
+
+msgid "Stop comments for admins"
+msgstr "Arréter les commentaires pour les administrateurs"
+
+msgid "Stop comments for admins on front end."
+msgstr ""
+
+msgid "Permissions"
+msgstr "Permissions"
+
+msgid "Reset"
+msgstr "Remise à zéro"
+
+msgid "You have a new task on"
+msgstr "Vous avez une nouvelle tâche pour"
+
+msgid "You have a new reply on"
+msgstr "Vous avez une nouvelle réponse pour"
+
+msgid "Your task on"
+msgstr "Votre tâche sur"
+
+msgid "Your task status on"
+msgstr "Votre statut de tâche sur"
+
+msgid "Your daily report for {website name}"
+msgstr "Votre rapport quotidien sur {website-name}"
+
+msgid "Posted on"
+msgstr "Posté le"
+
+msgid "It is now marked as"
+msgstr "Maintenant indiquée comme"
+
+msgid "Open task"
+msgstr "Tâche ouverte"
+
+msgid "In progress"
+msgstr "En cours"
+
+msgid "Tasks summary for the day"
+msgstr "Résumé des tâches pour la journée"
+
+msgid "Tasks completed today"
+msgstr "Tâches complétées aujourd’hui"
+
+msgid "Tasks summary for the week"
+msgstr "Résumé des tâches pour cette semaine"
+
+msgid "Tasks completed this week"
+msgstr "Tâches complétées cette semaine"
+
+msgid "Task"
+msgstr "Tâche"
+
+msgid "Post"
+msgstr "Article"
+
+msgid "Priority"
+msgstr "Priorité"
+
+msgid "Status"
+msgstr "Statut"
+
+msgid "View"
+msgstr "Vue (if noun), Voir (if verb)"
+
+msgid "Click here to reply"
+msgstr "Cliquer içi pour répondre"
+
+msgid "Direct URL"
+msgstr "URL Directe"
+
+msgid "Original Request"
+msgstr "Requête originale"
+
+msgid "Users"
+msgstr "Utilisateurs"
+
+msgid "DIV Handle"
+msgstr "DIV concernée (hard to find better translation)"
+
+msgid "Post Name"
+msgstr "Nom de l’Article"
+
+msgid "Screensize"
+msgstr "Taille de l’écran"
+
+msgid ""
+"This email and any attachments to it may be confidential and are intended "
+"solely for the use of the individual to whom it is addressed."
+msgstr ""
+"Cet email ainsi que chacunes de ses pièces attachées peuvent être "
+"confidentiels et sont destinés à l’utilisation par la personne à qui celui-"
+"ci est adressé."
+
+msgid ""
+"If you are not the intended recipient of this email, you must neither take "
+"any action based upon its contents nor copy or show it to anyone."
+msgstr ""
+"Si vous n’êtes pas le destinataire supposé de cet email, vous ne devez ni "
+"agir en conséquence du contenu, ni copier ou dévoiler le contenu à qui que "
+"ce soit."
+
+msgid ""
+"Please contact the sender if you believe you have received this email in "
+"error."
+msgstr ""
+"Merci de contacter l’expéditeur si vous pensez avoir reçu cet email par "
+"erreur"
+
+msgid "General Task: Choose a page/post to comment"
+msgstr "Tâche Générale : Choisir un(e) page/article pour commenter"
+
+msgid "Guest"
+msgstr "Invité"
+
+msgid "Created by"
+msgstr "Créée par"
+
+msgid "Delete Task"
+msgstr "Effacer la Tâche"
+
+msgid "Page/post must be selected to post a comment"
+msgstr ""
+"Un(e) Page/Article doit être sélectionné(e) pour déposer un commentaire"
+
+msgid "Backend Onboarding Widgets"
+msgstr "Widget d'Accueil Back-end"
+
+msgid "Your domain is not validated, please visit your account on our website."
+msgstr ""
+"Votre domaine n'est pas validé. Merci de visiter votre compte sur notre site "
+"internet."
+
+msgid "General task Popup"
+msgstr "Popup de Tâche Général"
+
+msgid "Post name"
+msgstr "Nom de l’Article"
+
+msgid "Write your Message"
+msgstr "Ecrire votre Message"
+
+msgid ""
+"You can find your license key on your account page. If for some reason your "
+"license is not validating, please ensure you follow these steps."
+msgstr ""
+"Vous pouvez trouver votre clé de licence sur votre page de compte. Si vous "
+"ne réussissez pas à faire valider votre licence, merci de vous assurer de "
+"suivre ces étapes"
+
+msgid "Change the tutorial video"
+msgstr ""
+
+msgid ""
+"The video will be replaced on the frontend wizard as well as tasks screen on "
+"backend when empty."
+msgstr ""
+
+msgid "Replace the WP Feedback video with your own tutorial video"
+msgstr ""
+
+msgid "Admin Menu"
+msgstr "Menu Administration"
+
+msgid "New Task"
+msgstr "Nouvelle Tâche"
+
+msgid "Weekly Report for"
+msgstr "Rapport hebdomadaire pour"
+
+msgid "Your tasks summary for the day for"
+msgstr "Votre résumé des tâches du jour pour"
+
+msgid "Your task summary for today"
+msgstr ""
+
+msgid "DIV handle"
+msgstr "DIV concernée (hard to find better translation)"
+
+msgid "is done"
+msgstr "est fait"
+
+msgid "has changed"
+msgstr "a changé"
+
+msgid "Click here to view the task"
+msgstr "Cliquez ici pour voir la tâche"
