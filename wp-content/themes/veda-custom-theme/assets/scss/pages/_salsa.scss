@@ -1,0 +1,55 @@
+
+// Intro Image
+.salsa-intro {
+  padding: 5% 12% 0 12%;
+  margin-bottom: 12px;
+  @include for-size(tablet) {
+    padding: 5%;
+  }
+  .container {
+    @include for-size(laptop, up) {
+      max-width: 75%;
+    }
+  }
+
+  &--image {
+    img {
+      display: block;
+      width: 100%;
+    }
+  }
+}
+
+
+// Main Content
+.salsa-content {
+  padding: 0 12% 7%;
+  @include for-size(tablet) {
+    padding: 0 5% 5%;
+  }
+  .container {
+    @include for-size(laptop, up) {
+      max-width: 75%;
+    }
+    @include for-size(tablet) {
+      flex-direction: column;
+    }
+    > div {
+      padding-left: 12px;
+      padding-right: 12px;
+      @include for-size(tablet, up) {
+        flex: 1 1 50%;
+      }
+    }
+  }
+
+  &--primary {
+    @include for-size(tablet) {
+      margin-bottom: 50px;
+    }
+  }
+
+  &--secondary {
+
+  }
+}

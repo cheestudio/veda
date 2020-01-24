@@ -1,0 +1,60 @@
+/* Articls & Posts Grid
+========================================================= */
+
+$article:".post-entry";
+
+.posts-grid {
+  .flex {
+    justify-content: center;
+    flex-wrap: wrap;
+
+    #{$article} {
+      @include box-shadow;
+      background: white;
+      flex: 0 1 31%;
+      margin: 16px;
+      max-width: 450px;
+      @include for-size(laptop) {
+        flex-basis: 45%;
+      }
+      @include for-size(tablet-sm) {
+        flex-basis: 100%;
+      }
+
+      a {
+        display: block;
+        height: 100%;
+        &:hover, &:focus, &:active {
+          background-color: #f4f7e2;
+        }
+      }
+
+      #{$article}--image {
+        @include bg;
+        min-height: 200px;
+      }
+
+      #{$article}--content {
+        padding: 24px;
+        .title {
+          h3 {
+            font-size: em(24);
+            font-weight: 700;
+            margin-bottom: 24px;
+          }
+        }
+        .excerpt {
+          p {
+            color: $blue;
+          }
+        }
+        .button-wrap {
+          p {
+            @include button-alt;
+            color: $orange;
+          }
+        }
+      }
+    }
+  }
+}

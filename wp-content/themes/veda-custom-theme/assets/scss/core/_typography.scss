@@ -1,0 +1,156 @@
+/* Fonts
+========================================================= */
+@import url("https://use.typekit.net/bgc6ybs.css");
+
+
+/* Headings (Normal Mode)
+========================================================= */
+h1, h2, h3, h4, h5, h6 {
+  color: $blue;
+  text-transform: uppercase;
+  line-height: 1.2;
+  margin: 10px 0;
+}
+h1 {
+  margin-top: 0;
+  margin-bottom: 0;
+  font-size: em(64);
+  font-weight: 700;
+  @include for-size(tablet-sm) {
+    font-size: em(40);
+  }
+  @include for-size(phone) {
+    font-size: em(32);
+  }
+}
+h2 {
+  font-size: em(42);
+  font-weight: 500;
+  color: $teal;
+  @include for-size(tablet-sm) {
+    font-size: em(30);
+  }
+}
+h3 {
+  font-size: em(36);
+  text-transform: none;
+  @include for-size(tablet-sm) {
+
+  }
+}
+h4 {
+  font-size: em(30);
+  color: $teal;
+  @include for-size(tablet-sm) {
+
+  }
+}
+h5 {
+  color: black;
+  font-weight: 700;
+  font-size: em(24);
+  @include for-size(tablet-sm) {
+
+  }
+}
+h6 {
+  font-size: em(20);
+  font-weight: 700;
+  @include for-size(tablet-sm) {
+
+  }
+}
+
+/* Light Mode
+========================================================= */
+.light {
+  h1 {
+    color: white;
+  }
+  h2 {
+    color: $sky;
+  }
+  h3 {
+    color: $olive;
+  }
+  h4 {
+    color: $sky;
+  }
+  h5 {
+    color: white;
+  }
+  h6 {
+    color: $sky;
+  }
+  p {
+    color: white;
+  }
+  .button-wrap {
+    a.button {
+      border-color: white;
+      background: white;
+      color: $teal;
+      &:hover, &:active {
+        color: $teal;
+        background: rgba(white, 0.7);
+      }
+      &:focus {
+        border-color: $teal;
+      }
+    }
+  }
+}
+
+
+/* Body
+========================================================= */
+body {
+  @include font;
+  
+  main {
+    p {
+      font-size: em(18);
+      line-height: 1.5;
+      color: $body;
+      margin-bottom: 10px;
+      @include for-size(tablet-sm) {
+        font-size: em(16);
+      }
+      a {
+        font-weight: 700;
+      }
+    }
+    ul, ol {
+      &:not(.fl-builder-submenu) {
+        @include list-reset;
+        padding-left: 20px;
+        li {
+          @include list-arrows;
+          display: flex;
+          align-items: baseline;
+          color: $body;
+          line-height: 2;
+          margin-bottom: 16px;
+        }
+      }
+    }
+  }
+
+  a, a[href^="tel"] {
+    @include trans;
+    color: $orange;
+    &:hover, &:focus, &:active {
+
+    }
+  }
+
+  em {
+    font-style: italic;
+  }
+
+  br {
+    @include for-size(tablet-sm) {
+      display: none;
+    }
+  }
+} // END body

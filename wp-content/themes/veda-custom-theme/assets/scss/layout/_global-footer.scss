@@ -1,0 +1,131 @@
+footer {
+  background: $orange;
+  * {
+    color: white;
+  }
+  p {
+    font-size: 1em;
+    line-height: em(24);
+    margin-bottom: 10px;
+  }
+  hr {
+    background-color: white;
+    margin-top: 30px;
+    padding: 0;
+  }
+  .container {
+    @extend %tablet-padding;
+    align-items: flex-end;
+    padding-top: 48px;
+    padding-bottom: 24px;
+    @include for-size(tablet) {
+      flex-direction: column;
+      align-items: center;
+    }
+  }
+}
+
+.footer--content {
+  flex-shrink: 1;
+  max-width: 485px;
+  margin-right: auto;
+  @include for-size(tablet) {
+    @include margin-center;
+    text-align: center;
+    margin-bottom: 2rem;
+  }
+  > div:not(:last-child) {
+    margin-bottom: 1.5rem;
+  }
+
+  .logo {
+    a {
+      display: inline-block;
+      img {
+        display: block;
+        width: 300px;
+
+      }
+    }
+  }
+
+  .social-icons {
+    ul {
+      @include list-reset;
+      display: flex;
+      @include for-size(tablet) {
+        justify-content: center;
+      }
+      li {
+        &:not(:last-child) {
+          margin-right: 1.5rem;
+        }
+        a {
+          i {
+            font-size: 30px;
+          }
+        }
+      }
+    }
+  }
+
+  .copyright {
+    p {
+      font-size: em(14);
+    }
+  }
+}
+
+.footer--menu {
+  @include for-size(tablet, up) {
+    margin-left: 5%;
+    margin-right: 5%;
+  }
+  ul {
+    @include list-reset;
+    li {
+      @include list-arrows(white);
+      margin-bottom: 20px;
+      a {
+        color: white;
+        position: relative;
+        white-space: nowrap;
+        &:before {
+          color: white;
+        }
+      }
+    }
+  }
+}
+
+.footer--badges {
+  max-width: 220px;
+  p {
+    margin-bottom: 0;
+    font-size: em(18);
+    line-height: 1.1;
+  }
+}
+
+.footer--back-to-top {
+  padding-top: 11px;
+  padding-bottom: 11px;
+  background: #c76612;
+  .button-wrap {
+    text-align: center;
+    a {
+      @include button($orange, white, $arrow:false);
+      border: none;
+      text-transform: none;
+      font-size: em(14);
+      font-weight: 500;
+      opacity: 0.8;
+      padding: 6px 36px;
+      &:hover, &:focus, &:active {
+        opacity: 1;
+        color: $orange;
+        background: white;
+      }
+    }
+  }
+}

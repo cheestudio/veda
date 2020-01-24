@@ -1,0 +1,52 @@
+/* Core Form Styles
+========================================================= */
+
+// Placeholder
+@mixin placeholder {
+  &::-webkit-input-placeholder { @content; }
+  &:-moz-placeholder           { @content; }
+  &::-moz-placeholder          { @content; }
+  &:-ms-input-placeholder      { @content; }
+}
+
+/* Global non-gravity forms
+========================================================= */
+form:not([class*="fl-builder"]) { 
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  @include for-size(tablet-sm) {
+    flex-direction: column;
+  }
+
+  input:not([type='submit']), select {
+    flex: 0 1 25%;
+    border: none;
+    border-radius: 24px;
+    padding: 12px;
+    background-color: white;
+    font-size: em(14);
+    color: #333;
+    @include for-size(tablet-sm, up) {
+      &:not(:last-child) {
+        margin-right: 24px;
+      }
+    }
+    @include for-size(tablet-sm) {
+      margin-bottom: 16px;
+    }
+  }
+
+  select {
+    min-width: 200px;
+    option {
+
+    }
+  }
+}
+
+form.form-search {
+  button {
+    @include button($arrow:false);
+  }
+}

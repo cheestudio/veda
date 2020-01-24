@@ -1,0 +1,129 @@
+// Page Wide
+body.healthcare-directory {
+
+  .hero-basic {
+    &--search {
+      margin-top: 24px;
+      form {
+
+      }
+    }
+  }
+}
+
+
+// Directory Index
+.healthcare-index {
+  @include container-padding;
+
+  &--breadcrumbs {
+    margin-bottom: 64px;
+  }
+
+  &--intro {
+    @include horiz-ruler;
+    margin-bottom: 48px;
+    .flex {
+      align-items: center;
+      justify-content: space-between;
+      p {
+        margin-bottom: 0;
+      }
+      a {
+        font-size: em(14);
+      }
+    }
+  }
+
+  &--results {
+
+    .member {
+      @include box-shadow;
+      padding: 16px;
+      margin-bottom: 36px;
+      > .flex {
+        @include for-size(tablet-sm, up) {
+          align-items: center;
+        }
+        @include for-size(tablet-sm) {
+          flex-direction: column;
+        }
+      }
+      &--image {
+        flex: 0 0 20%;
+        @include for-size(tablet) {
+          flex-basis: 30%;
+        }
+        @include for-size(tablet-sm) {
+          margin-bottom: 16px;
+          img {
+            width: 100%;
+          }
+        }
+        img {
+          display: block;
+        }
+      }
+
+      &--details {
+        flex: 1;
+          flex-wrap: wrap;
+        @include for-size(tablet-sm) {
+        }
+        > div {
+          flex: 0 1 25%;
+          padding: 32px 16px 16px;
+          @include for-size(tablet) {
+            flex-basis: 50%;
+            text-align: center;
+          }
+          @include for-size(phone) {
+            padding-top: 16px;
+            flex-basis: 100%;
+          }
+          h3 {
+            font-size: em(16);
+            font-weight: bold;
+            text-transform: uppercase;
+            margin-top: 0;
+            margin-bottom: 8px;
+          }
+          p {
+            a {
+              font-weight: normal;
+            }
+          }
+        }
+        &__name {
+
+        }
+        &__specialty {
+
+        }
+        &__distance {
+
+        }
+        &__link {
+          align-self: center;
+          .button-wrap {
+            a {
+              @include button($orange, white, $outline:true, $arrow:false);
+            }
+          }
+        }
+      }
+      
+    }
+  }
+
+  &--page-nav {
+
+  }
+
+  &--disclaimer {
+    p {
+      font-size: em(12);
+      color: #333;
+    }
+  }
+}

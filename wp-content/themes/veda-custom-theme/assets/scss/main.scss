@@ -1,0 +1,54 @@
+/*!
+Theme Name: Veda (Life Rebalanced)
+Theme URI: https://github.com/cheestudio/startup
+Description: Custom Wordpress Theme for Veda
+Author: Chee Studio
+Author URI: https://cheewebdevelopment.com/
+Version: 4.0
+*/
+
+
+/* Site Styles
+========================================================= */
+@import "core/queries";
+@import "core/reset";
+@import "core/variables";
+@import "core/typography";
+
+
+/* Global Styles
+========================================================= */
+@import "layout/global";
+@import "layout/global-forms";
+@import "layout/mobile-nav";
+
+
+/* Header & Footer
+========================================================= */
+@import "layout/global-header";
+@import "layout/global-footer";
+
+
+/* Text Elements and Page Components
+========================================================= */
+@import "elements/builder";
+@import "elements/banner-cta";
+@import "elements/banner-menu";
+@import "elements/breadcrumbs";
+@import "elements/hero";
+@import "elements/posts-index";
+@import "elements/posts-grid";
+@import "elements/related-posts";
+@import "elements/sponsored-ad";
+
+
+/* Pages
+========================================================= */
+@import "pages/home";
+@import "pages/blog-index";
+@import "pages/blog-single";
+@import "pages/article-index";
+@import "pages/article-single";
+@import "pages/healthcare-index";
+@import "pages/healthcare-single";
+@import "pages/salsa";

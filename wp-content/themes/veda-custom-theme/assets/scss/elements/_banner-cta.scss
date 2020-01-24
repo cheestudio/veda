@@ -1,0 +1,76 @@
+/* Banner CTA
+========================================================= */
+
+.banner-cta {
+  @extend %tablet-padding;
+  background-color: rgba(244, 247, 226, 0.53);
+  overflow: hidden;
+  padding: 1.5rem;
+  .container {
+    align-items: center;
+    justify-content: space-between;
+    @include for-size(tablet) {
+      flex-direction: column;
+    }
+  }
+
+  &--image {
+    flex: 0 1 40%;
+    @include for-size(tablet, up) {
+      margin-left: -5%;
+      img {
+        margin-top: -80px;
+        margin-bottom: -80px;
+      }
+    }
+    @include for-size(tablet) {
+      margin-bottom: 50px;
+      img {
+        width: 80%;
+        max-width: 600px;
+      }
+    }
+    img {
+      @include margin-center;
+      display: block;
+    }
+  }
+
+  &--content {
+    flex: 0 1 60%;
+    @include for-size(tablet, up) {
+      padding-left: 4%;
+      .inner {
+        margin-left: 1rem;
+        margin-right: 1rem;
+      }
+    }
+    @include for-size(tablet) {
+      text-align: center;
+    }
+    .inner {
+      h2 {
+        color: $blue;
+      }
+    }
+    .button-wrap {
+      display: flex;
+      flex-wrap: wrap;
+      @include for-size(tablet) {
+        justify-content: center;
+      }
+      a {
+        margin: 1.5rem 1rem 0;
+        &:nth-child(odd) {
+          @include button;
+        }
+        &:nth-child(even) {
+          @include button($orange, white, $outline:true);
+          &:hover, &:focus, &:active {
+
+          }
+        }
+      }
+    }
+  }
+}

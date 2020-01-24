@@ -1,0 +1,262 @@
+
+// Hero
+.home-hero {
+  overflow-y: hidden;
+  .container {
+    justify-content: center;
+    @include for-size(tablet, up) {
+      flex-direction: row-reverse;
+    }
+    @include for-size(tablet) {
+      justify-content: space-between;
+      flex-direction: column;
+    }
+  }
+
+  &--image {
+    flex: 0 0 50%;
+    margin-bottom: -2rem;
+    img {
+      @include margin-center;
+      display: block;
+      @include between-sizes(tablet-sm, tablet) {
+        width: 80%;
+      }
+    }
+  }
+
+  &--content {
+    @include row-padding;
+    align-self: center;
+    flex: 1 1 40%;
+    h1 {
+      text-align: center;
+      margin-bottom: 0;
+    }
+  }
+}
+
+
+// Intro
+.home-intro {
+  > .flex {
+    @include for-size(laptop) {
+      flex-direction: column;
+    }
+    > div {
+      @extend %tablet-padding;
+    }
+  }
+
+  &--content {
+    @include hero-gradient(333);
+    align-items: center;
+    flex: 1 1 40%;
+    background-color: $teal;
+    padding: 4%;
+    .inner {
+      max-width: 470px;
+      margin: auto;
+      h2 {
+        color: white;
+      }
+      .button-wrap {
+        margin-top: 2rem;
+      }
+    }
+  }
+
+  &--cards {
+    background-color: rgba(179, 225, 232, 0.2);
+    flex: 1 1 60%;
+    padding: 4%;
+    .flex {
+      flex-wrap: wrap;
+      justify-content: center;
+      @include for-size(tablet-sm) {
+        align-items: center;
+        flex-direction: column;
+      }
+    }
+    .card {
+      @include box-shadow;
+      flex: 1 1 46%;
+      max-width: 470px;
+      text-align: center;
+      margin: 12px;
+      background-color: white;
+      @include for-size(phone) {
+        padding: 1rem;
+      }
+      a {
+        padding: 2rem;
+        display: block;
+        width: 100%;
+        height: 100%;
+      }
+      h4, p {
+        color: $blue;
+      }
+      p {
+        font-size: 1em;
+      }
+
+      &__image {
+        margin-bottom: 10px;
+        img {
+          @include margin-center;
+          display: block;
+          max-width: 225px;
+        }
+      }
+      &__link {
+        p {
+          @include button-alt;
+          color: $orange;
+        }
+      }
+    }
+  }
+}
+
+
+// Events & Posts
+.home-blocks {
+  @include row-padding(120, 120);
+
+  &--grid {
+    .flex {
+      justify-content: space-between;
+      flex-wrap: wrap;
+      @include for-size(tablet) {
+        flex-direction: column;
+      }
+    }
+    .block {
+      @include box-shadow;
+      flex: 0 1 calc(50% - 18px);
+      min-height: 264px;
+      a {
+        display: flex;
+      }
+      
+      &:first-child {
+        flex: 1 1 100%;
+        .block__content {
+          .button-wrap p {
+            @include button;
+          }
+        }
+      }
+      &:not(:first-child) {
+        margin-top: 36px;
+      }
+
+      &__image {
+        @include bg(cover, top);
+        flex: 0 0 40%;
+        @include between-sizes(tablet, laptop) {
+          flex-basis: 50%;
+        }
+      }
+
+      &__content {
+        flex: 0 1 60%;
+        padding: 24px 24px 36px;
+        align-self: center;
+        .inner {
+          h3 {
+            font-size: em(32);
+            font-weight: 500;
+            margin-bottom: 24px;
+          }
+        }
+        .button-wrap {
+          padding-top: 24px;
+          p {
+            @include button-alt;
+            color: $orange;
+          }
+        }
+      }
+    }
+  }
+}
+
+// Testimonials
+.home-testimonials {
+  @extend %tablet-padding;
+  background-color: rgba(179, 225, 232, 0.4);
+  padding: 1.5rem;
+
+  &--content {
+    .quote {
+      .flex {
+        align-items: center;
+        justify-content: space-between;
+        flex-direction: row-reverse;
+        @include for-size(tablet) {
+          flex-direction: column;
+        }
+      }
+
+      &__content {
+        flex: 0 1 60%;
+        @include for-size(tablet) {
+          text-align: center;
+        }
+        .inner {
+          margin-bottom: 1em;
+          p {
+            color: $blue;
+            font-size: em(26);
+            line-height: em(38, 26);
+          }
+        }
+        .button-wrap {
+          a {
+            margin-top: 1.5rem;
+          }
+        }
+        .nav-arrows {
+          margin-top: 48px;
+          a {
+            display: inline-flex;
+            cursor: pointer;
+            width: 36px;
+            height: 36px;
+            &:hover, &:focus, &:active {
+              opacity: 1;
+              i {
+                opacity: 1;
+              }
+            }
+            i {
+              @include trans(opacity);
+              margin: auto;
+              font-size: 24px;
+              line-height: 1;
+              color: $blue;
+              opacity: 0.5;
+            }
+          }
+        }
+      }
+
+      &__image {
+        flex: 0 1 36%;
+        @include for-size(tablet) {
+          margin-bottom: 50px;
+          img {
+            width: 80%;
+            max-width: 500px;
+          }
+        }
+        img {
+          @include margin-center;
+          display: block;
+        }
+      }
+    }
+  }
+}

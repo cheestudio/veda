@@ -1,0 +1,22 @@
+/* Related Articles & Posts
+========================================================= */
+
+.related-articles {
+  background: $olive;
+  padding-top: 64px;
+  padding-bottom: 64px;
+
+  &--title {
+    h2 {
+      text-align: center;
+      margin-bottom: 32px;
+    }
+  }
+
+  &--grid {
+
+    .posts-grid {
+
+    }
+  }
+}

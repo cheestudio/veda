@@ -1,0 +1,124 @@
+@include for-size(tablet, up) {
+  header {
+    .top-nav {
+      padding-top: 12px;
+      padding-bottom: 12px;
+      background-color: #f7f7f7;
+      ul {
+        justify-content: flex-end;
+        li {
+          a {
+            font-weight: 500;
+            text-transform: uppercase;
+            &:hover, &:focus, &:active {
+              opacity: 0.7;
+            }
+          }
+          &.nav-search {
+            position: relative;
+            a {
+              line-height: 0;
+              font-size: 0;
+              color: transparent;
+              &:after {
+                @include law;
+                content:'\f002';
+                font-size: 20px;
+                color: $orange;
+              }
+              &:hover, &:focus, &:active {
+                &:after {
+                  color: rgba($orange, 0.7);
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+
+    .desktop-nav {
+      padding-top: 20px;
+      padding-bottom: 20px;
+      .container {
+        display: flex;
+        align-items: center;
+      }
+      .brand {
+        margin-right: auto;
+        img {
+          width: 230px;
+          display: block;
+        }
+      }
+      ul {
+        li {
+          a {
+            @include font(con);
+            color: $body;
+            font-size: em(20);
+            &:hover, &:focus, &:active {
+              color: $orange;
+            }
+          }
+          &.nav-button a {
+            @include button( $arrow:false );
+            @include font;
+          }
+        }
+      }
+    }
+
+    nav {
+      ul {
+        @include list-reset;
+        display: flex;
+        align-items: center;
+        li {
+          padding-left: 20px;
+          padding-right: 20px;
+          position: relative;
+          a {
+
+          }
+          &.current-menu-item,
+          &.current_page_ancestor {
+            > a {
+              color: black;
+              font-weight: 500;
+            }
+          }
+
+          .sub-menu {
+            display: block;
+            position: absolute;
+            top: 100%;
+            left: 0;
+            li {
+              white-space: nowrap;
+              &.current-menu-item {
+
+              }
+              a {
+                &:hover, &:focus {
+
+                }
+              }
+            }
+          }
+        } // END li
+      }
+    }
+
+    #nav-search-form {
+      background: $orange;
+      z-index: 99;
+      display: none;
+      form {
+        input {
+          border: 2px solid $orange;
+        }
+      }
+    }
+  } // END header
+}

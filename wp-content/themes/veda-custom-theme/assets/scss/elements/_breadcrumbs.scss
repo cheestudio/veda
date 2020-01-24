@@ -1,0 +1,29 @@
+/* Breadcrumbs
+========================================================= */
+
+.breadcrumbs {
+  @include for-size(tablet, up) {
+    text-align: right;
+  }
+  span, a {
+    font-size: 14px;
+    font-weight: 500;
+    text-transform: none;
+  }
+  a {
+    &:hover, &:focus, &:active {
+      opacity: 0.7;
+    }
+  }
+  .current-item {
+    color: $blue;
+  }
+}
+
+
+// Default Page Template
+.page-template-default {
+  .page-breadcrumbs {
+    margin-bottom: 64px;
+  }
+}
