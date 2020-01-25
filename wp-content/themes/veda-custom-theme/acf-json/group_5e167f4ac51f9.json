@@ -1,6 +1,6 @@
 {
     "key": "group_5e167f4ac51f9",
-    "title": "CPT - Article Child (Single)",
+    "title": "Article - Child",
     "fields": [
         {
             "key": "field_5e167f4ae1055",
@@ -108,6 +108,174 @@
                     "ui": 1,
                     "ui_on_text": "",
                     "ui_off_text": ""
+                },
+                {
+                    "key": "field_5e2b935003c58",
+                    "label": "",
+                    "name": "",
+                    "type": "message",
+                    "instructions": "",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "25",
+                        "class": "",
+                        "id": ""
+                    },
+                    "message": "",
+                    "new_lines": "",
+                    "esc_html": 0
+                },
+                {
+                    "key": "field_5e2b73837ccb0",
+                    "label": "File Download - PDF",
+                    "name": "pdf_file",
+                    "type": "file",
+                    "instructions": "",
+                    "required": 0,
+                    "conditional_logic": [
+                        [
+                            {
+                                "field": "field_5e16816fdd991",
+                                "operator": "==",
+                                "value": "1"
+                            }
+                        ]
+                    ],
+                    "wrapper": {
+                        "width": "25",
+                        "class": "center",
+                        "id": ""
+                    },
+                    "return_format": "array",
+                    "library": "all",
+                    "min_size": "",
+                    "max_size": "",
+                    "mime_types": ""
+                },
+                {
+                    "key": "field_5e2b93c0fce20",
+                    "label": "",
+                    "name": "",
+                    "type": "message",
+                    "instructions": "",
+                    "required": 0,
+                    "conditional_logic": [
+                        [
+                            {
+                                "field": "field_5e16816fdd991",
+                                "operator": "!=",
+                                "value": "1"
+                            }
+                        ]
+                    ],
+                    "wrapper": {
+                        "width": "25",
+                        "class": "",
+                        "id": ""
+                    },
+                    "message": "",
+                    "new_lines": "",
+                    "esc_html": 0
+                },
+                {
+                    "key": "field_5e2b79c77ccb2",
+                    "label": "Video Link",
+                    "name": "video_link",
+                    "type": "url",
+                    "instructions": "",
+                    "required": 0,
+                    "conditional_logic": [
+                        [
+                            {
+                                "field": "field_5e168189dd992",
+                                "operator": "==",
+                                "value": "1"
+                            }
+                        ]
+                    ],
+                    "wrapper": {
+                        "width": "25",
+                        "class": "center",
+                        "id": ""
+                    },
+                    "default_value": "",
+                    "placeholder": "http:\/\/"
+                },
+                {
+                    "key": "field_5e2b93dcfce21",
+                    "label": "",
+                    "name": "",
+                    "type": "message",
+                    "instructions": "",
+                    "required": 0,
+                    "conditional_logic": [
+                        [
+                            {
+                                "field": "field_5e2b79c77ccb2",
+                                "operator": "==empty"
+                            }
+                        ]
+                    ],
+                    "wrapper": {
+                        "width": "25",
+                        "class": "",
+                        "id": ""
+                    },
+                    "message": "",
+                    "new_lines": "",
+                    "esc_html": 0
+                },
+                {
+                    "key": "field_5e2b73a27ccb1",
+                    "label": "File Download - One Pager",
+                    "name": "one_pager_file",
+                    "type": "file",
+                    "instructions": "",
+                    "required": 0,
+                    "conditional_logic": [
+                        [
+                            {
+                                "field": "field_5e16818add993",
+                                "operator": "==",
+                                "value": "1"
+                            }
+                        ]
+                    ],
+                    "wrapper": {
+                        "width": "25",
+                        "class": "center",
+                        "id": ""
+                    },
+                    "return_format": "array",
+                    "library": "all",
+                    "min_size": "",
+                    "max_size": "",
+                    "mime_types": ""
+                },
+                {
+                    "key": "field_5e2b94311d0e8",
+                    "label": "",
+                    "name": "",
+                    "type": "message",
+                    "instructions": "",
+                    "required": 0,
+                    "conditional_logic": [
+                        [
+                            {
+                                "field": "field_5e2b73a27ccb1",
+                                "operator": "==empty"
+                            }
+                        ]
+                    ],
+                    "wrapper": {
+                        "width": "25",
+                        "class": "",
+                        "id": ""
+                    },
+                    "message": "",
+                    "new_lines": "",
+                    "esc_html": 0
                 }
             ]
         },
@@ -254,5 +422,5 @@
     "hide_on_screen": "",
     "active": 1,
     "description": "",
-    "modified": 1579227671
+    "modified": 1579914391
 }

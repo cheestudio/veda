@@ -2,8 +2,10 @@
 ========================================================= */
 
 // Default Page
-.fl-builder-content {
-  @include container-padding;
+.page-template-default {
+  .fl-builder-content {
+    @include container-padding;
+  }
 }
 
 

@@ -94,6 +94,25 @@
             "layout": "block",
             "sub_fields": [
                 {
+                    "key": "field_5e2b97b025692",
+                    "label": "Heading",
+                    "name": "heading",
+                    "type": "textarea",
+                    "instructions": "",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "50",
+                        "class": "",
+                        "id": ""
+                    },
+                    "default_value": "",
+                    "placeholder": "",
+                    "maxlength": "",
+                    "rows": 4,
+                    "new_lines": "br"
+                },
+                {
                     "key": "field_5e0ea515b9ba2",
                     "label": "BG Image",
                     "name": "image",
@@ -118,27 +137,8 @@
                     "mime_types": ""
                 },
                 {
-                    "key": "field_5e0ea524b9ba3",
-                    "label": "Heading",
-                    "name": "heading",
-                    "type": "wysiwyg",
-                    "instructions": "",
-                    "required": 0,
-                    "conditional_logic": 0,
-                    "wrapper": {
-                        "width": "50",
-                        "class": "",
-                        "id": ""
-                    },
-                    "default_value": "<h2>Heading 2 Title Here<\/h2>",
-                    "tabs": "all",
-                    "toolbar": "full",
-                    "media_upload": 0,
-                    "delay": 0
-                },
-                {
                     "key": "field_5e0ea549b9ba4",
-                    "label": "Buttons",
+                    "label": "Buttons (optional)",
                     "name": "buttons_rep",
                     "type": "repeater",
                     "instructions": "",
@@ -192,5 +192,5 @@
     "hide_on_screen": "",
     "active": 0,
     "description": "",
-    "modified": 1579304510
+    "modified": 1579915212
 }

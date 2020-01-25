@@ -47,10 +47,10 @@ function post_pagination( $pages = '', $range = 3 ) {
 ========================================================= */
 function the_content_max_words( $text ) {
   $length = 200;
-    // don't cut if too short
+  // don't cut if too short
   if ( strlen($text)<$length+10 ) return $text;
 
-    // find next space after desired length
+  // find next space after desired length
   $break_pos = strpos( $text, ' ', $length );
   $visible   = substr( $text, 0, $break_pos );
   return balanceTags( $visible ) . "";

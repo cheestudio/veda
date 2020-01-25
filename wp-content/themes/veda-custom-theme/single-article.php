@@ -5,7 +5,7 @@
 if ( $post->post_parent === 0 ) :
   get_template_part('templates/tpl-article-index');
 
-else : ?>
+  else : ?>
 
 <?php // Hero
 $category = get_terms( array(
@@ -58,21 +58,47 @@ if ( have_posts() ) : ?>
               <?php // Loop output
               foreach ( $rows as $key => $value ) :
                 if ( $value ) :
-                  switch ( $key ) :
+                  switch ( $key ) : 
+
+                   // Read More Button
                    case 'read_choice' :
-                   echo "<a class='read' title='Click to Read the Full Article'>Read Full Article</a>";
+                   echo "<a 
+                   class = 'read'
+                   id    = 'article-readmore-toggle'
+                   title = 'Click to Read the Full Article'
+                   >Read Full Article</a>";
                    break;
 
+                   // Download PDF
                    case 'pdf_choice' :
-                   echo "<a class='pdf' title='Click to Download PDF'>Download PDF<i class='las la-download'></i></a>";
+                   $pdf_file = $rows['pdf_file']['url'];
+                   if ( !empty($pdf_file) ) echo "<a 
+                   href   = '{$pdf_file}'
+                   class  = 'pdf' title='Click to Download PDF'
+                   target = '_blank'
+                   >Download PDF<i class = 'las la-download'></i></a>";
                    break;
 
+                   // Watch Video
                    case 'video_choice' :
-                   echo "<a class='video' title='Click to Watch Video'>Watch Video<i class='las la-video'></i></a>";
+                   $video_url = $rows['video_link'];
+                   if ( !empty($video_url) ) echo "<a 
+                   href='{$video_url}' 
+                   class  = 'video'
+                   title  = 'Click to Watch Video'
+                   target = '_blank'
+                   >Watch Video<i class = 'las la-video'></i></a>";
                    break;
 
+                   // Download One-Pager
                    case 'one_pager_choice' :
-                   echo "<a class='pager' title='Click to Download One-Pager'>One-Pager<i class='las la-download'></i></a>";
+                   $pager_file = $rows['one_pager_file']['url'];
+                   if ( !empty($pager_file) ) echo "<a 
+                   href='{$pager_file}' 
+                   class  = 'pager'
+                   title  = 'Click to Download One-Pager'
+                   target = '_blank'
+                   >One-Pager<i class='las la-download'></i></a>";
                    break;
 
                  endswitch;

@@ -1,6 +1,6 @@
 {
     "key": "group_5e1518f616c0f",
-    "title": "CPT - Article Parent",
+    "title": "Article - Parent",
     "fields": [
         {
             "key": "field_5e151dc2adf00",
@@ -34,11 +34,11 @@
             "layout": "block",
             "sub_fields": [
                 {
-                    "key": "field_5e1519c818f1c",
+                    "key": "field_5e2b96573d6cd",
                     "label": "Heading",
                     "name": "heading",
-                    "type": "wysiwyg",
-                    "instructions": "",
+                    "type": "textarea",
+                    "instructions": "Optional. Leave blank to use Page Title",
                     "required": 0,
                     "conditional_logic": 0,
                     "wrapper": {
@@ -46,18 +46,18 @@
                         "class": "",
                         "id": ""
                     },
-                    "default_value": "<h1>Heading 1 title here<\/h1>",
-                    "tabs": "all",
-                    "toolbar": "full",
-                    "media_upload": 0,
-                    "delay": 0
+                    "default_value": "",
+                    "placeholder": "",
+                    "maxlength": "",
+                    "rows": 4,
+                    "new_lines": "br"
                 },
                 {
                     "key": "field_5e1519c018f1b",
                     "label": "Image",
                     "name": "image",
                     "type": "image",
-                    "instructions": "",
+                    "instructions": "&nbsp;",
                     "required": 0,
                     "conditional_logic": 0,
                     "wrapper": {
@@ -177,5 +177,5 @@
     ],
     "active": 1,
     "description": "",
-    "modified": 1579031620
+    "modified": 1579915510
 }

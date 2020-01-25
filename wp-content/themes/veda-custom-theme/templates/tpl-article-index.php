@@ -7,12 +7,13 @@
 
 
 <?php // Hero
-$hero = get_field('article_hero_group'); ?>
-<?php if ( $hero ) : ?>
+$hero = get_field('article_hero_group');
+if ( $hero ) :
+$heading = !empty($hero['heading']) ? $hero['heading'] : get_the_title(); ?>
   <section class="article-hero">
     <div class="flex">
       <div class="article-hero--heading">
-        <div class="inner"><?= $hero['heading']; ?></div>
+        <div class="inner"><h1><?= $heading; ?></h1></div>
       </div>
 
       <div class="article-hero--image" aria-label="Page Title Image" style="background-image: url(<?= $hero['image']['sizes']['large']; ?>);"></div>

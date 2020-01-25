@@ -946,7 +946,7 @@ footer .container {
 .posts-grid .flex .post-entry .post-entry--content .button-wrap p:hover {
   opacity: .7!important
 }
-.fl-builder-content {
+.page-template-default .fl-builder-content {
   padding: 5% 12%
 }
 .builder-hr .fl-separator {
@@ -2377,12 +2377,12 @@ body.healthcare-directory .hero-basic--search {
   .article-main-single>.fl-row,
   .blog-single .container,
   .blog-single>.fl-row,
-  .fl-builder-content .container,
-  .fl-builder-content>.fl-row,
   .healthcare-index .container,
   .healthcare-index>.fl-row,
   .healthcare-single .container,
   .healthcare-single>.fl-row,
+  .page-template-default .fl-builder-content .container,
+  .page-template-default .fl-builder-content>.fl-row,
   .salsa-content .container,
   .salsa-intro .container {
     max-width: 75%
@@ -2470,9 +2470,9 @@ body.healthcare-directory .hero-basic--search {
   .article-main--content,
   .article-main-single,
   .blog-single,
-  .fl-builder-content,
   .healthcare-index,
   .healthcare-single,
+  .page-template-default .fl-builder-content,
   .salsa-intro {
     padding: 5%
   }

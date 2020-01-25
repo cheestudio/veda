@@ -17,14 +17,14 @@ function article_post_type() {
     'update_item'         => __( 'Update Article', 'text_domain' ),
     'search_items'        => __( 'Search Articles', 'text_domain' ),
     'not_found'           => __( 'No Articles found', 'text_domain' ),
-    'not_found_in_trash'  => __( 'No Articles found in Trash', 'text_domain' ),
-  );
+    'not_found_in_trash'  => __( 'No Articles found in Trash', 'text_domain' )
+);
 
   $args = array(
     'label'               => __( 'Article', 'text_domain' ),
     'description'         => __( 'Article information pages', 'text_domain' ),
     'labels'              => $labels,
-    'supports'            => array( 'title', 'editor', 'thumbnail', 'excerpt' ),
+    'supports'            => array( 'title', 'editor', 'thumbnail', 'excerpt', 'page-attributes', 'revisions' ),
     'taxonomies'          => array( 'article_category' ),
     'hierarchical'        => true,
     'public'              => true,
@@ -36,11 +36,15 @@ function article_post_type() {
     'menu_icon'           => 'dashicons-format-aside',
     'menu_position'       => 5,
     'can_export'          => true,
-    'has_archive'         => true,
+    'has_archive'         => false,
     'exclude_from_search' => false,
     'publicly_queryable'  => true,
     'capability_type'     => 'page',
-  );
+    'rewrite'             => array(
+        'slug'       => '/',
+        'with_front' => false
+    )
+);
   register_post_type( 'article', $args );
 }
 // Hook into the 'init' action
@@ -64,13 +68,13 @@ function custom_article_category_taxonomy()  {
     'search_items'               => __( 'Search Article Categories', 'text_domain' ),
     'add_or_remove_items'        => __( 'Add or remove Article Categories', 'text_domain' ),
     'choose_from_most_used'      => __( 'Choose from the most used Article Categories', 'text_domain' ),
-  );
+);
 
   $rewrite = array(
     'slug'                       => 'article_category',
     'with_front'                 => true,
     'hierarchical'               => true,
-  );
+);
 
   $args = array(
     'labels'                     => $labels,
@@ -82,7 +86,7 @@ function custom_article_category_taxonomy()  {
     'show_tagcloud'              => true,
     'query_var'                  => 'article_category',
     'rewrite'                    => $rewrite,
-  );
+);
 
   register_taxonomy( 'article_category', 'article', $args );
 }
