@@ -92,7 +92,7 @@
                 },
                 {
                     "key": "field_5e16818add993",
-                    "label": "One-Pager",
+                    "label": "One Pager",
                     "name": "one_pager_choice",
                     "type": "true_false",
                     "instructions": "",
@@ -128,7 +128,7 @@
                 },
                 {
                     "key": "field_5e2b73837ccb0",
-                    "label": "File Download - PDF",
+                    "label": "Download PDF - FILE",
                     "name": "pdf_file",
                     "type": "file",
                     "instructions": "",
@@ -180,7 +180,7 @@
                 },
                 {
                     "key": "field_5e2b79c77ccb2",
-                    "label": "Video Link",
+                    "label": "Watch Video - LINK",
                     "name": "video_link",
                     "type": "url",
                     "instructions": "",
@@ -212,8 +212,9 @@
                     "conditional_logic": [
                         [
                             {
-                                "field": "field_5e2b79c77ccb2",
-                                "operator": "==empty"
+                                "field": "field_5e168189dd992",
+                                "operator": "!=",
+                                "value": "1"
                             }
                         ]
                     ],
@@ -228,7 +229,7 @@
                 },
                 {
                     "key": "field_5e2b73a27ccb1",
-                    "label": "File Download - One Pager",
+                    "label": "One Pager - FILE",
                     "name": "one_pager_file",
                     "type": "file",
                     "instructions": "",
@@ -263,8 +264,9 @@
                     "conditional_logic": [
                         [
                             {
-                                "field": "field_5e2b73a27ccb1",
-                                "operator": "==empty"
+                                "field": "field_5e16818add993",
+                                "operator": "!=",
+                                "value": "1"
                             }
                         ]
                     ],
@@ -422,5 +424,5 @@
     "hide_on_screen": "",
     "active": 1,
     "description": "",
-    "modified": 1579914391
+    "modified": 1579915969
 }
