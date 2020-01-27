@@ -39,11 +39,7 @@ function article_post_type() {
     'has_archive'         => false,
     'exclude_from_search' => false,
     'publicly_queryable'  => true,
-    'capability_type'     => 'page',
-    'rewrite'             => array(
-        'slug'       => '/',
-        'with_front' => false
-    )
+    'capability_type'     => 'page'
 );
   register_post_type( 'article', $args );
 }
