@@ -1,7 +1,8 @@
 <?php // Donate CTA
 $group = get_field('banner_cta_group');
-if ( $group ) :
+if ( $group && ( !empty($group['heading'] && !empty($group['image'])) ) ) :
   $buttons = $group['buttons_rep']; ?>
+
   <section class="banner-cta">
     <div class="container flex">
 
@@ -22,4 +23,5 @@ if ( $group ) :
       
     </div>
   </section>
+  
 <?php endif; ?>

@@ -95,7 +95,7 @@ function accordion( trigger, content ) {
 
 // Page Navs
 var indexTrigger = $('.article-hero--section-nav .toggle a');
-var indexContent = $('.article-hero--section-nav ul');
+var indexContent = $('.article-hero--section-nav .toggle-content');
 if ( indexTrigger.length > 0 ) {
   accordion( indexTrigger, indexContent );
 }
@@ -111,7 +111,6 @@ if ( singleTrigger.length > 0 ) {
 /* View References - Create Links
 ========================================================= */
 tags = $('.article-main-single--content').find('sup');
-
 if ( tags.length > 0 ) {
   tags.each( function(index, value) {
     $(this).wrap("<a href='#view-references' title='Click to View References'></a>");
@@ -128,7 +127,6 @@ if ( tags.length > 0 ) {
 searchIcon  = $('#desktop-top-menu li.nav-search a');
 searchForm  = $('#nav-search-form');
 searchInput = searchForm.find('input');
-
 if ( (searchIcon.length && searchForm.length) ) {
   searchIcon.click( function() {
     searchForm.slideToggle(400);

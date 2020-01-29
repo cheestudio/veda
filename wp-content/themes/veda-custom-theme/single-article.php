@@ -5,12 +5,11 @@
 if ( $post->post_parent === 0 ) :
   get_template_part('templates/tpl-article-index');
 
-  else : ?>
+
+else : // Display Child/Single View (page has no parent)?>
 
 <?php // Hero
-$category = get_terms( array(
-  'taxonomy' => 'article_category'
-) ); ?>
+$category = wp_get_post_terms( $post->ID, 'article_category' ); ?>
 <section class="article-hero">
   <div class="article-hero--heading">
     <div class="inner">
@@ -76,7 +75,7 @@ if ( have_posts() ) : ?>
                    href   = '{$pdf_file}'
                    class  = 'pdf' title='Click to Download PDF'
                    target = '_blank'
-                   >Download PDF<i class = 'las la-download'></i></a>";
+                   >Download PDF<i class='las la-download'></i></a>";
                    break;
 
                    // Watch Video
@@ -87,7 +86,7 @@ if ( have_posts() ) : ?>
                    class  = 'video'
                    title  = 'Click to Watch Video'
                    target = '_blank'
-                   >Watch Video<i class = 'las la-video'></i></a>";
+                   >Watch Video<i class='las la-video'></i></a>";
                    break;
 
                    // Download One-Pager

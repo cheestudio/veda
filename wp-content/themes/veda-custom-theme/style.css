@@ -910,9 +910,9 @@ footer .container {
 .posts-grid .flex .post-entry .post-entry--content .excerpt p {
   color: #215378
 }
-.article-hero--section-nav ul li a:active,
-.article-hero--section-nav ul li a:focus,
-.article-hero--section-nav ul li a:hover,
+.article-hero--section-nav .toggle-content ul li a:active,
+.article-hero--section-nav .toggle-content ul li a:focus,
+.article-hero--section-nav .toggle-content ul li a:hover,
 .article-main--content .inner ul li a:active,
 .article-main--content .inner ul li a:focus,
 .article-main--content .inner ul li a:hover,
@@ -1629,12 +1629,10 @@ nav.post-nav {
           justify-content: center;
   margin-bottom: 32px
 }
-.article-hero--section-nav h5 a span.open,
-.article-hero--section-nav ul,
-.article-hero--section-nav ul li a:before,
-.article-references--content,
-.article-references--toggle h6 a span.open {
-  display: none
+.healthcare-index--results .member--image img,
+.healthcare-single--member .member--image img,
+.salsa-intro--image img {
+  display: block
 }
 nav.post-nav a,
 nav.post-nav span {
@@ -1751,7 +1749,22 @@ nav.post-nav .current {
 }
 .article-hero--heading {
   background-image: -webkit-linear-gradient(306deg,#1796a4,#215378);
-  background-image: linear-gradient(144deg,#1796a4,#215378)
+  background-image: linear-gradient(144deg,#1796a4,#215378);
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center
+}
+.article-hero--section-nav .toggle-content,
+.article-hero--section-nav .toggle-content ul li a:before,
+.article-hero--section-nav h5 a span.open,
+.article-references--content,
+.article-references--toggle h6 a span.open {
+  display: none
 }
 .article-hero--heading .inner {
   padding: 80px 10%
@@ -1777,14 +1790,13 @@ nav.post-nav .current {
   color: #000;
   cursor: pointer
 }
-.healthcare-index--results .member--image img,
-.healthcare-single--member .member--image img {
-  display: block
+.article-hero--section-nav .toggle-content ul {
+  padding-top: 16px
 }
-.article-hero--section-nav ul li {
+.article-hero--section-nav .toggle-content ul li {
   line-height: 24px
 }
-.article-hero--section-nav ul li a {
+.article-hero--section-nav .toggle-content ul li a {
   color: #5c5c5c;
   font-size: 1.06em
 }
@@ -1804,22 +1816,22 @@ nav.post-nav .current {
 .article-main--content .inner ul li a {
   font-size: 1.13em
 }
-.single-article:not(.article-template-tpl-article-index) .article-hero {
+.single-article main.article-child-page .article-hero {
   margin-top: 0
 }
-.single-article:not(.article-template-tpl-article-index) .article-hero .article-hero--heading .inner {
+.single-article main.article-child-page .article-hero .article-hero--heading .inner {
   margin-left: auto;
   margin-right: auto;
   text-align: center;
   padding: 40px 15px 60px
 }
-.single-article:not(.article-template-tpl-article-index) .article-hero .article-hero--heading .inner p {
+.single-article main.article-child-page .article-hero .article-hero--heading .inner p {
   color: #fff;
   font-size: .88em;
   margin-bottom: 0;
   text-transform: uppercase
 }
-.single-article:not(.article-template-tpl-article-index) .article-hero .article-hero--heading .inner h1 {
+.single-article main.article-child-page .article-hero .article-hero--heading .inner h1 {
   font-size: 3.63em;
   margin-top: 20px
 }
@@ -2102,7 +2114,6 @@ body.healthcare-directory .hero-basic--search {
   margin-bottom: 12px
 }
 .salsa-intro--image img {
-  display: block;
   width: 100%
 }
 .salsa-content {
@@ -2329,6 +2340,9 @@ body.healthcare-directory .hero-basic--search {
     padding-top: 120px;
     padding-bottom: 120px
   }
+  .article-hero--heading {
+    min-height: 312px
+  }
   .article-hero--heading .inner {
     width: 35%
   }
@@ -2342,6 +2356,9 @@ body.healthcare-directory .hero-basic--search {
     max-height: 650px;
     margin-top: -48px;
     z-index: 1
+  }
+  .article-hero--section-nav .toggle-content ul {
+    min-height: 120px
   }
   .article-main {
     margin-top: 75px

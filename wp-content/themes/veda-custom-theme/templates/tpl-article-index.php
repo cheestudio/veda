@@ -1,15 +1,10 @@
-<?php
-/* 
- * Template Name: Article Index
- * Template Post Type: article
-========================================================= */ ?>
 <?php get_header(); ?>
 
 
 <?php // Hero
 $hero = get_field('article_hero_group');
 if ( $hero ) :
-$heading = !empty($hero['heading']) ? $hero['heading'] : get_the_title(); ?>
+  $heading = !empty($hero['heading']) ? $hero['heading'] : get_the_title(); ?>
   <section class="article-hero">
     <div class="flex">
       <div class="article-hero--heading">
@@ -22,9 +17,11 @@ $heading = !empty($hero['heading']) ? $hero['heading'] : get_the_title(); ?>
         <div class="toggle">
           <h5><a title="Click to Open/Close">In This Section<span class="close"><i class="las la-plus-circle"></i></span><span class="open"><i class="las la-minus-circle"></i></span></a></h5>
         </div>
-        <ul>
-          <?php include( locate_template('partials/section-nav-pages.php') ); ?>
-        </ul>
+        <div class="toggle-content">
+          <ul>
+            <?php include( locate_template('partials/section-nav-pages.php') ); ?>
+          </ul>
+        </div>
       </div>
     </div>
   </section>

@@ -16,9 +16,11 @@
   <?php endif; ?>
 
 
-  <?php $logo = get_template_directory_uri() . '/assets/img/logo.png'; ?>
-  <?php $header_code = get_field('header_code', 'option'); ?>
-  <?php if ( $header_code ) echo $header_code; ?>
+  <?php 
+  $logo        = get_template_directory_uri() . '/assets/img/logo.png';
+  $header_code = get_field('header_code', 'option');
+  $post_type   = (get_post_type() == 'article' && $post->post_parent > 0) ? 'article-child-page' : NULL;
+  if ( $header_code ) echo $header_code; ?>
 </head>
 
 <body <?php body_class(); ?> id="top">
@@ -45,4 +47,4 @@
 
   </header>
 
-  <main role="main">
+  <main role="main" <?php if ($post_type) echo "class='$post_type'"; ?>>

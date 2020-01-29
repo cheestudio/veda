@@ -9,6 +9,11 @@
 
   &--heading {
     @include hero-gradient;
+    display: flex;
+    align-items: center;
+    @include for-size(tablet, up) {
+      min-height: 312px;
+    }
     .inner {
       padding: 80px 10%;
       @include for-size(tablet, up) {
@@ -62,18 +67,24 @@
         }
       }
     }
-    ul {
+    .toggle-content {
       display: none;
-      li {
-        line-height: 24px;
-        a {
-          color: $body;
-          font-size: em(17);
-          &:before {
-            display: none;
-          }
-          &:hover, &:focus, &:active {
-            opacity: 0.7
+      ul {
+        @include for-size(tablet, up) {
+          min-height: 120px;
+        }
+        padding-top: 16px;
+        li {
+          line-height: 24px;
+          a {
+            color: $body;
+            font-size: em(17);
+            &:before {
+              display: none;
+            }
+            &:hover, &:focus, &:active {
+              opacity: 0.7
+            }
           }
         }
       }

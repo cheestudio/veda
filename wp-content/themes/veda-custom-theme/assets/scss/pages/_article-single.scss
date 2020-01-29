@@ -1,24 +1,26 @@
 
 // Child page of Article Index
-.single-article:not(.article-template-tpl-article-index) {
+.single-article {
+  main.article-child-page {
 
-  // Hero
-  .article-hero {
-    margin-top: 0;
-    .article-hero--heading {
-      .inner {
-        @include margin-center;
-        text-align: center;
-        padding: 40px 15px 60px 15px;
-        p {
-          color: white;
-          font-size: em(14);
-          margin-bottom: 0;
-          text-transform: uppercase;
-        }
-        h1 {
-          font-size: em(58);
-          margin-top: 20px;
+    // Hero
+    .article-hero {
+      margin-top: 0;
+      .article-hero--heading {
+        .inner {
+          @include margin-center;
+          text-align: center;
+          padding: 40px 15px 60px 15px;
+          p {
+            color: white;
+            font-size: em(14);
+            margin-bottom: 0;
+            text-transform: uppercase;
+          }
+          h1 {
+            font-size: em(58);
+            margin-top: 20px;
+          }
         }
       }
     }
