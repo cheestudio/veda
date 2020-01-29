@@ -2,7 +2,7 @@
 ========================================================= */
 
 // Default Page
-.page-template-default {
+.page-template-default, .error404 {
   .fl-builder-content {
     @include container-padding;
   }

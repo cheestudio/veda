@@ -18,14 +18,7 @@ $category = wp_get_post_terms( $post->ID, 'article_category' ); ?>
     </div>
   </div>
 
-  <div class="article-hero--section-nav">
-    <div class="toggle">
-      <h5><a title="Click to Open/Close">In This Section<span class="close"><i class="las la-plus-circle"></i></span><span class="open"><i class="las la-minus-circle"></i></span></a></h5>
-    </div>
-    <ul>
-      <?php include( locate_template('partials/section-nav-pages.php') ); ?>
-    </ul>
-  </div>
+  <?php include( locate_template('partials/section-nav-pages.php') ); ?>
 </section>
 
 

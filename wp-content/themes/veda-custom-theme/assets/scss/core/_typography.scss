@@ -140,7 +140,7 @@ body {
     @include trans;
     color: $orange;
     &:hover, &:focus, &:active {
-
+      color: rgba($orange, 0.7);
     }
   }
 

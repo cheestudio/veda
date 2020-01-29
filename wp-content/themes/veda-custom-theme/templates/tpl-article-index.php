@@ -13,16 +13,8 @@ if ( $hero ) :
 
       <div class="article-hero--image" aria-label="Page Title Image" style="background-image: url(<?= $hero['image']['sizes']['large']; ?>);"></div>
 
-      <div class="article-hero--section-nav">
-        <div class="toggle">
-          <h5><a title="Click to Open/Close">In This Section<span class="close"><i class="las la-plus-circle"></i></span><span class="open"><i class="las la-minus-circle"></i></span></a></h5>
-        </div>
-        <div class="toggle-content">
-          <ul>
-            <?php include( locate_template('partials/section-nav-pages.php') ); ?>
-          </ul>
-        </div>
-      </div>
+      <?php include( locate_template('partials/section-nav-pages.php') ); ?>
+
     </div>
   </section>
 <?php endif; ?>
