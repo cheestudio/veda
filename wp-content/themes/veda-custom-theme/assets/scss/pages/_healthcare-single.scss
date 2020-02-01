@@ -22,13 +22,17 @@
 
 .healthcare-single {
   @include container-padding;
-
+  background-image: linear-gradient(180deg, hsla(0, 0%, 100%, 0.95), hsla(0, 0%, 100%, 0.95)), url('assets/img/teal-swirl.png');
+  background-position: 0px 0px, 100% 0%;
+  background-repeat: no-repeat;
+  
   &--breadcrumbs {
     margin-bottom: 64px;
   }
   
   // Member
   &--member {
+    background: white;
     .member {
       @include box-shadow;
       padding: 36px;
@@ -95,6 +99,7 @@
 
   // Non Member
   &--non-member {
+    background: white;
     .non-member {
       @include box-shadow;
       padding: 36px;
