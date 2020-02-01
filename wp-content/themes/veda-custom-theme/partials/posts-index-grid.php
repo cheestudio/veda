@@ -72,7 +72,7 @@ endif; ?>
               <?php foreach ( $terms as $term ) :
                 $name = $term->name;
                 $tax  = ( is_tag() ) ? 'tag' : $term->taxonomy;
-                $link = "/{$tax}/{$term->slug}/";
+                $link = "/blog/{$tax}/{$term->slug}/";
                 echo "<option label='{$name}' value='{$link}'>{$name}</option>"; ?>
               <?php endforeach; ?>
             </select>
