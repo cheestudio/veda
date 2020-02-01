@@ -168,6 +168,11 @@
         ],
         [
             {
+                "param": "post_type",
+                "operator": "==",
+                "value": "article"
+            },
+            {
                 "param": "page_type",
                 "operator": "==",
                 "value": "top_level"
@@ -184,5 +189,5 @@
     ],
     "active": 1,
     "description": "",
-    "modified": 1580256565
+    "modified": 1580523608
 }

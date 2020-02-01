@@ -1,16 +1,20 @@
 @include for-size(tablet, up) {
   header {
+
     .top-nav {
-      padding-top: 12px;
-      padding-bottom: 12px;
       background-color: #f7f7f7;
       ul {
         justify-content: flex-end;
         li {
           a {
+            display: inline-block;
             font-weight: 500;
             text-transform: uppercase;
+            border-top: 4px solid transparent;
+            padding-top: 8px;
+            padding-bottom: 8px;
             &:hover, &:focus, &:active {
+              border-top-color: $orange;
               opacity: 0.7;
             }
           }
@@ -24,6 +28,7 @@
                 @include law;
                 content:'\f002';
                 font-size: 20px;
+                line-height: 16px;
                 color: $orange;
               }
               &:hover, &:focus, &:active {
@@ -58,7 +63,8 @@
             color: $body;
             font-size: em(20);
             &:hover, &:focus, &:active {
-              color: $orange;
+              opacity: 0.6;
+              color: rgba($body, 0.75);
             }
           }
           &.nav-button a {
@@ -84,7 +90,7 @@
           &.current-menu-item,
           &.current_page_ancestor {
             > a {
-              color: black;
+              color: $orange;
               font-weight: 500;
             }
           }
@@ -118,7 +124,13 @@
         input {
           border: 2px solid $orange;
         }
+        button {
+          &:after {
+            @include law;
+            content:'\f061';
+            margin-left: 7px;
+          }        }
+        }
       }
-    }
   } // END header
 }

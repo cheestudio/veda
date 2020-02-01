@@ -2180,13 +2180,22 @@ body.healthcare-directory .hero-basic--search {
   }
 }
 @media only screen and (min-width:1025px) {
+  header #nav-search-form form button:after,
+  header .top-nav ul li.nav-search a:after {
+    display: inline-block;
+    font-family: 'Line Awesome Free';
+    font-weight: 900;
+    font-style: normal;
+    font-variant: normal;
+    text-rendering: auto;
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-font-smoothing: antialiased
+  }
   header .top-nav ul li.nav-search,
   header nav ul li {
     position: relative
   }
   header .top-nav {
-    padding-top: 12px;
-    padding-bottom: 12px;
     background-color: #f7f7f7
   }
   header .top-nav ul {
@@ -2196,12 +2205,17 @@ body.healthcare-directory .hero-basic--search {
             justify-content: flex-end
   }
   header .top-nav ul li a {
+    display: inline-block;
     font-weight: 500;
-    text-transform: uppercase
+    text-transform: uppercase;
+    border-top: 4px solid transparent;
+    padding-top: 8px;
+    padding-bottom: 8px
   }
   header .top-nav ul li a:active,
   header .top-nav ul li a:focus,
   header .top-nav ul li a:hover {
+    border-top-color: #ea8024;
     opacity: .7
   }
   header .top-nav ul li.nav-search a {
@@ -2210,17 +2224,9 @@ body.healthcare-directory .hero-basic--search {
     color: transparent
   }
   header .top-nav ul li.nav-search a:after {
-    display: inline-block;
-    font-family: 'Line Awesome Free';
-    font-weight: 900;
-    font-style: normal;
-    font-variant: normal;
-    text-rendering: auto;
-    line-height: 1;
-    -moz-osx-font-smoothing: grayscale;
-    -webkit-font-smoothing: antialiased;
     content: '\f002';
     font-size: 20px;
+    line-height: 16px;
     color: #ea8024
   }
   header .top-nav ul li.nav-search a:active:after,
@@ -2257,7 +2263,8 @@ body.healthcare-directory .hero-basic--search {
   header .desktop-nav ul li a:active,
   header .desktop-nav ul li a:focus,
   header .desktop-nav ul li a:hover {
-    color: #ea8024
+    opacity: .6;
+    color: rgba(92,92,92,.75)
   }
   header .desktop-nav ul li.nav-button a {
     background: #ea8024;
@@ -2293,7 +2300,7 @@ body.healthcare-directory .hero-basic--search {
   }
   header nav ul li.current-menu-item > a,
   header nav ul li.current_page_ancestor > a {
-    color: #000;
+    color: #ea8024;
     font-weight: 500
   }
   header nav ul li .sub-menu {
@@ -2312,6 +2319,12 @@ body.healthcare-directory .hero-basic--search {
   }
   header #nav-search-form form input {
     border: 2px solid #ea8024
+  }
+  header #nav-search-form form button:after {
+    font-size: 24px;
+    line-height: 1;
+    content: '\f061';
+    margin-left: 7px
   }
   .footer--menu {
     margin-left: 5%;
