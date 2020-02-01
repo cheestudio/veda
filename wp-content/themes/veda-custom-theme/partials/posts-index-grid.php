@@ -3,7 +3,7 @@
 $name = NULL;
 
 if ( is_home() ) :
-  $title = "eNews";
+  $title = "Blog";
   $type  = "category";
 
 elseif ( is_category() ) :

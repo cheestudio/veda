@@ -24,7 +24,14 @@ function article_post_type() {
     'label'               => __( 'Article', 'text_domain' ),
     'description'         => __( 'Article information pages', 'text_domain' ),
     'labels'              => $labels,
-    'supports'            => array( 'title', 'editor', 'thumbnail', 'excerpt', 'page-attributes', 'revisions' ),
+    'supports'            => array( 
+        'title', 
+        'editor', 
+        'thumbnail', 
+        'excerpt', 
+        'page-attributes', 
+        'revisions'
+    ),
     'taxonomies'          => array( 'article_category' ),
     'hierarchical'        => true,
     'public'              => true,
@@ -39,7 +46,11 @@ function article_post_type() {
     'has_archive'         => true,
     'exclude_from_search' => false,
     'publicly_queryable'  => true,
-    'capability_type'     => 'page'
+    'capability_type'     => 'page',
+    'rewrite'             => array( 
+        'slug'       => 'article',
+        'with_front' => false
+    ),
 );
   register_post_type( 'article', $args );
 }

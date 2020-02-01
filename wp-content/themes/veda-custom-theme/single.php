@@ -1,29 +1,30 @@
 <?php get_header(); ?>
 
 
-<?php 
+<?php // Hero
 $tax = get_field('post_article_category'); ?>
 <section class="hero-basic">
   <div class="container">
     <div class="hero-basic--heading">
       <div class="inner">
         <?php if ( $tax ) echo "<p>{$tax->name}</p>"; ?>
-        <h1>eNews</h1>
+        <h1><?= $post->post_title; ?></h1>
       </div>
     </div>
   </div>
 </section>
 
 
-<div class="blog-single">
-  <div class="container">
-    <div class="blog-single--content">
-      <?php while ( have_posts() ) : the_post();?>
+<?php // Main Content
+while ( have_posts() ) : the_post();?>
+  <section class="blog-single">
+    <div class="container">
+      <div class="blog-single--content">
         <?php get_template_part('partials/blog/content-single'); ?>
-      <?php endwhile; ?>
+      </div>
     </div>
-  </div>
-</div>
+  </section>
+<?php endwhile; ?>
 
 
 <?php // References
