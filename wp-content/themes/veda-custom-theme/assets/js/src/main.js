@@ -137,4 +137,21 @@ if ( (searchIcon.length && searchForm.length) ) {
 }
 
 
+/* Articles - Read More Button ( TESTING )
+========================================================= */
+var toggle        = $('#article-readmore-toggle');
+var toggleSection = $('.article-main-single--links');
+var content       = $('.article-main-single--content .fl-rich-text blockquote');
+if ( (toggle.length && content.length) ) {
+  content.nextAll().slideUp();
+  content.parents('.fl-row').nextAll().slideUp();
+  toggleSection.addClass('hide-content');
+
+  toggle.click(function() {
+    content.parents('.fl-row').nextAll().slideToggle();
+    toggleSection.toggleClass('hide-content');
+  });
+}
+
+
 }); // End Document Ready

@@ -161,13 +161,14 @@
       display: none;
       form {
         input {
-          border: 2px solid $orange;
+          border: 4px solid $orange;
         }
         button {
           &:after {
             @include law;
             content:'\f061';
             margin-left: 7px;
+            font-size: 20px;
           }
         }
       }

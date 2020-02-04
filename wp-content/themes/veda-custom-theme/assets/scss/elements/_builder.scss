@@ -18,3 +18,21 @@
 
 
 // Buttons
+.fl-button-wrap {
+ a.fl-button {
+
+ }
+}
+
+.builder-button {
+  a.fl-button {
+    @include button;
+    
+  }
+}
+
+.builder-button-alt {
+  a.fl-button {
+    @include button-alt;
+  }
+}

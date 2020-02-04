@@ -161,6 +161,8 @@ q:before {
 .banner-cta--content .button-wrap a:nth-child(even):after,
 .banner-cta--content .button-wrap a:nth-child(odd):after,
 .banner-menu--content .button-wrap a:after,
+.builder-button a.fl-button:after,
+.builder-button-alt a.fl-button:after,
 .button-alt:after,
 .button:not(.media-button):not([class*=fl-builder]):after,
 .home-blocks--grid .block:first-child .block__content .button-wrap p:after,
@@ -187,6 +189,8 @@ input:not(.media-button):not([class*=fl-builder])[type=submit]:after {
 .banner-cta--content .button-wrap a:nth-child(even),
 .banner-cta--content .button-wrap a:nth-child(odd),
 .banner-menu--content .button-wrap a,
+.builder-button a.fl-button,
+.builder-button-alt a.fl-button,
 .button-alt,
 .button:not([class*=fl-builder]):not(.media-button),
 .footer--back-to-top .button-wrap a,
@@ -213,10 +217,6 @@ input[type=submit]:not([class*=fl-builder]):not(.media-button) {
       -ms-flex-align: center;
           align-items: center;
   text-align: center;
-  font-size: 1em;
-  line-height: 1.2;
-  font-weight: 700;
-  text-transform: uppercase;
   -webkit-user-select: none;
      -moz-user-select: none;
       -ms-user-select: none;
@@ -226,6 +226,47 @@ input[type=submit]:not([class*=fl-builder]):not(.media-button) {
 .button-alt,
 hr {
   border: none
+}
+.article-main-single--links .inner a.read,
+.article-main-single--links .inner a.read span,
+.article-main-single--links .inner a:not(.read),
+.article-main-single--links .inner a:not(.read) span,
+.banner-cta--content .button-wrap a:nth-child(even),
+.banner-cta--content .button-wrap a:nth-child(even) span,
+.banner-cta--content .button-wrap a:nth-child(odd),
+.banner-cta--content .button-wrap a:nth-child(odd) span,
+.banner-menu--content .button-wrap a,
+.banner-menu--content .button-wrap a span,
+.builder-button a.fl-button,
+.builder-button a.fl-button span,
+.builder-button-alt a.fl-button,
+.builder-button-alt a.fl-button span,
+.button-alt,
+.button-alt span,
+.button:not([class*=fl-builder]):not(.media-button),
+.button:not([class*=fl-builder]):not(.media-button) span,
+.footer--back-to-top .button-wrap a,
+.footer--back-to-top .button-wrap a span,
+.healthcare-index--results .member--details__link .button-wrap a,
+.healthcare-index--results .member--details__link .button-wrap a span,
+.home-blocks--grid .block:first-child .block__content .button-wrap p,
+.home-blocks--grid .block:first-child .block__content .button-wrap p span,
+.home-blocks--grid .block__content .button-wrap p,
+.home-blocks--grid .block__content .button-wrap p span,
+.home-intro--cards .card__link p,
+.home-intro--cards .card__link p span,
+.posts-grid .flex .post-entry .post-entry--content .button-wrap p,
+.posts-grid .flex .post-entry .post-entry--content .button-wrap p span,
+.posts-index--grid .posts-grid .post-entry.featured .inner .post-entry--content .button-wrap p,
+.posts-index--grid .posts-grid .post-entry.featured .inner .post-entry--content .button-wrap p span,
+form.form-search button,
+form.form-search button span,
+input[type=submit]:not([class*=fl-builder]):not(.media-button),
+input[type=submit]:not([class*=fl-builder]):not(.media-button) span {
+  font-size: 1em;
+  line-height: 1.2;
+  font-weight: 700;
+  text-transform: uppercase
 }
 .button-alt i {
   margin-left: 7px;
@@ -745,16 +786,6 @@ form.form-search button:focus {
   top: 15px;
   z-index: 10000
 }
-.article-hero,
-.article-main--content .inner,
-.article-main-single--content .inner,
-.blog-single--content .post-entry--author,
-.blog-single--content .post-entry--excerpt,
-.footer--menu ul li,
-.footer--menu ul li a,
-.healthcare-index--intro {
-  position: relative
-}
 .navbar-toggle .icon-bar {
   -webkit-transition: .4s ease-in-out;
   transition: .4s ease-in-out;
@@ -867,6 +898,7 @@ footer .container {
   font-size: .88em
 }
 .footer--menu ul li {
+  position: relative;
   margin-bottom: 20px
 }
 .footer--menu ul li:before {
@@ -876,6 +908,7 @@ footer .container {
 }
 .footer--menu ul li a {
   color: #fff;
+  position: relative;
   white-space: nowrap
 }
 .footer--menu ul li a:before {
@@ -907,12 +940,6 @@ footer .container {
   opacity: .8;
   padding: 6px 36px
 }
-.banner-cta--content .inner h2,
-.banner-menu--menu__links .link a i,
-.breadcrumbs .current-item,
-.posts-grid .flex .post-entry .post-entry--content .excerpt p {
-  color: #215378
-}
 .article-hero--section-nav .toggle-content ul li a:active,
 .article-hero--section-nav .toggle-content ul li a:focus,
 .article-hero--section-nav .toggle-content ul li a:hover,
@@ -938,6 +965,9 @@ footer .container {
   color: #ea8024;
   background: #fff
 }
+.builder-button-alt a.fl-button:active,
+.builder-button-alt a.fl-button:focus,
+.builder-button-alt a.fl-button:hover,
 .home-blocks--grid .block__content .button-wrap p:active,
 .home-blocks--grid .block__content .button-wrap p:focus,
 .home-blocks--grid .block__content .button-wrap p:hover,
@@ -955,6 +985,33 @@ footer .container {
 }
 .builder-hr .fl-separator {
   padding-bottom: 16px
+}
+.builder-button a.fl-button {
+  background: #ea8024;
+  color: #fff;
+  border-color: #ea8024
+}
+.banner-cta--content .inner h2,
+.banner-menu--menu__links .link a i,
+.breadcrumbs .current-item,
+.posts-grid .flex .post-entry .post-entry--content .excerpt p {
+  color: #215378
+}
+.builder-button a.fl-button:active,
+.builder-button a.fl-button:hover {
+  color: #fff;
+  background: rgba(234,128,36,.7);
+  border-color: rgba(234,128,36,0)
+}
+.builder-button a.fl-button:focus {
+  border-color: #1796a4
+}
+.builder-button-alt a.fl-button {
+  border: none
+}
+.builder-button-alt a.fl-button i {
+  margin-left: 7px;
+  font-size: 18px
 }
 .banner-cta {
   background-color: rgba(244,247,226,.53);
@@ -1398,13 +1455,14 @@ footer .container {
   display: flex
 }
 .article-main--content .inner:before,
+.article-main-single--content .inner:before,
 .blog-single--content .post-entry--author:before,
 .blog-single--content .post-entry--excerpt:before {
-  content: '';
   position: absolute;
+  background: #1796a4;
+  content: '';
   top: -32px;
   left: 0;
-  background: #1796a4;
   width: 10%;
   height: 4px
 }
@@ -1680,6 +1738,9 @@ nav.post-nav .current {
 .blog-single {
   padding: 5% 12%
 }
+.blog-single--content .post-entry--excerpt {
+  position: relative
+}
 .blog-single--content .post-entry--excerpt p {
   font-size: 1.38em;
   font-weight: 500
@@ -1729,7 +1790,8 @@ nav.post-nav .current {
   margin-bottom: 0
 }
 .blog-single--content .post-entry--author {
-  margin-top: 64px
+  margin-top: 64px;
+  position: relative
 }
 .blog-single--content .post-entry--author h4 {
   font-size: 1.38em
@@ -1748,7 +1810,8 @@ nav.post-nav .current {
   margin-right: 16px
 }
 .article-hero {
-  margin-top: 60px
+  margin-top: 60px;
+  position: relative
 }
 .article-hero .flex {
   -webkit-box-orient: vertical;
@@ -1817,6 +1880,9 @@ nav.post-nav .current {
 .article-main--content {
   padding: 7% 12%
 }
+.article-main--content .inner {
+  position: relative
+}
 .article-main--content .inner h3 {
   margin-top: 32px!important;
   margin-bottom: 24px!important;
@@ -1852,15 +1918,8 @@ nav.post-nav .current {
   font-size: 1.38em;
   font-weight: 500
 }
-.article-main-single--content .inner:before,
-.healthcare-index--intro:before {
-  content: '';
-  position: absolute;
-  top: -32px;
-  left: 0;
-  background: #1796a4;
-  width: 10%;
-  height: 4px
+.article-main-single--content .inner {
+  position: relative
 }
 .healthcare-index--results .member:active,
 .healthcare-index--results .member:focus,
@@ -1890,16 +1949,25 @@ nav.post-nav .current {
 .healthcare-index--intro .flex p {
   margin-bottom: 0
 }
-.healthcare-single--member .member--image__company,
-body.healthcare-directory .hero-basic--search {
-  margin-top: 24px
-}
 .article-main-single--content .inner blockquote p {
   color: #215378;
   font-size: 1.5em
 }
 .article-main-single--links {
+  -webkit-transition: .4s ease-in-out;
+  transition: .4s ease-in-out;
   padding-top: 42px
+}
+.article-main-single--links.hide-content {
+  margin-top: -20px;
+  background: #fff;
+  border-top: 1px solid #000;
+  position: relative;
+  z-index: 5
+}
+.healthcare-single--member .member--image__company,
+body.healthcare-directory .hero-basic--search {
+  margin-top: 24px
 }
 .article-main-single--links .inner {
   -webkit-box-align: center;
@@ -1994,7 +2062,17 @@ body.healthcare-directory .hero-basic--search form select {
   padding: 5% 12%
 }
 .healthcare-index--intro {
+  position: relative;
   margin-bottom: 48px
+}
+.healthcare-index--intro:before {
+  content: '';
+  position: absolute;
+  top: -32px;
+  left: 0;
+  background: #1796a4;
+  width: 10%;
+  height: 4px
 }
 .healthcare-index--intro .flex {
   -webkit-box-align: center;
@@ -2222,7 +2300,8 @@ body.healthcare-directory .hero-basic--search form select {
     font-variant: normal;
     text-rendering: auto;
     -moz-osx-font-smoothing: grayscale;
-    -webkit-font-smoothing: antialiased
+    -webkit-font-smoothing: antialiased;
+    font-size: 20px
   }
   header .top-nav ul li.nav-search,
   header nav ul li {
@@ -2258,7 +2337,6 @@ body.healthcare-directory .hero-basic--search form select {
   }
   header .top-nav ul li.nav-search a:after {
     content: '\f002';
-    font-size: 20px;
     line-height: 16px;
     color: #ea8024
   }
@@ -2374,10 +2452,9 @@ body.healthcare-directory .hero-basic--search form select {
     display: none
   }
   header #nav-search-form form input {
-    border: 2px solid #ea8024
+    border: 4px solid #ea8024
   }
   header #nav-search-form form button:after {
-    font-size: 24px;
     line-height: 1;
     content: '\f061';
     margin-left: 7px

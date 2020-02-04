@@ -4,10 +4,10 @@
 
 /* Button (with on-page anchor class when arugment is used)
 ========================================================= */
-function ebutton($atts, $content = null) {
+function ebutton( $atts, $content = null ) {
  extract(shortcode_atts(array(
   'align'  => '',
-  'url'   => '',
+  'url'    => '',
   'target' => '',
   'anchor' => ''
   ),
@@ -18,11 +18,18 @@ function ebutton($atts, $content = null) {
 }
 add_shortcode('button', 'ebutton');
 
+
 /* Current Year (for use within WYSIWYG editor, such as a Copyright Date)
 ========================================================= */
 function jr_cy_y() {
   $date = getdate();
   return $date['year'];
 }
-
 add_shortcode( 'year', 'jr_cy_y' );
+
+
+/* Read Full Article breakpoint
+========================================================= */
+function article_break() {
+  
+}

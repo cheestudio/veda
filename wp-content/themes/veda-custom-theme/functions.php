@@ -55,3 +55,22 @@ function the_content_max_words( $text ) {
   $visible   = substr( $text, 0, $break_pos );
   return balanceTags( $visible ) . "";
 } 
+
+
+/* Add color presets for Beaver Builder
+========================================================= */
+function my_builder_color_presets( $colors ) {
+    $colors = array();
+      
+      $colors[] = '1796a4';
+      $colors[] = '215378';
+      $colors[] = 'b3e1e8';
+      $colors[] = 'ea8024';
+      $colors[] = 'f4f7e2';
+      $colors[] = '5c5c5c';
+      $colors[] = 'ffffff';
+      $colors[] = '000000';
+  
+    return $colors;
+}
+add_filter( 'fl_builder_color_presets', 'my_builder_color_presets' );

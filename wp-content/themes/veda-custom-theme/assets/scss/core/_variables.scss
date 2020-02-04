@@ -113,12 +113,14 @@ $browser-context: 16; // Default
 	display: inline-flex;
 	align-items: center;
 	text-align: center;
-	font-size: 1em;
-	line-height: 1.2;
-	font-weight: 700;
-	text-transform: uppercase;
 	user-select: none;
 	-webkit-appearance: none;
+	&, span {
+		font-size: 1em;
+		line-height: 1.2;
+		font-weight: 700;
+		text-transform: uppercase;
+	}
 }
 
 // Mixin w Options
