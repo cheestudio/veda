@@ -27,12 +27,15 @@
       margin-bottom: 50px;
       img {
         width: 80%;
-        max-width: 600px;
+        max-width: 500px;
       }
     }
     img {
       @include margin-center;
       display: block;
+      @include for-size(phone) {
+        max-width: 250px;
+      }
     }
   }
 

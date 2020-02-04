@@ -5,7 +5,7 @@
   <title><?php wp_title(''); ?></title>
   <meta http-equiv="x-ua-compatible" content="ie=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="theme-color" content="#00704a">
+  <meta name="theme-color" content="#1796a4">
   <?php wp_head(); ?>
   <link rel="alternate" type="application/rss+xml" title="<?php echo get_bloginfo('name'); ?> Feed" href="<?php echo home_url(); ?>/feed/">
   <link rel="stylesheet" href="https://maxst.icons8.com/vue-static/landings/line-awesome/line-awesome/1.3.0/css/line-awesome.min.css">
@@ -27,19 +27,22 @@
 
   <header class="main-banner" role="banner">
     <div id="nav-search-form" class="nav-search-form"><?php get_search_form(); ?></div>
+
     <div class="top-nav">
       <div class="container">
-        <nav><?php include( locate_template('partials/navs/nav-desktop-top.php') ); ?></nav>
+        <nav role="navigation">
+          <?php include( locate_template('partials/navs/nav-main-top.php') ); ?>
+        </nav>
       </div>
     </div>
 
-    <div class="desktop-nav">
+    <div class="main-nav">
       <div class="container">
         <a class="brand" href="/" title="Home">
           <?php svg( $logo, 'Site Logo' ); ?>
         </a>
         <nav role="navigation">
-          <?php include( locate_template('partials/navs/nav-desktop.php') ); ?>
+          <?php include( locate_template('partials/navs/nav-main.php') ); ?>
           <?php include( locate_template('partials/navs/nav-mobile.php') ); ?>
         </nav>
       </div>

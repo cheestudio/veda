@@ -2,10 +2,21 @@
 body.healthcare-directory {
 
   .hero-basic {
+
     &--search {
       margin-top: 24px;
       form {
-
+        input:not([type='submit']), select {
+          flex: 0 1 25%;
+          @include for-size(tablet-sm, up) {
+            &:not(:last-child) {
+              margin-right: 24px;
+            }
+          }
+          @include for-size(tablet-sm) {
+            margin-bottom: 16px;
+          }
+        }
       }
     }
   }
@@ -26,6 +37,12 @@ body.healthcare-directory {
     .flex {
       align-items: center;
       justify-content: space-between;
+      @include for-size(tablet-sm) {
+        flex-direction: column;
+        p {
+          margin-bottom: 15px;
+        }
+      }
       p {
         margin-bottom: 0;
       }
@@ -36,7 +53,6 @@ body.healthcare-directory {
   }
 
   &--results {
-
     .member {
       @include box-shadow;
       padding: 16px;
@@ -49,6 +65,7 @@ body.healthcare-directory {
           flex-direction: column;
         }
       }
+
       &--image {
         flex: 0 0 20%;
         @include for-size(tablet) {
@@ -67,9 +84,7 @@ body.healthcare-directory {
 
       &--details {
         flex: 1;
-          flex-wrap: wrap;
-        @include for-size(tablet-sm) {
-        }
+        flex-wrap: wrap;
         > div {
           flex: 0 1 25%;
           padding: 32px 16px 16px;

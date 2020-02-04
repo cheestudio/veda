@@ -14,9 +14,18 @@
   }
 
   &--grid {
-
     .posts-grid {
-
+      .flex {
+        @include for-size(tablet, up) {
+          flex-wrap: nowrap;
+        }
+        .post-entry {
+          @include for-size(tablet) {
+            flex-basis: 100%;
+            max-width: 100%;
+          }
+        }
+      }
     }
   }
 }

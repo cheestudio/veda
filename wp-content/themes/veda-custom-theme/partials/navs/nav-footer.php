@@ -8,6 +8,6 @@
     'echo'            => true,
     'fallback_cb'     => 'wp_page_menu',
     'items_wrap'      => '<ul id="%1$s" class="%2$s">%3$s</ul>',
-    'depth'           => 2
+    'depth'           => 1
 )); ?>
 </div>

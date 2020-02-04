@@ -6,11 +6,11 @@ $resting-toggle-color    : black;
 $active-toggle-color     : black;
 $menu-dropdown-color     : white;
 $link-color              : black;
-$link-background         : white;
+$link-background         : $sky;
 $link-hover-color        : white;
-$link-hover-background   : black;
-$link-border-color       : #eee;
-$current-link-background : black;
+$link-hover-background   : $blue;
+$link-border-color       : white;
+$current-link-background : $teal;
 $current-link-color      : white;
 
 .mobile-nav-wrap {
@@ -74,9 +74,10 @@ $current-link-color      : white;
     }
   }
 
-  .main-nav-wrap,
-  .top-nav-wrap,
-  #nav-search-form {
+  .top-nav,
+  .main-nav .container > nav >.main-nav-wrap,
+  #nav-search-form,
+  #desktop-top-menu li.nav-search {
     display: none;
   }
   .mobile-nav-wrap {
@@ -92,11 +93,38 @@ $current-link-color      : white;
     display: flex;
     align-items: center;
     padding-left: 15px;
-    .mobile-brand {
 
+    .mobile-nav__search {
+      padding-top: 15px;
+      padding-bottom: 15px;
+      background: $sky;
+      form {
+        padding-left: 25px;
+        padding-right: 25px;
+        align-items: stretch;
+        justify-content: flex-start;
+        flex-direction: row;
+        flex-wrap: wrap;
+        input {
+          margin-right: 24px;
+          margin-bottom: 0;
+          flex: 1;
+          @include for-size(phone) {
+            flex-basis: 100%;
+            margin-right: 0;
+            margin-bottom: 16px;
+          }
+        }
+        button {
+          @include font;
+        }
+      }
+    }
+
+    .mobile-brand {
       img {
         display: block;
-        width: 130px;
+        width: 120px;
       }
     }
     .mobile-nav {
@@ -109,6 +137,11 @@ $current-link-color      : white;
       width: 100%;
       height: 1500px;
       z-index: 9999;
+      > div {
+        &:not(:last-child) {
+          border-bottom: 2px solid $link-border-color;
+        }
+      }
       ul {
         margin: 0;
         padding: 0;

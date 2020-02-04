@@ -16,6 +16,9 @@
     @include for-size(laptop) {
       padding: 4%;
     }
+    @include for-size(tablet-sm) {
+      padding: 20px 20px 30px;
+    }
     .inner {
       h2 {
         color: white;

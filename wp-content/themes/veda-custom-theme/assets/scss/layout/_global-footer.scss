@@ -36,6 +36,9 @@ footer {
   }
   > div:not(:last-child) {
     margin-bottom: 1.5rem;
+    @include for-size(tablet) {
+      margin-bottom: 2rem;
+    }
   }
 
   .logo {
@@ -44,7 +47,9 @@ footer {
       img {
         display: block;
         width: 300px;
-
+        @include for-size(tablet) {
+          width: 220px;
+        }
       }
     }
   }

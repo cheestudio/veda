@@ -107,6 +107,9 @@
           @include margin-center;
           display: block;
           max-width: 225px;
+          @include for-size(tablet-sm) {
+            max-width: 175px;  
+          }
         }
       }
       &__link {
@@ -122,7 +125,7 @@
 
 // Events & Posts
 .home-blocks {
-  @include row-padding(120, 120);
+  @include row-padding(120, 120, 75, 75);
 
   &--grid {
     .flex {
@@ -135,9 +138,13 @@
     .block {
       @include box-shadow;
       flex: 0 1 calc(50% - 18px);
-      min-height: 264px;
+      display: flex;
       a {
+        width: 100%;
         display: flex;
+        @include for-size(tablet-sm) {
+          flex-direction: column;
+        }
       }
       
       &:first-child {
@@ -154,9 +161,12 @@
 
       &__image {
         @include bg(cover, top);
-        flex: 0 0 40%;
+        flex: 0 1 40%;
         @include between-sizes(tablet, laptop) {
-          flex-basis: 50%;
+          flex-basis: 45%;
+        }
+        @include for-size(tablet-sm) {
+          min-height: 264px;
         }
       }
 
@@ -164,6 +174,9 @@
         flex: 0 1 60%;
         padding: 24px 24px 36px;
         align-self: center;
+        @include for-size(tablet-sm) {
+          width: 100%;
+        }
         .inner {
           h3 {
             font-size: em(32);
@@ -209,13 +222,18 @@
           margin-bottom: 1em;
           p {
             color: $blue;
-            font-size: em(26);
-            line-height: em(38, 26);
+            @include for-size(tablet-sm, up) {
+              font-size: em(26);
+              line-height: em(38, 26);
+            }
           }
         }
         .button-wrap {
           a {
             margin-top: 1.5rem;
+            @include for-size(tablet-sm) {
+              margin-top: .5rem;
+            }
           }
         }
         .nav-arrows {
