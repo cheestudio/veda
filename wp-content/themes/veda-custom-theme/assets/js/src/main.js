@@ -125,7 +125,7 @@ if ( (tags.length && refs.length) ) {
 
 /* Search Bar
 ========================================================= */
-searchIcon  = $('#desktop-top-menu li.nav-search a');
+searchIcon  = $('.top-nav-wrap #desktop-top-menu li.nav-search a');
 searchForm  = $('#nav-search-form');
 searchInput = searchForm.find('input');
 if ( (searchIcon.length && searchForm.length) ) {
