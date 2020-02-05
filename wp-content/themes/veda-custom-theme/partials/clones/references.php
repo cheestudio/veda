@@ -1,5 +1,6 @@
 <?php // References
 $refs = get_field('article_refs_rep');
+
 if ( $refs ) : ?>
   <section id="view-references" class="article-references">
     <div class="container">
