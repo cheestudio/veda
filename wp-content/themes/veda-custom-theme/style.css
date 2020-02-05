@@ -453,23 +453,23 @@ abbr[title] {
 blockquote {
   margin: 30px
 }
-.wp-caption p,
-dl,
-menu,
-ol,
-ul {
-  margin: 10px 0
-}
 hr {
   height: 1px;
-  padding-top: 16px;
-  padding-bottom: 16px;
+  margin-top: 16px;
+  margin-bottom: 16px;
   background-color: rgba(92,92,92,.25)
 }
 .embed-container,
 img {
   height: auto;
   max-width: 100%
+}
+.wp-caption p,
+dl,
+menu,
+ol,
+ul {
+  margin: 10px 0
 }
 mark {
   background: #ff0
@@ -835,8 +835,7 @@ footer p {
 }
 footer hr {
   background-color: #fff;
-  margin-top: 30px;
-  padding: 0
+  margin-top: 30px
 }
 footer .container {
   -webkit-box-align: end;
