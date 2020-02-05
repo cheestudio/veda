@@ -110,8 +110,9 @@ if ( singleTrigger.length > 0 ) {
 
 /* View References - Create Links
 ========================================================= */
-tags = $('.article-main-single--content').find('sup');
-if ( tags.length > 0 ) {
+tags = $('.article-main-single--content .fl-rich-text, .blog-single--content').find('sup');
+refs = $('#view-references');
+if ( (tags.length && refs.length) ) {
   tags.each( function(index, value) {
     $(this).wrap("<a href='#view-references' title='Click to View References'></a>");
   });
@@ -140,16 +141,15 @@ if ( (searchIcon.length && searchForm.length) ) {
 /* Articles - Read More Button ( TESTING )
 ========================================================= */
 var toggle        = $('#article-readmore-toggle');
-var toggleSection = $('.article-main-single--links');
 var content       = $('.article-main-single--content .fl-rich-text blockquote');
 if ( (toggle.length && content.length) ) {
   content.nextAll().slideUp();
   content.parents('.fl-row').nextAll().slideUp();
-  toggleSection.addClass('hide-content');
+  content.parents('.article-main-single--links').addClass('hide-content');
 
   toggle.click(function() {
     content.parents('.fl-row').nextAll().slideToggle();
-    toggleSection.toggleClass('hide-content');
+    content.parents('.article-main-single--links').toggleClass('hide-content');
   });
 }
 
