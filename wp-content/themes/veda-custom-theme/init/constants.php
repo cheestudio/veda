@@ -10,7 +10,7 @@ register_nav_menus(array(
 
 /* Add Post Thumbnails (add CPT, page, etc to array as needed)
 ========================================================= */
-add_theme_support('post-thumbnails', array('post', 'article'));
+add_theme_support( 'post-thumbnails', array('post', 'article', 'spotlight') );
 
 
 /* Custom Image Sizes

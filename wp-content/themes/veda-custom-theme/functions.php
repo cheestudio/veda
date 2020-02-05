@@ -74,3 +74,19 @@ function my_builder_color_presets( $colors ) {
     return $colors;
 }
 add_filter( 'fl_builder_color_presets', 'my_builder_color_presets' );
+
+
+/* Sort Custom Post Type default by Title
+========================================================= */
+function custom_order_post_type($query) {
+  if($query->is_admin) {
+
+    if ($query->get('post_type') == 'spotlight')
+    {
+      $query->set('orderby', 'title');
+      $query->set('order', 'ASC');
+    }
+  }
+  return $query;
+}
+add_filter('pre_get_posts', 'custom_order_post_type');

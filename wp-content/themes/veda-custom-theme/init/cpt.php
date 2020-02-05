@@ -1,8 +1,7 @@
 <?php
-/* Cusom Post Types
-========================================================= */
 
-// Register Custom Article Post Type
+/* Register ARTICLE Post Type
+========================================================= */
 function article_post_type() {
   $labels = array(
     'name'                => _x( 'Articles', 'Post Type General Name', 'text_domain' ),
@@ -18,19 +17,19 @@ function article_post_type() {
     'search_items'        => __( 'Search Articles', 'text_domain' ),
     'not_found'           => __( 'No Articles found', 'text_domain' ),
     'not_found_in_trash'  => __( 'No Articles found in Trash', 'text_domain' )
-);
+  );
 
   $args = array(
     'label'               => __( 'Article', 'text_domain' ),
     'description'         => __( 'Article information pages', 'text_domain' ),
     'labels'              => $labels,
     'supports'            => array( 
-        'title', 
-        'editor', 
-        'thumbnail', 
-        'excerpt', 
-        'page-attributes', 
-        'revisions'
+      'title', 
+      'editor', 
+      'thumbnail', 
+      'excerpt', 
+      'page-attributes', 
+      'revisions'
     ),
     'taxonomies'          => array( 'article_category' ),
     'hierarchical'        => true,
@@ -48,17 +47,18 @@ function article_post_type() {
     'publicly_queryable'  => true,
     'capability_type'     => 'page',
     'rewrite'             => array( 
-        'slug'       => 'article',
-        'with_front' => false
+      'slug'       => 'article',
+      'with_front' => false
     ),
-);
+  );
   register_post_type( 'article', $args );
 }
 // Hook into the 'init' action
 add_action( 'init', 'article_post_type', 0 );
 
 
-// Register Custom Article Taxonomy
+/* Register ARTICLE TAXONOMY
+========================================================= */
 function custom_article_category_taxonomy()  {
   $labels = array(
     'name'                       => _x( 'Article Categories', 'Taxonomy General Name', 'text_domain' ),
@@ -75,13 +75,13 @@ function custom_article_category_taxonomy()  {
     'search_items'               => __( 'Search Article Categories', 'text_domain' ),
     'add_or_remove_items'        => __( 'Add or remove Article Categories', 'text_domain' ),
     'choose_from_most_used'      => __( 'Choose from the most used Article Categories', 'text_domain' ),
-);
+  );
 
   $rewrite = array(
     'slug'                       => 'article_category',
     'with_front'                 => true,
     'hierarchical'               => true,
-);
+  );
 
   $args = array(
     'labels'                     => $labels,
@@ -93,10 +93,61 @@ function custom_article_category_taxonomy()  {
     'show_tagcloud'              => true,
     'query_var'                  => 'article_category',
     'rewrite'                    => $rewrite,
-);
+  );
 
   register_taxonomy( 'article_category', 'article', $args );
 }
-
 // Hook into the 'init' action
 add_action( 'init', 'custom_article_category_taxonomy', 0 );
+
+
+/* Register SPOTLIGHT Post Type
+========================================================= */
+function spotlight_post_type() {
+  $labels = array(
+    'name'                => _x( 'Patient Spotlight', 'Post Type General Name', 'text_domain' ),
+    'singular_name'       => _x( 'Spotlight', 'Post Type Singular Name', 'text_domain' ),
+    'menu_name'           => __( 'Patient Spotlights', 'text_domain' ),
+    'parent_item_colon'   => __( 'Parent Spotlight:', 'text_domain' ),
+    'all_items'           => __( 'All Spotlights', 'text_domain' ),
+    'view_item'           => __( 'View Spotlight', 'text_domain' ),
+    'add_new_item'        => __( 'Add New Spotlight', 'text_domain' ),
+    'add_new'             => __( 'New Spotlight', 'text_domain' ),
+    'edit_item'           => __( 'Edit Spotlight', 'text_domain' ),
+    'update_item'         => __( 'Update Spotlight', 'text_domain' ),
+    'search_items'        => __( 'Search Spotlights', 'text_domain' ),
+    'not_found'           => __( 'No Spotlights found', 'text_domain' ),
+    'not_found_in_trash'  => __( 'No Spotlights found in Trash', 'text_domain' ),
+  );
+
+  $args = array(
+    'label'               => __( 'Spotlight', 'text_domain' ),
+    'description'         => __( 'Spotlight information pages', 'text_domain' ),
+    'labels'              => $labels,
+    'supports'            => array( 
+      'title', 
+      'editor', 
+      'thumbnail', 
+      'excerpt', 
+      'revisions'
+    ),
+    'taxonomies'          => array( '' ),
+    'hierarchical'        => false,
+    'public'              => true,
+    'show_ui'             => true,
+    'show_in_menu'        => true,
+    'show_in_nav_menus'   => true,
+    'show_in_admin_bar'   => true,
+    'show_in_rest'        => true,
+    'menu_icon'           => 'dashicons-admin-users',
+    'menu_position'       => 5,
+    'can_export'          => true,
+    'has_archive'         => true,
+    'exclude_from_search' => false,
+    'publicly_queryable'  => true,
+    'capability_type'     => 'page',
+  );
+  register_post_type( 'Spotlight', $args );
+}
+// Hook into the 'init' action
+add_action( 'init', 'Spotlight_post_type', 0 );

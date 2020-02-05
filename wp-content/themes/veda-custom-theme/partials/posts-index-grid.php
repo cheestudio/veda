@@ -1,6 +1,7 @@
 <?php // Page Title & Archive Type VARs
 
 $name = NULL;
+$i = 0;
 
 if ( is_home() ) :
   $title = "Blog";
@@ -24,6 +25,9 @@ elseif ( is_search() ) :
   $name  = "Search Results For:";
   $title = get_search_query();
 
+elseif ( is_post_type_archive('spotlight') ) :
+  $title  = "Patient Spotlights";
+
 else :
   $title = get_the_title();
 
@@ -41,7 +45,7 @@ endif; ?>
 </section>
 
 
-<?php if ( have_posts() || is_search() ) : $i = 0; ?>
+<?php if ( (have_posts() || is_search()) && !is_post_type_archive('spotlight') ) : ?>
 <section class="posts-index-filter">
   <div class="container">
     <div class="posts-index-filter--content">
@@ -55,11 +59,13 @@ endif; ?>
 
           <?php // Dropdown Options
           if ( is_author() ) :
-            // AUTHORS NOT USED
+
+            // AUTHORS NOT CURRENTLY USED
             wp_dropdown_users( array(
               'show_option_none' => 'Select Author',
               'id' => 'terms-filter'
             ) );
+
           else :
             $terms = get_terms( array(
               'taxonomy' => $type
@@ -72,7 +78,7 @@ endif; ?>
               <?php foreach ( $terms as $term ) :
                 $name = $term->name;
                 $tax  = ( is_tag() ) ? 'tag' : $term->taxonomy;
-                $link = "{$tax}/{$term->slug}/";
+                $link = "/{$tax}/{$term->slug}/";
                 echo "<option label='{$name}' value='{$link}'>{$name}</option>"; ?>
               <?php endforeach; ?>
             </select>
@@ -94,9 +100,13 @@ endif; ?>
     </div>
   </div>
 </section>
+<?php endif; ?>
 
+
+<?php if ( have_posts() ) : ?>
 <section class="posts-index">
   <div class="container">
+
     <div class="posts-index--grid">
       <div class="posts-grid">
         <div class="flex">
@@ -118,7 +128,7 @@ endif; ?>
           <nav class="post-nav"><?php post_pagination( $wp_query->max_num_pages ); ?></nav>
         </nav>
       <?php endif; ?>
-    <?php endif; ?>
 
   </div>
 </section>
+<?php endif; ?>

@@ -868,7 +868,7 @@ footer .container {
   display: block;
   width: 300px
 }
-.blog-single--content .post-entry--content ul li:before,
+.blog-single--content .post-entry__content ul li:before,
 .footer--menu ul li:before {
   font-family: 'Line Awesome Free';
   font-weight: 900;
@@ -1265,7 +1265,7 @@ footer .container {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  min-height: 200px
+  min-height: 300px
 }
 .posts-grid .flex .post-entry .post-entry--content {
   padding: 24px
@@ -1419,7 +1419,7 @@ footer .container {
   margin-bottom: 10px
 }
 .article-main-single--content .breadcrumbs,
-.blog-single--content .post-entry--breadcrumbs,
+.blog-single--content .post-entry__breadcrumbs,
 .healthcare-index--breadcrumbs {
   margin-bottom: 64px
 }
@@ -1455,8 +1455,8 @@ footer .container {
 }
 .article-main--content .inner:before,
 .article-main-single--content .inner:before,
-.blog-single--content .post-entry--author:before,
-.blog-single--content .post-entry--excerpt:before {
+.blog-single--content .post-entry__author:before,
+.blog-single--content .post-entry__content:before {
   position: absolute;
   background: #1796a4;
   content: '';
@@ -1737,75 +1737,75 @@ nav.post-nav .current {
 .blog-single {
   padding: 5% 12%
 }
-.blog-single--content .post-entry--excerpt {
+.blog-single--content .post-entry__content {
   position: relative
 }
-.blog-single--content .post-entry--excerpt p {
+.blog-single--content .post-entry__content .excerpt p {
   font-size: 1.38em;
   font-weight: 500
 }
-.blog-single--content .post-entry--content h2 {
+.blog-single--content .post-entry__content h2 {
   font-size: 1.88em
 }
-.blog-single--content .post-entry--content h3 {
+.blog-single--content .post-entry__content h3 {
   font-size: 1.5em;
   font-weight: 500;
   margin-top: 32px;
   margin-bottom: 24px
 }
-.blog-single--content .post-entry--content ul {
+.blog-single--content .post-entry__content ul {
   padding-top: 6px
 }
-.blog-single--content .post-entry--content ul li {
+.blog-single--content .post-entry__content ul li {
   position: relative;
   line-height: 1.5;
   font-size: 1.06em
 }
-.blog-single--content .post-entry--content ul li:before {
+.blog-single--content .post-entry__content ul li:before {
   color: #1796a4;
   margin-right: 8px;
   font-size: 18px
 }
-.blog-single--content .post-entry--content img {
+.blog-single--content .post-entry__content img {
   display: block;
   margin-bottom: 24px
 }
-.blog-single--content .post-entry--content blockquote {
+.blog-single--content .post-entry__content blockquote {
   margin-top: 16px;
   margin-bottom: 16px;
   padding: 13px 16px 13px 24px;
   border-left: 4px solid #b3e1e8;
   background-color: rgba(179,225,232,.09)
 }
-.blog-single--content .post-entry--content blockquote p {
+.blog-single--content .post-entry__content blockquote p {
   font-size: 1.25em;
   line-height: 1.6em
 }
-.blog-single--content .post-entry--content blockquote p:last-of-type {
+.blog-single--content .post-entry__content blockquote p:last-of-type {
   color: #215378;
   font-size: 1em;
   font-weight: 700;
   text-transform: uppercase;
   margin-bottom: 0
 }
-.blog-single--content .post-entry--author {
+.blog-single--content .post-entry__author {
   margin-top: 64px;
   position: relative
 }
-.blog-single--content .post-entry--author h4 {
+.blog-single--content .post-entry__author h4 {
   font-size: 1.38em
 }
-.blog-single--content .post-entry--author .tags {
+.blog-single--content .post-entry__tags .tags {
   -webkit-flex-wrap: wrap;
       -ms-flex-wrap: wrap;
           flex-wrap: wrap;
   padding-top: 16px
 }
-.blog-single--content .post-entry--author .tags a {
+.blog-single--content .post-entry__tags .tags a {
   text-transform: uppercase;
   font-weight: 700
 }
-.blog-single--content .post-entry--author .tags a:not(:last-child) {
+.blog-single--content .post-entry__tags .tags a:not(:last-child) {
   margin-right: 16px
 }
 .article-hero {

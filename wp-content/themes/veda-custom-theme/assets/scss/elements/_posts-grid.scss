@@ -31,7 +31,7 @@ $article:".post-entry";
 
       #{$article}--image {
         @include bg;
-        min-height: 200px;
+        min-height: 300px;
       }
 
       #{$article}--content {
