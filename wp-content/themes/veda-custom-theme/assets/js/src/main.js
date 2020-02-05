@@ -115,7 +115,7 @@ if ( singleTrigger.length > 0 ) {
 
 /* View References - Create Links
 ========================================================= */
-tags = $('.article-main-single--content .fl-rich-text, .blog-single--content').find('sup');
+tags = $('.article-main-single--content .fl-rich-text, .post-single--content').find('sup');
 refs = $('#view-references');
 if ( (tags.length && refs.length) ) {
   tags.each( function(index, value) {

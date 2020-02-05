@@ -15,7 +15,7 @@ function custom_login_screen() { ?>
       background-image: url(<?php echo get_stylesheet_directory_uri(); ?>/assets/img/logo.png);
       padding-bottom: 0px;
       background-size: 100%;
-      width: 300px;
+      width: 260px;
     }
     #login a {
       -webkit-transition: .4s ease-in-out;

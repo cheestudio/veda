@@ -3,11 +3,12 @@
 $posts = get_field('article_related_picker');
 $type  = get_post_type();
 $cat   = get_the_terms( get_the_ID(), $type );
-$i     = 0; ?>
+$title = is_singular('spotlight') ? 'Other Patients' : 'Related Articles';
+$i = 0; ?>
 
 <section class="related-articles">
   <div class="container">
-    <div class="related-articles--title"><h2>Related Articles</h2></div>
+    <div class="related-articles--title"><h2><?= $title; ?></h2></div>
     <div class="related-articles--grid">
       <div class="posts-grid">
         <div class="flex">

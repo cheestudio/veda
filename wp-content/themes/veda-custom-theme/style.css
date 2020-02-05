@@ -168,7 +168,7 @@ q:before {
 .home-blocks--grid .block:first-child .block__content .button-wrap p:after,
 .home-blocks--grid .block__content .button-wrap p:after,
 .home-intro--cards .card__link p:after,
-.posts-grid .flex .post-entry .post-entry--content .button-wrap p:after,
+.posts-grid .flex .post-entry .post-entry__content .button-wrap p:after,
 .posts-index--grid .posts-grid .post-entry.featured .inner .post-entry--content .button-wrap p:after,
 input:not(.media-button):not([class*=fl-builder])[type=submit]:after {
   display: inline-block;
@@ -198,7 +198,7 @@ input:not(.media-button):not([class*=fl-builder])[type=submit]:after {
 .home-blocks--grid .block:first-child .block__content .button-wrap p,
 .home-blocks--grid .block__content .button-wrap p,
 .home-intro--cards .card__link p,
-.posts-grid .flex .post-entry .post-entry--content .button-wrap p,
+.posts-grid .flex .post-entry .post-entry__content .button-wrap p,
 .posts-index--grid .posts-grid .post-entry.featured .inner .post-entry--content .button-wrap p,
 form.form-search button,
 input[type=submit]:not([class*=fl-builder]):not(.media-button) {
@@ -255,8 +255,8 @@ hr {
 .home-blocks--grid .block__content .button-wrap p span,
 .home-intro--cards .card__link p,
 .home-intro--cards .card__link p span,
-.posts-grid .flex .post-entry .post-entry--content .button-wrap p,
-.posts-grid .flex .post-entry .post-entry--content .button-wrap p span,
+.posts-grid .flex .post-entry .post-entry__content .button-wrap p,
+.posts-grid .flex .post-entry .post-entry__content .button-wrap p span,
 .posts-index--grid .posts-grid .post-entry.featured .inner .post-entry--content .button-wrap p,
 .posts-index--grid .posts-grid .post-entry.featured .inner .post-entry--content .button-wrap p span,
 form.form-search button,
@@ -868,8 +868,8 @@ footer .container {
   display: block;
   width: 300px
 }
-.blog-single--content .post-entry__content ul li:before,
-.footer--menu ul li:before {
+.footer--menu ul li:before,
+.post-single--content .post-entry__content .inner ul li:before {
   font-family: 'Line Awesome Free';
   font-weight: 900;
   font-style: normal;
@@ -879,7 +879,8 @@ footer .container {
   -moz-osx-font-smoothing: grayscale;
   -webkit-font-smoothing: antialiased;
   content: '\f105';
-  display: inline-block
+  display: inline-block;
+  margin-right: 8px
 }
 .footer--content .social-icons ul {
   display: -webkit-box;
@@ -902,7 +903,6 @@ footer .container {
 }
 .footer--menu ul li:before {
   color: #fff;
-  margin-right: 8px;
   font-size: 18px
 }
 .footer--menu ul li a {
@@ -973,9 +973,9 @@ footer .container {
 .home-intro--cards .card__link p:active,
 .home-intro--cards .card__link p:focus,
 .home-intro--cards .card__link p:hover,
-.posts-grid .flex .post-entry .post-entry--content .button-wrap p:active,
-.posts-grid .flex .post-entry .post-entry--content .button-wrap p:focus,
-.posts-grid .flex .post-entry .post-entry--content .button-wrap p:hover {
+.posts-grid .flex .post-entry .post-entry__content .button-wrap p:active,
+.posts-grid .flex .post-entry .post-entry__content .button-wrap p:focus,
+.posts-grid .flex .post-entry .post-entry__content .button-wrap p:hover {
   opacity: .7!important
 }
 .error404 .fl-builder-content,
@@ -993,7 +993,7 @@ footer .container {
 .banner-cta--content .inner h2,
 .banner-menu--menu__links .link a i,
 .breadcrumbs .current-item,
-.posts-grid .flex .post-entry .post-entry--content .excerpt p {
+.posts-grid .flex .post-entry .post-entry__content .excerpt p {
   color: #215378
 }
 .builder-button a.fl-button:active,
@@ -1187,12 +1187,6 @@ footer .container {
   font-size: 24px;
   margin-bottom: 10px
 }
-.home-blocks--grid .block__content .button-wrap p i,
-.home-intro--cards .card__link p i,
-.posts-grid .flex .post-entry .post-entry--content .button-wrap p i {
-  margin-left: 7px;
-  font-size: 18px
-}
 .breadcrumbs a,
 .breadcrumbs span {
   font-size: 14px;
@@ -1261,23 +1255,27 @@ footer .container {
 .posts-grid .flex .post-entry a:hover {
   background-color: #f4f7e2
 }
-.posts-grid .flex .post-entry .post-entry--image {
+.posts-grid .flex .post-entry .post-entry__image {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
   min-height: 300px
 }
-.posts-grid .flex .post-entry .post-entry--content {
+.posts-grid .flex .post-entry .post-entry__content {
   padding: 24px
 }
-.posts-grid .flex .post-entry .post-entry--content .title h3 {
+.posts-grid .flex .post-entry .post-entry__content .title h3 {
   font-size: 1.5em;
   font-weight: 700;
   margin-bottom: 24px
 }
-.posts-grid .flex .post-entry .post-entry--content .button-wrap p {
+.posts-grid .flex .post-entry .post-entry__content .button-wrap p {
   border: none;
   color: #ea8024
+}
+.posts-grid .flex .post-entry .post-entry__content .button-wrap p i {
+  margin-left: 7px;
+  font-size: 18px
 }
 .related-articles {
   background: #f4f7e2;
@@ -1419,8 +1417,8 @@ footer .container {
   margin-bottom: 10px
 }
 .article-main-single--content .breadcrumbs,
-.blog-single--content .post-entry__breadcrumbs,
-.healthcare-index--breadcrumbs {
+.healthcare-index--breadcrumbs,
+.post-single--content .post-entry__breadcrumbs {
   margin-bottom: 64px
 }
 .home-intro--cards .card__image img {
@@ -1432,6 +1430,10 @@ footer .container {
 .home-intro--cards .card__link p {
   border: none;
   color: #ea8024
+}
+.home-intro--cards .card__link p i {
+  margin-left: 7px;
+  font-size: 18px
 }
 .home-blocks--grid .flex {
   -webkit-box-pack: justify;
@@ -1455,8 +1457,8 @@ footer .container {
 }
 .article-main--content .inner:before,
 .article-main-single--content .inner:before,
-.blog-single--content .post-entry__author:before,
-.blog-single--content .post-entry__content:before {
+.post-single--content .post-entry__author:before,
+.post-single--content .post-entry__content:before {
   position: absolute;
   background: #1796a4;
   content: '';
@@ -1525,6 +1527,10 @@ footer .container {
 .home-blocks--grid .block__content .button-wrap p {
   border: none;
   color: #ea8024
+}
+.home-blocks--grid .block__content .button-wrap p i {
+  margin-left: 7px;
+  font-size: 18px
 }
 .home-testimonials {
   background-color: rgba(179,225,232,.4);
@@ -1734,78 +1740,87 @@ nav.post-nav .current {
       -ms-user-select: none;
           user-select: none
 }
-.blog-single {
+.post-single {
   padding: 5% 12%
 }
-.blog-single--content .post-entry__content {
+.post-single--content .post-entry__content {
   position: relative
 }
-.blog-single--content .post-entry__content .excerpt p {
+.post-single--content .post-entry__content .meta,
+.post-single--content .post-entry__content .quote {
+  margin-bottom: 36px
+}
+.post-single--content .post-entry__content .quote p {
+  font-size: 22px
+}
+.post-single--content .post-entry__content .meta p {
+  margin-bottom: 0
+}
+.post-single--content .post-entry__content .excerpt p {
   font-size: 1.38em;
   font-weight: 500
 }
-.blog-single--content .post-entry__content h2 {
+.post-single--content .post-entry__content .inner h2 {
   font-size: 1.88em
 }
-.blog-single--content .post-entry__content h3 {
+.post-single--content .post-entry__content .inner h3 {
   font-size: 1.5em;
   font-weight: 500;
   margin-top: 32px;
   margin-bottom: 24px
 }
-.blog-single--content .post-entry__content ul {
+.post-single--content .post-entry__content .inner ul {
   padding-top: 6px
 }
-.blog-single--content .post-entry__content ul li {
+.post-single--content .post-entry__content .inner ul li {
   position: relative;
   line-height: 1.5;
   font-size: 1.06em
 }
-.blog-single--content .post-entry__content ul li:before {
+.post-single--content .post-entry__content .inner ul li:before {
   color: #1796a4;
-  margin-right: 8px;
   font-size: 18px
 }
-.blog-single--content .post-entry__content img {
+.post-single--content .post-entry__content .inner img {
   display: block;
   margin-bottom: 24px
 }
-.blog-single--content .post-entry__content blockquote {
+.post-single--content .post-entry__content .inner blockquote {
   margin-top: 16px;
   margin-bottom: 16px;
   padding: 13px 16px 13px 24px;
   border-left: 4px solid #b3e1e8;
   background-color: rgba(179,225,232,.09)
 }
-.blog-single--content .post-entry__content blockquote p {
+.post-single--content .post-entry__content .inner blockquote p {
   font-size: 1.25em;
   line-height: 1.6em
 }
-.blog-single--content .post-entry__content blockquote p:last-of-type {
+.post-single--content .post-entry__content .inner blockquote p:last-of-type {
   color: #215378;
   font-size: 1em;
   font-weight: 700;
   text-transform: uppercase;
   margin-bottom: 0
 }
-.blog-single--content .post-entry__author {
+.post-single--content .post-entry__author {
   margin-top: 64px;
   position: relative
 }
-.blog-single--content .post-entry__author h4 {
+.post-single--content .post-entry__author h4 {
   font-size: 1.38em
 }
-.blog-single--content .post-entry__tags .tags {
+.post-single--content .post-entry__tags .tags {
   -webkit-flex-wrap: wrap;
       -ms-flex-wrap: wrap;
           flex-wrap: wrap;
   padding-top: 16px
 }
-.blog-single--content .post-entry__tags .tags a {
+.post-single--content .post-entry__tags .tags a {
   text-transform: uppercase;
   font-weight: 700
 }
-.blog-single--content .post-entry__tags .tags a:not(:last-child) {
+.post-single--content .post-entry__tags .tags a:not(:last-child) {
   margin-right: 16px
 }
 .article-hero {
@@ -2561,8 +2576,6 @@ body.healthcare-directory .hero-basic--search form select {
   .article-main .container,
   .article-main-single .container,
   .article-main-single>.fl-row,
-  .blog-single .container,
-  .blog-single>.fl-row,
   .error404 .fl-builder-content .container,
   .error404 .fl-builder-content>.fl-row,
   .healthcare-index .container,
@@ -2571,6 +2584,8 @@ body.healthcare-directory .hero-basic--search form select {
   .healthcare-single>.fl-row,
   .page-template-default .fl-builder-content .container,
   .page-template-default .fl-builder-content>.fl-row,
+  .post-single .container,
+  .post-single>.fl-row,
   .salsa-content .container,
   .salsa-intro .container {
     max-width: 75%
@@ -2659,11 +2674,11 @@ body.healthcare-directory .hero-basic--search form select {
   }
   .article-main--content,
   .article-main-single,
-  .blog-single,
   .error404 .fl-builder-content,
   .healthcare-index,
   .healthcare-single,
   .page-template-default .fl-builder-content,
+  .post-single,
   .salsa-intro {
     padding: 5%
   }

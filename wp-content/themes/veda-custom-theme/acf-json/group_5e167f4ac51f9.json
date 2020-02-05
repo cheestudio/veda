@@ -1,6 +1,6 @@
 {
     "key": "group_5e167f4ac51f9",
-    "title": "Article - Child",
+    "title": "CPT - Article (child)",
     "fields": [
         {
             "key": "field_5e167f4ae1055",
@@ -424,5 +424,5 @@
     "hide_on_screen": "",
     "active": 1,
     "description": "",
-    "modified": 1580256584
+    "modified": 1580945187
 }

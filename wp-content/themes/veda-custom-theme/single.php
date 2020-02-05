@@ -17,9 +17,9 @@ $tax = get_field('post_article_category'); ?>
 
 <?php // Main Content
 while ( have_posts() ) : the_post();?>
-  <section class="blog-single">
+  <section class="post-single">
     <div class="container">
-      <div class="blog-single--content">
+      <div class="post-single--content">
         <?php get_template_part('partials/blog/content-single'); ?>
       </div>
     </div>

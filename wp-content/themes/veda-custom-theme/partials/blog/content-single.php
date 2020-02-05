@@ -1,5 +1,13 @@
-<?php
-$author_bio = get_the_author_meta('description'); ?>
+<?php // Single Post
+
+if ( is_singular('post') ) :
+  $author_bio = get_the_author_meta('description');
+
+elseif ( is_singular('spotlight') ) :
+  $age   = get_field('spotlight_age');
+  $diag  = get_field('spotlight_diag');
+  $quote = get_field('spotlight_quote');
+endif; ?>
 
 <article class="post-entry">
 
@@ -8,10 +16,22 @@ $author_bio = get_the_author_meta('description'); ?>
   </div>
 
   <div class="post-entry__content">
-    <?php if ( has_excerpt() && !is_singular('spotlight') ) : ?>
+    <?php if ( is_singular('spotlight') ) : ?>
+      <?php if ( $quote ) : ?>
+        <div class="quote"><p>"<?= $quote; ?>"</p></div>
+      <?php endif; ?>
+      <?php if ( $diag || $age ) : ?>
+        <div class="meta">
+          <?php if ( $age ) echo "<p><strong>Age: </strong>{$age}</p>"; ?>
+          <?php if ( $diag ) echo "<p><strong>Diagnosis: </strong>{$diag}</p>"; ?>
+        </div>
+      <?php endif; ?>
+
+    <?php elseif ( has_excerpt() ) : ?>
       <div class="excerpt"><?php the_excerpt(); ?></div>
     <?php endif; ?>
-    <?php the_content(); ?>
+    
+    <div class="inner"><?php the_content(); ?></div>
   </div>
 
   <?php if ( !empty($author_bio) && is_singular('post') ) : ?>

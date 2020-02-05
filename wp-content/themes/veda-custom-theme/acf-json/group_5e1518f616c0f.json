@@ -1,6 +1,6 @@
 {
     "key": "group_5e1518f616c0f",
-    "title": "Article - Parent",
+    "title": "CPT - Article (parent)",
     "fields": [
         {
             "key": "field_5e151dc2adf00",
@@ -189,5 +189,5 @@
     ],
     "active": 1,
     "description": "",
-    "modified": 1580523608
+    "modified": 1580945209
 }

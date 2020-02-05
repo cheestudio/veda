@@ -1,6 +1,6 @@
 {
     "key": "group_5e1f9650efc28",
-    "title": "Posts - Single",
+    "title": "Posts",
     "fields": [
         {
             "key": "field_5e21194cccbce",
@@ -141,5 +141,5 @@
     "hide_on_screen": "",
     "active": 1,
     "description": "",
-    "modified": 1579913726
+    "modified": 1580945286
 }

@@ -29,12 +29,12 @@ $article:".post-entry";
         }
       }
 
-      #{$article}--image {
+      #{$article}__image {
         @include bg;
         min-height: 300px;
       }
 
-      #{$article}--content {
+      #{$article}__content {
         padding: 24px;
         .title {
           h3 {

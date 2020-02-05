@@ -13,13 +13,13 @@ $featured = ( is_home() ) ? true : false; // if is Blog Index page ?>
       if ( has_post_thumbnail() ) :
         $image = ( $featured && $i == 1 ) ? get_the_post_thumbnail_url($post->ID, 'large') : get_the_post_thumbnail_url($post->ID, 'blog-thumb'); ?>
         <div 
-        class      = "post-entry--image"
+        class      = "post-entry__image"
         aria-label = "Article Post Image"
         style      = "background-image: url(<?= $image; ?>);"
         ></div>
       <?php endif; ?>
 
-      <div class="post-entry--content">
+      <div class="post-entry__content">
         <div class="title"><h3><?php the_title(); ?></h3></div>
         <div class="excerpt">
           <?php 

@@ -1,0 +1,103 @@
+
+.post-single {
+  @include container-padding;
+  
+  &--content {
+    .post-entry {
+
+      &__breadcrumbs {
+        margin-bottom: 64px;
+      }
+
+      &__content {
+        @include horiz-ruler;
+        .quote, .meta {
+          margin-bottom: 36px;
+        }
+        .quote {
+          p {
+            font-size: 22px;
+          }
+        }
+        .meta {
+          p {
+            margin-bottom: 0;
+          }
+        }
+        .excerpt {
+          p {
+            font-size: em(22);
+            font-weight: 500;
+          }
+        }
+        
+        .inner {
+          h2 {
+            font-size: em(30);
+          }
+          h3 {
+            font-size: em(24);
+            font-weight: 500;
+            margin-top: 32px;
+            margin-bottom: 24px;
+          }
+          ul {
+            padding-top: 6px;
+            li {
+              @include list-arrows($teal);
+              line-height: 1.5;
+              font-size: em(17);
+              a {
+
+              }
+            }
+          }
+          img {
+            display: block;
+            margin-bottom: 24px;
+          }
+          blockquote {
+            margin-top: 16px;
+            margin-bottom: 16px;
+            padding: 13px 16px 13px 24px;
+            border-left: 4px solid #b3e1e8;
+            background-color: rgba(179, 225, 232, 0.09);
+            p {
+              font-size: em(20);
+              line-height: em(32, 20);
+              &:last-of-type {
+                color: $blue;
+                font-size: 1em;
+                font-weight: 700;
+                text-transform: uppercase;
+                margin-bottom: 0;
+              }
+            }
+          }
+        }
+      } // END __content
+
+      &__author {
+        margin-top: 64px;
+        @include horiz-ruler;
+        h4 {
+          font-size: em(22);
+        }
+      }
+
+      &__tags {
+        .tags {
+          flex-wrap: wrap;
+          padding-top: 16px;
+          a {
+            text-transform: uppercase;
+            font-weight: bold;
+            &:not(:last-child) {
+              margin-right: 16px;
+            }
+          }
+        }
+      }
+    }
+  }
+}
