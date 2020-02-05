@@ -1,9 +1,11 @@
+<?php $m++; ?>
+
 <div class="main-nav-wrap" role="navigation">
   <?php wp_nav_menu( array(
     'theme_location'  => 'primary_nav',
     'container'       => '',
     'container_class' => '',
-    'menu_id'         => 'desktop-menu',
+    'menu_id'         => "main-menu-$m",
     'menu_class'      => '',
     'echo'            => true,
     'fallback_cb'     => 'wp_page_menu',

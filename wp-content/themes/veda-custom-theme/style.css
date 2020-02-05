@@ -2615,8 +2615,8 @@ body.healthcare-directory .hero-basic--search form select {
     margin: 15px auto;
     display: block
   }
-  #desktop-top-menu li.nav-search,
   #nav-search-form,
+  #top-menu-2 li.nav-search,
   .main-nav .container>nav>.main-nav-wrap,
   .mobile-nav-wrap .mobile-nav ul li .sub-menu:before,
   .mobile-nav-wrap .mobile-nav ul li.menu-item-has-children:focus .sub-menu:before,

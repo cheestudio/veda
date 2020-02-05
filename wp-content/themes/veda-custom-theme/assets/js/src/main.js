@@ -1,11 +1,13 @@
 jQuery(document).ready(function($) {
 
+
 /* Get Cookie function
 ========================================================= */
 function getCookie(name) {
   var v = document.cookie.match('(^|;) ?' + name + '=([^;]*)(;|$)');
   return v ? v[2] : null;
 }
+
 
 /* Set Cookie function
 ========================================================= */
@@ -15,6 +17,7 @@ function setCookie(name, value, days) {
   document.cookie = name + "=" + value + ";path=/;expires=" + d.toGMTString();
 }
 
+
 /* Mobile Nav Toggle
 ========================================================= */
 $('.navbar-toggle').click(function() {
@@ -23,6 +26,7 @@ $('.navbar-toggle').click(function() {
   $('.sub-menu').removeClass('sub-open');
   return false;
 });
+
 
 /* Mobile Nav with Flyout Menus
 ========================================================= */
@@ -38,6 +42,7 @@ $('.close-sub').click(function(e){
   e.preventDefault();
   $(this).parent().removeClass('sub-open');
 });
+
 
 /* Sub Navigation Titles on Mobile Nav
 ========================================================= */
@@ -125,7 +130,7 @@ if ( (tags.length && refs.length) ) {
 
 /* Search Bar
 ========================================================= */
-searchIcon  = $('.top-nav-wrap #desktop-top-menu li.nav-search a');
+searchIcon  = $('.top-nav-wrap #top-menu-1 li.nav-search a');
 searchForm  = $('#nav-search-form');
 searchInput = searchForm.find('input');
 if ( (searchIcon.length && searchForm.length) ) {

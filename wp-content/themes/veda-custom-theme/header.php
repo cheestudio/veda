@@ -16,7 +16,7 @@
   <?php endif; ?>
 
 
-  <?php 
+  <?php
   $logo        = get_template_directory_uri() . '/assets/img/logo.png';
   $header_code = get_field('header_code', 'option');
   $post_type   = (get_post_type() == 'article' && $post->post_parent > 0) ? 'article-child-page' : NULL;
@@ -31,7 +31,8 @@
     <div class="top-nav">
       <div class="container">
         <nav role="navigation">
-          <?php include( locate_template('partials/navs/nav-main-top.php') ); ?>
+          <?php  $t = 0; $m = 0; // menu ID counters
+          include( locate_template('partials/navs/nav-main-top.php') ); ?>
         </nav>
       </div>
     </div>
@@ -42,8 +43,9 @@
           <?php svg( $logo, 'Site Logo' ); ?>
         </a>
         <nav role="navigation">
-          <?php include( locate_template('partials/navs/nav-main.php') ); ?>
-          <?php include( locate_template('partials/navs/nav-mobile.php') ); ?>
+          <?php
+          include( locate_template('partials/navs/nav-main.php') );
+          include( locate_template('partials/navs/nav-mobile.php') ); ?>
         </nav>
       </div>
     </div>

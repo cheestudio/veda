@@ -10,7 +10,7 @@ $hero = get_field('home_hero_group');
 if ( $hero ) : ?>
   <section class="home-hero">
     <div class="container flex">
-      <div class="home-hero--content"><h1><?= $hero['heading']; ?></h1></div>
+      <div class="home-hero--content"><?= $hero['heading']; ?></div>
       <div class="home-hero--image"><?php echo wp_get_attachment_image( $hero['image']['id'], 'large' ); ?></div>
     </div>
   </section>

@@ -11,7 +11,7 @@ if ( $group && ( !empty($group['heading'] && !empty($group['image'])) ) ) :
       <?php endif; ?>
 
       <div class="banner-cta--content">
-        <div class="inner"><h2><?= $group['heading']; ?></h2></div>
+        <div class="inner"><?= $group['heading']; ?></div>
         <?php if ( $buttons ) : ?>
           <div class="button-wrap">
             <?php foreach ( $buttons as $button ) : ?>
