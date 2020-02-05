@@ -1,0 +1,1195 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: WP Feedback\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-10-22 07:04+0000\n"
+"PO-Revision-Date: 2019-10-22 07:46+0000\n"
+"Last-Translator: roivitopeleg <vito@acedigital.london>\n"
+"Language-Team: Swedish\n"
+"Language: sv_SE\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Loco https://localise.biz/\n"
+"X-Loco-Version: 2.3.0; wp-5.2.4"
+
+#: wpfeedback.php:71
+msgctxt "Post Type General Name"
+msgid "Wp feedback Types"
+msgstr ""
+
+#: wpfeedback.php:72
+msgctxt "Post Type Singular Name"
+msgid "Wp feedback Type"
+msgstr ""
+
+#: wpfeedback.php:73
+msgid "WP feedBack"
+msgstr ""
+
+#: wpfeedback.php:74
+msgid "WP feedBack Type"
+msgstr ""
+
+#: wpfeedback.php:75
+msgid "WP feedBack Item Archives"
+msgstr ""
+
+#: wpfeedback.php:76
+msgid "WP feedBack Item Attributes"
+msgstr ""
+
+#: wpfeedback.php:77
+msgid "WP feedBack Parent Item:"
+msgstr ""
+
+#: wpfeedback.php:78
+msgid "WP feedBack All Items"
+msgstr ""
+
+#: wpfeedback.php:79
+msgid "WP feedBack Add New Item"
+msgstr ""
+
+#: wpfeedback.php:80
+msgid "Add New WP feedBack"
+msgstr ""
+
+#: wpfeedback.php:81
+msgid "WP feedBack New Item"
+msgstr ""
+
+#: wpfeedback.php:82
+msgid "WP feedBack Edit Item"
+msgstr ""
+
+#: wpfeedback.php:83
+msgid "WP feedBack Update Item"
+msgstr ""
+
+#: wpfeedback.php:84
+msgid "WP feedBack View Item"
+msgstr ""
+
+#: wpfeedback.php:85
+msgid "WP feedBack View Items"
+msgstr ""
+
+#: wpfeedback.php:86
+msgid "WP feedBack Search Item"
+msgstr ""
+
+#: wpfeedback.php:87
+msgid "Not found WP feedBack"
+msgstr ""
+
+#: wpfeedback.php:88
+msgid "WP feedBack Not found in Trash"
+msgstr ""
+
+#: wpfeedback.php:89
+msgid "WP feedBack Featured Image"
+msgstr ""
+
+#: wpfeedback.php:90
+msgid "WP feedBack Set featured image"
+msgstr ""
+
+#: wpfeedback.php:91
+msgid "WP feedBack Remove featured image"
+msgstr ""
+
+#: wpfeedback.php:92
+msgid "WP feedBack Use as featured image"
+msgstr ""
+
+#: wpfeedback.php:93
+msgid "WP feedBack Insert into item"
+msgstr ""
+
+#: wpfeedback.php:94
+msgid "Uploaded to this item"
+msgstr ""
+
+#: wpfeedback.php:95
+msgid "WP feedBack Items list"
+msgstr ""
+
+#: wpfeedback.php:96
+msgid "WP feedBack Items list navigation"
+msgstr ""
+
+#: wpfeedback.php:97
+msgid "WP feedBack Filter items list"
+msgstr ""
+
+#: wpfeedback.php:100
+msgid "Wp feedback Type"
+msgstr ""
+
+#: wpfeedback.php:101
+msgid "Post Type Description"
+msgstr ""
+
+#: wpfeedback.php:348 wpfeedback.php:349 inc/admin/page-settings.php:107
+msgid "Tasks Center"
+msgstr "Uppgiftscenter"
+
+#: wpfeedback.php:357 wpfeedback.php:358 wpfeedback.php:409
+#: inc/admin/page-settings.php:69 inc/admin/page-settings-permissions.php:31
+msgid "Settings"
+msgstr "Inställningar"
+
+#: wpfeedback.php:367 wpfeedback.php:368 inc/admin/page-settings.php:74
+#: inc/admin/page-settings-permissions.php:36
+msgid "Permissions"
+msgstr "Behörigheter"
+
+#: wpfeedback.php:377 wpfeedback.php:378
+msgid "Integrations"
+msgstr "Integrationer"
+
+#: wpfeedback.php:388 wpfeedback.php:389 inc/admin/page-settings.php:83
+#: inc/admin/page-settings-permissions.php:48
+msgid "Support"
+msgstr "Support"
+
+#: wpfeedback.php:396 wpfeedback.php:397 inc/admin/page-settings.php:87
+#: inc/admin/page-settings-permissions.php:53
+msgid "Upgrade"
+msgstr "Uppgradera"
+
+#: wpfeedback.php:1224
+msgid "Backend"
+msgstr "Back-end"
+
+#: wpfeedback.php:1227
+msgid "Go to the Dashboard"
+msgstr "Gå till Adminpanel"
+
+#: wpfeedback.php:1230 inc/admin/page-settings.php:113
+#: inc/admin/wpf_admin_function.php:148
+msgid "Daily Report"
+msgstr "Dagsrapport"
+
+#: wpfeedback.php:1233 inc/admin/page-settings.php:118
+#: inc/admin/wpf_admin_function.php:151
+msgid "Weekly Report"
+msgstr "Veckorapport"
+
+#: wpfeedback.php:1235 inc/admin/page-settings.php:109
+#: inc/admin/wpf_admin_function.php:153
+msgid "Your report was sent"
+msgstr "Din rapport skickades"
+
+#: wpfeedback.php:1244 wpfeedback.php:1249 wpfeedback.php:1254
+#: wpfeedback.php:1260 inc/admin/page-settings.php:142
+#: inc/admin/page-settings.php:217 inc/admin/wpf_admin_function.php:162
+msgid "Task Status"
+msgstr "Uppgiftsstatus"
+
+#: wpfeedback.php:1245 inc/admin/page-settings.php:147
+#: inc/admin/page-settings.php:223 inc/admin/wpf_admin_function.php:163
+msgid "Task Urgency"
+msgstr "Brådskande uppgift"
+
+#: wpfeedback.php:1250 wpfeedback.php:1255 wpfeedback.php:1261
+msgid " Task Urgency"
+msgstr ""
+
+#: wpfeedback.php:1270 inc/admin/wpf_admin_function.php:169
+msgid "Task already exist for this element"
+msgstr "Det finns redan en uppgift för detta element"
+
+#: wpfeedback.php:1270 inc/admin/wpf_admin_function.php:169
+msgid "Click to give your feedback!"
+msgstr "Klicka för att ge din feedback!"
+
+#: wpfeedback.php:1275 inc/admin/wpf_admin_function.php:174
+msgid "On This Page"
+msgstr "På den här sidan"
+
+#: wpfeedback.php:1276 inc/admin/wpf_admin_function.php:175
+msgid "All Pages"
+msgstr "Alla sidor"
+
+#: wpfeedback.php:1286 wpfeedback.php:1294 inc/admin/page-settings.php:159
+#: inc/admin/wpf_admin_function.php:186 inc/admin/wpf_admin_function.php:194
+msgid "General Task"
+msgstr "Skapa uppgift"
+
+#: wpfeedback.php:1287 inc/admin/wpf_admin_function.php:187
+msgid "Show Tasks"
+msgstr "Visa uppgifter"
+
+#: wpfeedback.php:1288 inc/admin/wpf_admin_function.php:188
+msgid "Show Completed"
+msgstr "Visa Avslutade"
+
+#: wpfeedback.php:1291 inc/admin/wpf_admin_function.php:191
+msgid "Powered by"
+msgstr "Drivs av"
+
+#: wpfeedback.php:1294 inc/admin/wpf_admin_function.php:194
+msgid "Commenting enabled"
+msgstr "Kommentering aktiverad"
+
+#: wpfeedback.php:1294 inc/admin/wpf_admin_function.php:194
+msgid "Cancel"
+msgstr "Avbryt"
+
+#: inc/wpf_ajax_functions.php:175 inc/wpf_function.php:391
+#: inc/wpf_popup_string.php:25 inc/admin/page-settings.php:134
+msgid "General"
+msgstr "Allmänt"
+
+#: inc/wpf_ajax_functions.php:183 inc/wpf_function.php:399
+#: inc/admin/page-settings.php:136
+msgid "Admin"
+msgstr "Admin"
+
+#: inc/wpf_ajax_functions.php:200 inc/wpf_function.php:434
+#: inc/wpf_popup_string.php:28
+msgid "by "
+msgstr "av"
+
+#: inc/wpf_function.php:435
+msgid "By "
+msgstr "av"
+
+#: inc/wpf_function.php:525
+msgid "Your settings have been saved!"
+msgstr ""
+
+#: inc/wpf_function.php:532
+msgid "Your Settings not saved. "
+msgstr ""
+
+#: inc/wpf_function.php:584
+#, php-format
+msgid " %d seconds ago"
+msgstr " %d sekunder sedan"
+
+#: inc/wpf_function.php:586
+#, php-format
+msgid " %d minutes ago"
+msgstr " %d minuter sedan"
+
+#: inc/wpf_function.php:589
+#, php-format
+msgid " %d hours ago"
+msgstr " %d timme sedan"
+
+#: inc/wpf_function.php:592
+#, php-format
+msgid " %d days ago"
+msgstr " %d dagar sedan"
+
+#: inc/wpf_function.php:595
+#, php-format
+msgid " %d months ago"
+msgstr " %d månader sedan"
+
+#: inc/wpf_function.php:598
+#, php-format
+msgid " %d years ago"
+msgstr " %d år sedan"
+
+#: inc/wpf_function.php:654
+msgid "WP Feedback Information"
+msgstr ""
+
+#: inc/wpf_function.php:660
+msgid "User Type"
+msgstr "Användartyp"
+
+#: inc/wpf_function.php:665
+msgid "Select"
+msgstr ""
+
+#: inc/wpf_function.php:680 inc/admin/page-settings.php:367
+msgid "Email notifications"
+msgstr "E-post aviseringar"
+
+#: inc/wpf_function.php:748
+msgid "Receive email notification for every new task"
+msgstr "Få e-postmeddelande för varje ny uppgift"
+
+#: inc/wpf_function.php:760
+msgid "Receive email notification for every new comment"
+msgstr "Få e-postmeddelande för varje ny kommentar"
+
+#: inc/wpf_function.php:772
+msgid "Receive email notification when a task is marked as complete"
+msgstr "Få e-postmeddelande när en uppgift är markerad som färdig"
+
+#: inc/wpf_function.php:784
+msgid "Receive email notification for every status change"
+msgstr "Få e-postmeddelande för varje statusändring"
+
+#: inc/wpf_function.php:822
+msgid "Auto receive email notification for daily report"
+msgstr "Få automatiskt e-postmeddelande med en daglig rapport"
+
+#: inc/wpf_function.php:834
+msgid "Auto receive email notification for weekly report"
+msgstr "Få automatiskt e-postmeddelande med en veckorapport"
+
+#: inc/wpf_function.php:973
+msgid "Reset"
+msgstr "Återställ"
+
+#: inc/wpf_popup_string.php:2
+msgid "Low"
+msgstr "Låg"
+
+#: inc/wpf_popup_string.php:3
+msgid "Medium"
+msgstr "Medium"
+
+#: inc/wpf_popup_string.php:4
+msgid "High"
+msgstr "Hög"
+
+#: inc/wpf_popup_string.php:5
+msgid "Critical"
+msgstr "Kritiskt"
+
+#: inc/wpf_popup_string.php:6
+msgid "Open Task"
+msgstr "Öppen uppgift"
+
+#: inc/wpf_popup_string.php:7
+msgid "In Progress"
+msgstr "Pågående"
+
+#: inc/wpf_popup_string.php:8
+msgid "Pending Review"
+msgstr "Väntar på granskning"
+
+#: inc/wpf_popup_string.php:9
+msgid "Complete"
+msgstr "Slutförd"
+
+#: inc/wpf_popup_string.php:10
+msgid "Screenshot The Current View"
+msgstr "Skärmdump av aktuell vy"
+
+#: inc/wpf_popup_string.php:11
+msgid "Leave a comment..."
+msgstr "Lämna en kommentar..."
+
+#: inc/wpf_popup_string.php:12
+msgid "Add comment"
+msgstr "Skapa kommentar"
+
+#: inc/wpf_popup_string.php:13
+msgid "A user must be selected to post a comment"
+msgstr "En användare måste väljas för att kunna posta en kommentar"
+
+#: inc/wpf_popup_string.php:14
+msgid "Please enter a comment before performing this action"
+msgstr "Skapa en kommentar innan ni utför denna handlingen"
+
+#: inc/wpf_popup_string.php:15
+msgid ""
+"You are trying to upload an invalid filetype <br>Allowed File Types: JPG, "
+"PNG, GIF, PDF, DOC, DOCX and XLSX, MP4, WEBM, MOV, WMV, AVI"
+msgstr ""
+
+#: inc/wpf_popup_string.php:16
+msgid "Resolution:"
+msgstr "Upplösning"
+
+#: inc/wpf_popup_string.php:17
+msgid "Browser:"
+msgstr ""
+
+#: inc/wpf_popup_string.php:18
+msgid "User Name:"
+msgstr "Användarnamn:"
+
+#: inc/wpf_popup_string.php:19
+msgid "User IP:"
+msgstr ""
+
+#: inc/wpf_popup_string.php:20
+msgid "Task ID:"
+msgstr ""
+
+#: inc/wpf_popup_string.php:21
+msgid "Delete ticket"
+msgstr "Radera uppgift"
+
+#: inc/wpf_popup_string.php:22
+msgid "Better to change the status to complete."
+msgstr "Bättre att ändra status till slutförd."
+
+#: inc/wpf_popup_string.php:23
+msgid "Are you sure you want to delete?"
+msgstr "Är du säker på att du vill radera uppgiften?"
+
+#: inc/wpf_popup_string.php:24
+msgid "Yes"
+msgstr "Ja"
+
+#: inc/wpf_popup_string.php:26
+msgid "just now"
+msgstr "just nu"
+
+#: inc/wpf_popup_string.php:27
+msgid "Send message"
+msgstr "Skicka meddelande"
+
+#: inc/admin/wpf_backend_initial_setup.php:17
+msgid "Let's get you up and running"
+msgstr "Låt oss komma igång"
+
+#: inc/admin/wpf_backend_initial_setup.php:18
+msgid "Good to have you here"
+msgstr "Bra att ha dig här"
+
+#: inc/admin/wpf_backend_initial_setup.php:18
+msgid "! There are only 4 steps."
+msgstr "Nu återstår bara fyra steg."
+
+#: inc/admin/wpf_backend_initial_setup.php:22
+msgid "1. Add your license key."
+msgstr "1. Lägg till din licensnyckel."
+
+#: inc/admin/wpf_backend_initial_setup.php:23
+msgid "Found on your purchase confirmation email or within"
+msgstr "Du hittar den i din e-postbekräftelse eller på."
+
+#: inc/admin/wpf_backend_initial_setup.php:23
+msgid "your account."
+msgstr "ditt konto."
+
+#: inc/admin/wpf_backend_initial_setup.php:36
+msgid "Validate Domain"
+msgstr "Validate Domain"
+
+#: inc/admin/wpf_backend_initial_setup.php:37
+msgid "Your domain is not validated,please visit your account on our website."
+msgstr ""
+
+#: inc/admin/wpf_backend_initial_setup.php:38
+msgid "The plugin will not work until you complete this step."
+msgstr "Tillägget fungerar inte förrän du har slutfört detta steg."
+
+#: inc/admin/wpf_backend_initial_setup.php:42
+msgid "2. Who should comment?"
+msgstr "2. Vem ska kommentera?"
+
+#: inc/admin/wpf_backend_initial_setup.php:43
+msgid "The user roles that are allowed to create tickets and give feedback."
+msgstr "Användarrollerna som får skapa uppgifter och ge feedback."
+
+#: inc/admin/wpf_backend_initial_setup.php:64
+msgid "Allow guests to create tickets, without the need to log in to the site."
+msgstr "Låt gästerna skapa uppgifter utan att behöva logga in på sajten."
+
+#: inc/admin/wpf_backend_initial_setup.php:66
+msgid ""
+"This is great for staging sites or during the build, but not ideal for live "
+"websites. The real magic is getting your clients used to using WordPress by "
+"encouraging them to log in to their own website."
+msgstr ""
+"Det här är bra för staging sidor eller under byggandet, men inte perfekt för "
+"live-webbplatser. Den verkliga magin är att få dina kunder att använda "
+"WordPress genom att uppmuntra dem att logga in på sin egen webbplats."
+
+#: inc/admin/wpf_backend_initial_setup.php:71
+#: inc/admin/wpf_backend_initial_setup.php:128
+msgid "<< Back"
+msgstr "<< Tillbaka"
+
+#: inc/admin/wpf_backend_initial_setup.php:73
+#: inc/admin/wpf_backend_initial_setup.php:130
+msgid "Next >>"
+msgstr "Nästa >>"
+
+#: inc/admin/wpf_backend_initial_setup.php:79
+msgid "3. Choose notifications"
+msgstr "3. Välj aviseringar"
+
+#: inc/admin/wpf_backend_initial_setup.php:81
+msgid "Which notifications would you like the plugin to send out?"
+msgstr "Vilka aviseringar vill du att tillägget ska skickas ut?"
+
+#: inc/admin/wpf_backend_initial_setup.php:82
+msgid ""
+"These are global settings. Each user can then choose their own notifications "
+"out of the options selected here."
+msgstr ""
+"Det här är en globala inställning. Varje användare kan sedan välja sina egna "
+"aviseringar ur de alternativ som väljs här."
+
+#: inc/admin/wpf_backend_initial_setup.php:87 inc/admin/page-settings.php:376
+msgid "Send email notification for every new task"
+msgstr "Skicka e-postmeddelande för varje ny uppgift"
+
+#: inc/admin/wpf_backend_initial_setup.php:92 inc/admin/page-settings.php:383
+msgid "Send email notification for every new comment"
+msgstr "Skicka e-postmeddelande för varje ny kommentar"
+
+#: inc/admin/wpf_backend_initial_setup.php:97 inc/admin/page-settings.php:390
+msgid "Send email notification when a task is marked as complete"
+msgstr "Skicka e-postmeddelande när en uppgift är markerad som färdig"
+
+#: inc/admin/wpf_backend_initial_setup.php:102 inc/admin/page-settings.php:397
+msgid "Send email notification for every status change"
+msgstr "Skicka e-postmeddelande för varje statusförändring"
+
+#: inc/admin/wpf_backend_initial_setup.php:107 inc/admin/page-settings.php:404
+msgid "Send email notification for last 24 hours report"
+msgstr "Skicka e-postmeddelande med den senaste 24-timmarsrapporten"
+
+#: inc/admin/wpf_backend_initial_setup.php:112 inc/admin/page-settings.php:411
+msgid "Send email notification for last 7 days report"
+msgstr "Skicka e-postmeddelande med den senaste 7-dagars rapporten"
+
+#: inc/admin/wpf_backend_initial_setup.php:117 inc/admin/page-settings.php:418
+msgid "Auto send email notification for daily report"
+msgstr "Skicka automatiskt e-postmeddelande med en daglig rapport"
+
+#: inc/admin/wpf_backend_initial_setup.php:122 inc/admin/page-settings.php:425
+msgid "Auto send email notification for weekly report"
+msgstr "Skicka automatiskt e-postmeddelande med en veckorapport"
+
+#: inc/admin/wpf_backend_initial_setup.php:135
+msgid "4. All done!"
+msgstr "4. Allt klart!"
+
+#: inc/admin/wpf_backend_initial_setup.php:136
+msgid ""
+"Watch this short video to show you how to use WP Feedback to its full "
+"potential, saving you loaaaads of time and getting your client to love you "
+"even more."
+msgstr ""
+"Titta på den här korta videon som visar hur du använder WP-feedback till "
+"dess fulla potential, vilket sparar tid för dig och får din klient att älska "
+"dig ännu mer."
+
+#: inc/admin/wpf_backend_initial_setup.php:147
+msgid "Let's rock"
+msgstr "Let's rock "
+
+#: inc/admin/wpf_backend_initial_setup.php:151
+msgid "Skip Wizard"
+msgstr "Hoppa över guiden"
+
+#: inc/admin/page-settings.php:64 inc/admin/page-settings-permissions.php:26
+msgid "Tasks"
+msgstr "Uppgifter"
+
+#: inc/admin/page-settings.php:79 inc/admin/page-settings-permissions.php:42
+msgid "Integrate"
+msgstr "Integrera"
+
+#: inc/admin/page-settings.php:127
+msgid "Filter Tasks"
+msgstr "Uppgiftsfiltrer"
+
+#: inc/admin/page-settings.php:130
+msgid "Task Types"
+msgstr "Uppgiftstyper"
+
+#: inc/admin/page-settings.php:138
+msgid "Page"
+msgstr "Sida"
+
+#: inc/admin/page-settings.php:150
+msgid "By Users"
+msgstr "Efter Användare"
+
+#: inc/admin/page-settings.php:152
+msgid "Filter"
+msgstr "Filter"
+
+#: inc/admin/page-settings.php:158
+msgid "Tasks Found"
+msgstr "Hittade uppgifter"
+
+#: inc/admin/page-settings.php:173
+msgid "No Tasks found."
+msgstr "Inga uppgifter hittades."
+
+#: inc/admin/page-settings.php:173
+msgid "Please have a look at the video to understand the process."
+msgstr ""
+
+#: inc/admin/page-settings.php:203
+msgid "Task Attributes"
+msgstr "Uppgiftsegenskaper"
+
+#: inc/admin/page-settings.php:205
+msgid "Open Task's Page"
+msgstr "Öppna uppgiften"
+
+#: inc/admin/page-settings.php:209
+msgid "Additional Information"
+msgstr "Ytterliggare information"
+
+#: inc/admin/page-settings.php:236
+msgid "Notify Users"
+msgstr "Meddela följande användare"
+
+#: inc/admin/page-settings.php:249
+msgid "WP Feedback Settings"
+msgstr "WP Feedback Inställningar"
+
+#: inc/admin/page-settings.php:253
+msgid "General Settings"
+msgstr "Allmänna inställningar"
+
+#: inc/admin/page-settings.php:266
+msgid "Enable WP Feedback on this website"
+msgstr "Aktivera WP Feedback på denna webbplats"
+
+#: inc/admin/page-settings.php:266
+msgid ""
+"This is used to disable the plugin on this website, to save you the trouble "
+"of having to deactivate it in your plugin settings."
+msgstr ""
+"Används för att inaktivera WP Feedback på den här webbplatsen så du slipper "
+"besväret med att behöva inaktivera det i dina tilläggs-inställningar."
+
+#: inc/admin/page-settings.php:276
+msgid "Show task stickers by default"
+msgstr "Visa uppgifts icon som standard (front-end)"
+
+#: inc/admin/page-settings.php:276
+msgid ""
+"If this is switched off, you will not see stickers unless you open the "
+"sidebar while on the front-end"
+msgstr ""
+"Om detta är avstängt ser du inte WP-Feedback iconer såvida du inte öppnar "
+"sidofältet när du är i framsidan"
+
+#: inc/admin/page-settings.php:286
+msgid "Remove backend commenting"
+msgstr "Ta bort möjligheten att kommentarer från back-end"
+
+#: inc/admin/page-settings.php:286
+msgid ""
+"By default you can create tasks on the front end AND on the back end. By "
+"ticking this option on, users will not be able to create tasks on any of the "
+"WP admin screens."
+msgstr ""
+"Som standard kan du skapa uppgifter i front-end och back-end. Genom att "
+"markera det här alternativet kommer användare inte att kunna skapa uppgifter "
+"i back-end."
+
+#: inc/admin/page-settings.php:296
+msgid "Remove Font-Awesome Script"
+msgstr "Ta bort Font-Awesome Script"
+
+#: inc/admin/page-settings.php:296
+msgid ""
+"If Font-Awesome is already integrated on this website, you might notice some "
+"icons not showing correctly. Ticking this removes WP Feedback’s integration "
+"to avoid this conflict."
+msgstr ""
+"Om Font-Awesome redan är integrerat på den här webbplatsen kanske du märker "
+"att vissa ikoner inte visas korrekt. Om du markerar detta tas WP Feedback-"
+"integration bort för att undvika denna konflikt."
+
+#: inc/admin/page-settings.php:298
+msgid "ONLY if you already have the script running on all pages of the site "
+msgstr "ENDAST om du redan har skriptet på alla sidor på webbplatsen"
+
+#: inc/admin/page-settings.php:303
+msgid "White Label"
+msgstr "White Label"
+
+#: inc/admin/page-settings.php:305
+msgid "Replace the WP Feedback logo"
+msgstr "Byt ut WP Feedback-logotypen"
+
+#: inc/admin/page-settings.php:305
+msgid ""
+"This will replace the logo in the top right of this page and the logo on the "
+"notification emails that are sent out."
+msgstr ""
+"Detta kommer att ersätta logotypen längst upp till höger på denna sida och "
+"logotypen i epostmeddelande som skickas ut."
+
+#: inc/admin/page-settings.php:306
+msgid "The new logo should be 180px width X 45px height"
+msgstr "Den nya logotypen ska vara 180px bredd x 45px hög"
+
+#: inc/admin/page-settings.php:309
+msgid "Upload image"
+msgstr "Ladda upp bild"
+
+#: inc/admin/page-settings.php:317
+msgid "Change the main color"
+msgstr "Ändra färgschema"
+
+#: inc/admin/page-settings.php:317
+msgid ""
+"Where ever you see the blue, this option will change it to whatever colour "
+"you want!"
+msgstr ""
+"Var du än ser den blå färgen, kommer detta alternativ att ändra det till "
+"vilken färg du vill!"
+
+#: inc/admin/page-settings.php:320
+msgid "Replace the WP Feedback blue with your own brand color"
+msgstr "Byt ut den blå WP Feedback färgen med din egen färg"
+
+#: inc/admin/page-settings.php:323
+msgid "Change the tutorial video"
+msgstr "Ändra självstudievideo"
+
+#: inc/admin/page-settings.php:323
+msgid ""
+"The video will be replaced on the frontend wizard as well as tasks screen on "
+"backend when empty."
+msgstr ""
+"Videon kommer att ersättas på frontend-guiden och på sidan för uppgifter i "
+"back-end när det saknas uppgifter."
+
+#: inc/admin/page-settings.php:326
+msgid "Replace the WP Feedback video with your own tutorial video"
+msgstr "Byt ut WP Feedback-videon med din egna självstudievideo"
+
+#: inc/admin/page-settings.php:334
+msgid "Remove the “Powered by” link"
+msgstr "Ta bort länken \"Drivs med \""
+
+#: inc/admin/page-settings.php:334
+msgid ""
+"Ticking this option will remove our WP Feedback link that is on the bottom "
+"of the sidebar."
+msgstr ""
+"Om du markerar detta alternativ kommer vi att ta bort vår WP Feedback-länk "
+"som finns längst ner på sidofältet."
+
+#: inc/admin/page-settings.php:339
+msgid "Reset plugin settings"
+msgstr "Återställ tilläggsinställningar"
+
+#: inc/admin/page-settings.php:347
+msgid "Notifications Settings"
+msgstr "Inställningar för aviseringar"
+
+#: inc/admin/page-settings.php:355
+msgid "Sent from email address"
+msgstr "Skickas från e-postadress"
+
+#: inc/admin/page-settings.php:356
+msgid "Set a \"From\" email address to send all notifications."
+msgstr "Ställ in en \"Från\" e-postadress som sänder alla aviseringar."
+
+#: inc/admin/page-settings.php:361
+msgid "Send email notifications to the following address"
+msgstr "Skicka e-postmeddelanden till följande adress"
+
+#: inc/admin/page-settings.php:362
+msgid ""
+"This option is in addition to the user emails. Seperate with comma for "
+"multipe addresses."
+msgstr ""
+"Det här alternativet kommer utöver användarmeddelanden. Separera med komma "
+"för flera adresser."
+
+#: inc/admin/page-settings.php:369
+msgid ""
+"These are global notifications settings, then each user can choose the ones "
+"they would like to receive (on the front end wizard or inside the WordPress "
+"user profile)."
+msgstr ""
+
+#: inc/admin/page-settings.php:437 inc/admin/page-settings-permissions.php:216
+msgid "Save Changes"
+msgstr "Spara ändringar"
+
+#: inc/admin/page-settings.php:447
+msgid "WPFeedback Integrations"
+msgstr "WPFeedback-integrationer"
+
+#: inc/admin/page-settings.php:458
+msgid "Support From WP Feedback"
+msgstr "Support från WP Feedback"
+
+#: inc/admin/page-settings.php:465
+msgid "Join the tribe on Facebook"
+msgstr "Gå med i Facebook stammen"
+
+#: inc/admin/page-settings.php:467
+msgid ""
+"Get faster answers by leveraging the community, we're there too of course!"
+msgstr ""
+"Få snabbare svar genom att utnyttja gemenskapen, vi är naturligtvis också "
+"där!"
+
+#: inc/admin/page-settings.php:470
+msgid "Video walkthrough"
+msgstr "Videogenomgång "
+
+#: inc/admin/page-settings.php:488
+msgid "These should help"
+msgstr "Dessa kan också hjälpa till"
+
+#: inc/admin/page-settings.php:490
+msgid "Licenses and domains"
+msgstr "Licenser och domäner"
+
+#: inc/admin/page-settings.php:491
+msgid ""
+"Can&#39;t validate the license? You probably didn&#39;t add the domain. "
+"Follow the steps above."
+msgstr ""
+"Kan inte validera licensen? Du har antagligen inte lagt till domänen. Följ "
+"stegen ovan."
+
+#: inc/admin/page-settings.php:495
+msgid "Zapier Integration"
+msgstr "Zapier integration"
+
+#: inc/admin/page-settings.php:496
+msgid ""
+"Step by step guide to integrating WP Feedback to 1500+ apps - Connect your "
+"workflow."
+msgstr ""
+"Steg för steg-guide för att integrera WP-feedback till 1500+ appar - Anslut "
+"ditt arbetsflöde."
+
+#: inc/admin/page-settings.php:498
+msgid ""
+"Notifications\n"
+"                                issues"
+msgstr "Problem med meddelande"
+
+#: inc/admin/page-settings.php:500
+msgid "Can&#39;t send emails? Getting too many emails? Answers inside."
+msgstr ""
+"Kan du inte skicka e-postmeddelanden? Få för många e-postmeddelanden? Svar i "
+"länken."
+
+#: inc/admin/page-settings.php:502
+msgid "Partner with us"
+msgstr "Samarbeta med oss"
+
+#: inc/admin/page-settings.php:503
+msgid ""
+"If you&#39;re talking about us and send some peeps over - We wanna pay you!"
+msgstr ""
+"Om du pratar om oss och skickar några köpare - Kommer vi att betala dig!"
+
+#: inc/admin/page-settings.php:505
+msgid "Public Roadmap"
+msgstr "Offentlig Roadmap"
+
+#: inc/admin/page-settings.php:506
+msgid ""
+"If we&#39;re advocating for feedback we better lead by example. You&#39;re "
+"invited to request&nbsp;features."
+msgstr ""
+"Vi förespråkar feedback därför ska vi vara ett ledande exempel. Du är "
+"inbjuden att begära funktioner och lämna feedback till oss."
+
+#: inc/admin/page-settings.php:508
+msgid "Feeling stressed? (WP&amp;UP)"
+msgstr "Känner du dig stressad? (WP & UP)"
+
+#: inc/admin/page-settings.php:509
+msgid ""
+"Dealing with clients is hard(!) This amazing charity for the WP community is "
+"here to help you grow and relax."
+msgstr ""
+"Att hantera kunder är ibland svårt (!) Denna fantastiska "
+"välgörenhetsorganisation för WP-communityn är här för att hjälpa dig växa "
+"och koppla av."
+
+#: inc/admin/page-settings.php:514
+msgid "Create a support ticket"
+msgstr "Skapa en supportbiljett"
+
+#: inc/admin/page-settings.php:515
+msgid "We will reply via email in up to 24 hours (Weekdays)"
+msgstr "Vi svarar via e-post inom 24 timmar (vardagar)"
+
+#: inc/admin/page-settings.php:515
+msgid "Support will only be given in English"
+msgstr "Support kommer endast att ges på engelska"
+
+#: inc/admin/page-settings.php:518
+msgid ""
+"We collected your name, email, license key and domain so all you need to do, "
+"is tell us what's\n"
+"                        up."
+msgstr ""
+"Vi samlade in ditt namn, e-postadress, licensnyckel och domän, så allt du "
+"behöver göra är att berätta vad som händer."
+
+#: inc/admin/page-settings.php:522
+msgid "Subject"
+msgstr "Subject"
+
+#: inc/admin/page-settings.php:525
+msgid "Message"
+msgstr "Message"
+
+#: inc/admin/page-settings.php:530
+msgid "Name"
+msgstr "Namn"
+
+#: inc/admin/page-settings.php:535
+msgid "Email"
+msgstr "Email"
+
+#: inc/admin/page-settings.php:545
+msgid "Insert Site Health Info"
+msgstr "Infoga webbplatshälsainformation"
+
+#: inc/admin/page-settings.php:545
+msgid "(WP 5.2 and up)"
+msgstr "(WP 5.2 och senare)"
+
+#: inc/admin/page-settings.php:549
+msgid "Click here to get site health info"
+msgstr "Klicka här för att hämta informationen om webbplatshälsan"
+
+#: inc/admin/page-settings.php:555
+msgid "Request Support"
+msgstr "Request Support"
+
+#: inc/admin/page-settings.php:556
+msgid "Sorry! Your message was not sent, please try after some time."
+msgstr ""
+"Förlåt! Ditt meddelande har inte skickats, försök igen om en liten stund."
+
+#: inc/admin/page-settings.php:557
+msgid ""
+"Your message was sent to the WP Feedback Team. Thanks for contacting us. We "
+"will reply to this email address shortly:"
+msgstr ""
+"Ditt meddelande skickades till WP Feedback Team. Tack för att du kontaktade "
+"oss. Vi kommer att svara från den här e-postadressen inom kort:"
+
+#: inc/admin/wpf_admin_function.php:176
+msgid "Frontend"
+msgstr "Front-end"
+
+#: inc/admin/wpf_admin_function.php:191
+msgid "WPFeedback"
+msgstr ""
+
+#: inc/admin/page-settings-permissions.php:62
+msgid "WP Feedback Permissions"
+msgstr ""
+
+#: inc/admin/page-settings-permissions.php:69
+msgid "Validate Your Installation"
+msgstr "Validera din installation"
+
+#: inc/admin/page-settings-permissions.php:70
+msgid ""
+"The plugin will not work unless you insert a valid license key and <a "
+"href=\"https://wpfeedback.co/knowledge-base/faq/installation/\" "
+"target=\"_blank\">link the domain</a>."
+msgstr ""
+"WP Feedback fungera bara om du har en giltig licensnyckel och länkar till "
+"domänen"
+
+#: inc/admin/page-settings-permissions.php:79
+msgid ""
+"If you don't have a valid license, <a href='https://wpfeedback.co/' "
+"target='_blank'>Please click here to get a new license key</a>"
+msgstr ""
+"Om du inte har en giltig licens, vänligen klicka här för att skaffa en ny "
+"licensnyckel"
+
+#: inc/admin/page-settings-permissions.php:88
+msgid "User roles allowed to create tasks"
+msgstr "Användarroller som får skapa uppgifter"
+
+#: inc/admin/page-settings-permissions.php:88
+msgid ""
+"If a user role is not selected, they will not be able to see WP Feedback on "
+"the front-end, they will still be able to access the plugin settings though "
+"unless you restrict this someone else."
+msgstr ""
+"Om en användarroll inte är vald, kommer de inte att kunna se WP-feedback i "
+"front-end, men de kommer fortfarande att kunna komma åt "
+"tilläggsinställningarna om du inte begränsar det någon annanstans."
+
+#: inc/admin/page-settings-permissions.php:89
+msgid "Hold down the CTRL key to choose multiple options"
+msgstr "Håll CTRL-knappen intryckt för att välja flera alternativ"
+
+#: inc/admin/page-settings-permissions.php:100
+msgid "Guest allowed"
+msgstr "Tillåt gäster"
+
+#: inc/admin/page-settings-permissions.php:100
+msgid ""
+"Enabling this will make WP Feedback visible to everyone who visits your site "
+"and will allow them to create tasks and comment on existing ones."
+msgstr ""
+"Om du aktiverar detta kommer WP-feedback synlig för alla som besöker din "
+"webbplats och de kan skapa uppgifter och kommentera befintliga."
+
+#: inc/admin/page-settings-permissions.php:110
+msgid "Stop comments for admins"
+msgstr "Stoppa kommentarer för administratörer"
+
+#: inc/admin/page-settings-permissions.php:110
+msgid "Stop comments for admins on front end."
+msgstr ""
+
+#: inc/admin/page-settings-permissions.php:118
+msgid "Customisations "
+msgstr "Anpassningar"
+
+#: inc/admin/page-settings-permissions.php:118
+msgid ""
+"These names are for the setup wizard when you first installed the plugin. "
+"Every user who comes to the website after installation will have to go "
+"through it and you can name the 3 options here."
+msgstr ""
+"Dessa namn är för installationsguiden när du först installerade tillägget. "
+"Varje användare som kommer till webbplatsen efter installationen måste gå "
+"igenom dem och du kan namnge de tre alternativen här."
+
+#: inc/admin/page-settings-permissions.php:119
+msgid "Client (Website Owner) "
+msgstr "Klient (webbplatsägare)"
+
+#: inc/admin/page-settings-permissions.php:119
+msgid ""
+"Can do everything except: Choose and change status, Access the settings, "
+"support and upgrade screens. Can only delete his own tickets. "
+msgstr ""
+"Kan göra allt förutom: Välj och ändra status, öppna inställningar, support "
+"och uppgraderings-flikar. Kan bara ta bort sina egna uppgifter."
+
+#: inc/admin/page-settings-permissions.php:120
+msgid "Webmaster"
+msgstr ""
+
+#: inc/admin/page-settings-permissions.php:120
+msgid "Super admin – he has full capabilities for all the plugin’s functions. "
+msgstr "Super admin - hen har tillgång till alla funktioner i tillägget"
+
+#: inc/admin/page-settings-permissions.php:121
+msgid "Others "
+msgstr "Övriga"
+
+#: inc/admin/page-settings-permissions.php:121
+msgid ""
+"Can do everything except: Choose and change status and urgency, Access the "
+"settings, support, integration and upgrade screens. Can only delete his own "
+"tickets. "
+msgstr ""
+"Kan göra allt förutom: Välj och ändra status eller prioritet. Öppna "
+"inställningar, support, integration och uppgraderings-flikar. Kan bara ta "
+"bort sina egna uppgifter."
+
+#: inc/admin/page-settings-permissions.php:126
+msgid "User permissions"
+msgstr ""
+
+#: inc/admin/page-settings-permissions.php:133
+msgid "Guest "
+msgstr ""
+
+#: inc/admin/page-settings-permissions.php:185
+msgid "Default users"
+msgstr "Standardanvändare"
+
+#: inc/admin/page-settings-permissions.php:187
+msgid "The website builder"
+msgstr "Webbplatsbyggaren"
+
+#: inc/admin/page-settings-permissions.php:188
+msgid ""
+"The website builder will add this user to all tasks by default, allowing the "
+"client to skip the \"choose a user\" tab when creating a task."
+msgstr ""
+"Webbplatsbyggaren lägger till denna användare till alla uppgifter som "
+"standard, vilket gör att klienten kan hoppa över fliken \"välj en "
+"användare\" när en uppgift skapas."
+
+#: inc/admin/page-settings-permissions.php:190
+#: inc/admin/page-settings-permissions.php:205
+msgid "select"
+msgstr "Välj"
+
+#: inc/admin/page-settings-permissions.php:202
+msgid "The client"
+msgstr "Klienten"
+
+#: inc/admin/page-settings-permissions.php:203
+msgid ""
+"Create a user for the client and assign it here to allow the client to "
+"comment in guest mode but still be assigned to the tickets for replies and "
+"notifications."
+msgstr ""
+"Skapa en användare för klienten och tilldela den här så att klienten kan "
+"kommentera i gästläge men ändå tilldelas uppgifter för svar och aviseringar."
+
+#: inc/frontend/wpf_login_modal.php:6
+msgid "Skip the login"
+msgstr ""
+
+#: inc/frontend/wpf_frontend_initial_setup.php:16
+msgid "Hi "
+msgstr "Hej"
+
+#: inc/frontend/wpf_frontend_initial_setup.php:16
+msgid ", Let's give feedback"
+msgstr ", ge oss feedback "
+
+#: inc/frontend/wpf_frontend_initial_setup.php:17
+msgid "To optimize your experience, which one describes you best?"
+msgstr ""
+"För att optimera din upplevelse, vilken beskrivning passar in bäst på dig?"
+
+#: inc/frontend/wpf_frontend_initial_setup.php:45
+msgid "Please select anyone"
+msgstr "Välj någon"
+
+#: inc/frontend/wpf_frontend_initial_setup.php:48
+msgid "Notifications"
+msgstr "Aviseringar"
+
+#: inc/frontend/wpf_frontend_initial_setup.php:49
+msgid "Choose the emails you'd like to receive (Recommended to keep as is)"
+msgstr ""
+"Välj de e-postmeddelanden du vill ta emot (rekommenderas att behålla som de "
+"är)"
+
+#: inc/frontend/wpf_frontend_initial_setup.php:54
+msgid "One Last Step"
+msgstr "Ett sista steg"
+
+#: inc/frontend/wpf_frontend_initial_setup.php:58
+msgid "How to give feedback"
+msgstr "Hur man ger feedback"
+
+#: inc/frontend/wpf_frontend_initial_setup.php:59
+msgid "Watch this short tutorial to get started"
+msgstr "Se den här korta handledning för att komma igång"
+
+#: inc/frontend/wpf_frontend_initial_setup.php:83
+msgid "Let's Start"
+msgstr "Låt oss börja"
+
+#. Name of the plugin
+#. Author of the plugin
+msgid "WP Feedback"
+msgstr ""
+
+#. Description of the plugin
+msgid "Client feedback in 1 click - WP Feedback"
+msgstr "Kundåterkoppling med 1 klick - WP Feedback"
+
+#. URI of the plugin
+#. Author URI of the plugin
+msgid "https://wpfeedback.co/"
+msgstr ""

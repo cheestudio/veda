@@ -1,0 +1,1217 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: WP Feedback\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-10-22 07:04+0000\n"
+"PO-Revision-Date: 2019-10-22 07:11+0000\n"
+"Last-Translator: roivitopeleg <vito@acedigital.london>\n"
+"Language-Team: French (France)\n"
+"Language: fr_FR\n"
+"Plural-Forms: nplurals=2; plural=n > 1;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Loco https://localise.biz/\n"
+"X-Loco-Version: 2.3.0; wp-5.2.4"
+
+#: wpfeedback.php:71
+msgctxt "Post Type General Name"
+msgid "Wp feedback Types"
+msgstr ""
+
+#: wpfeedback.php:72
+msgctxt "Post Type Singular Name"
+msgid "Wp feedback Type"
+msgstr ""
+
+#: wpfeedback.php:73
+msgid "WP feedBack"
+msgstr "WP Feedback"
+
+#: wpfeedback.php:74
+msgid "WP feedBack Type"
+msgstr ""
+
+#: wpfeedback.php:75
+msgid "WP feedBack Item Archives"
+msgstr ""
+
+#: wpfeedback.php:76
+msgid "WP feedBack Item Attributes"
+msgstr ""
+
+#: wpfeedback.php:77
+msgid "WP feedBack Parent Item:"
+msgstr ""
+
+#: wpfeedback.php:78
+msgid "WP feedBack All Items"
+msgstr ""
+
+#: wpfeedback.php:79
+msgid "WP feedBack Add New Item"
+msgstr ""
+
+#: wpfeedback.php:80
+msgid "Add New WP feedBack"
+msgstr ""
+
+#: wpfeedback.php:81
+msgid "WP feedBack New Item"
+msgstr ""
+
+#: wpfeedback.php:82
+msgid "WP feedBack Edit Item"
+msgstr ""
+
+#: wpfeedback.php:83
+msgid "WP feedBack Update Item"
+msgstr ""
+
+#: wpfeedback.php:84
+msgid "WP feedBack View Item"
+msgstr ""
+
+#: wpfeedback.php:85
+msgid "WP feedBack View Items"
+msgstr ""
+
+#: wpfeedback.php:86
+msgid "WP feedBack Search Item"
+msgstr ""
+
+#: wpfeedback.php:87
+msgid "Not found WP feedBack"
+msgstr ""
+
+#: wpfeedback.php:88
+msgid "WP feedBack Not found in Trash"
+msgstr ""
+
+#: wpfeedback.php:89
+msgid "WP feedBack Featured Image"
+msgstr ""
+
+#: wpfeedback.php:90
+msgid "WP feedBack Set featured image"
+msgstr ""
+
+#: wpfeedback.php:91
+msgid "WP feedBack Remove featured image"
+msgstr ""
+
+#: wpfeedback.php:92
+msgid "WP feedBack Use as featured image"
+msgstr ""
+
+#: wpfeedback.php:93
+msgid "WP feedBack Insert into item"
+msgstr ""
+
+#: wpfeedback.php:94
+msgid "Uploaded to this item"
+msgstr ""
+
+#: wpfeedback.php:95
+msgid "WP feedBack Items list"
+msgstr ""
+
+#: wpfeedback.php:96
+msgid "WP feedBack Items list navigation"
+msgstr ""
+
+#: wpfeedback.php:97
+msgid "WP feedBack Filter items list"
+msgstr ""
+
+#: wpfeedback.php:100
+msgid "Wp feedback Type"
+msgstr ""
+
+#: wpfeedback.php:101
+msgid "Post Type Description"
+msgstr "Merci de sélectionner quelqu'un"
+
+#: wpfeedback.php:348 wpfeedback.php:349 inc/admin/page-settings.php:107
+msgid "Tasks Center"
+msgstr "Centre des Tâches"
+
+#: wpfeedback.php:357 wpfeedback.php:358 wpfeedback.php:409
+#: inc/admin/page-settings.php:69 inc/admin/page-settings-permissions.php:31
+msgid "Settings"
+msgstr "Paramètres"
+
+#: wpfeedback.php:367 wpfeedback.php:368 inc/admin/page-settings.php:74
+#: inc/admin/page-settings-permissions.php:36
+msgid "Permissions"
+msgstr "Permissions"
+
+#: wpfeedback.php:377 wpfeedback.php:378
+msgid "Integrations"
+msgstr "Intégrations"
+
+#: wpfeedback.php:388 wpfeedback.php:389 inc/admin/page-settings.php:83
+#: inc/admin/page-settings-permissions.php:48
+msgid "Support"
+msgstr "Support"
+
+#: wpfeedback.php:396 wpfeedback.php:397 inc/admin/page-settings.php:87
+#: inc/admin/page-settings-permissions.php:53
+msgid "Upgrade"
+msgstr "Mise à niveau"
+
+#: wpfeedback.php:1224
+msgid "Backend"
+msgstr "Backend"
+
+#: wpfeedback.php:1227
+msgid "Go to the Dashboard"
+msgstr "Aller au Tableau de Bord"
+
+#: wpfeedback.php:1230 inc/admin/page-settings.php:113
+#: inc/admin/wpf_admin_function.php:148
+msgid "Daily Report"
+msgstr "Rapport Quotidien"
+
+#: wpfeedback.php:1233 inc/admin/page-settings.php:118
+#: inc/admin/wpf_admin_function.php:151
+msgid "Weekly Report"
+msgstr "Rapport Hebdomadaire"
+
+#: wpfeedback.php:1235 inc/admin/page-settings.php:109
+#: inc/admin/wpf_admin_function.php:153
+msgid "Your report was sent"
+msgstr "Votre rapport vient d'être envoyé"
+
+#: wpfeedback.php:1244 wpfeedback.php:1249 wpfeedback.php:1254
+#: wpfeedback.php:1260 inc/admin/page-settings.php:142
+#: inc/admin/page-settings.php:217 inc/admin/wpf_admin_function.php:162
+msgid "Task Status"
+msgstr "Statut des Tâches"
+
+#: wpfeedback.php:1245 inc/admin/page-settings.php:147
+#: inc/admin/page-settings.php:223 inc/admin/wpf_admin_function.php:163
+msgid "Task Urgency"
+msgstr "Urgence de la Tâche"
+
+#: wpfeedback.php:1250 wpfeedback.php:1255 wpfeedback.php:1261
+msgid " Task Urgency"
+msgstr ""
+
+#: wpfeedback.php:1270 inc/admin/wpf_admin_function.php:169
+msgid "Task already exist for this element"
+msgstr "Une tâche existe déjà pour cet élément"
+
+#: wpfeedback.php:1270 inc/admin/wpf_admin_function.php:169
+msgid "Click to give your feedback!"
+msgstr "Cliquer pour donner votre feedback !"
+
+#: wpfeedback.php:1275 inc/admin/wpf_admin_function.php:174
+msgid "On This Page"
+msgstr "Sur cette page"
+
+#: wpfeedback.php:1276 inc/admin/wpf_admin_function.php:175
+msgid "All Pages"
+msgstr "Toutes les pages"
+
+#: wpfeedback.php:1286 wpfeedback.php:1294 inc/admin/page-settings.php:159
+#: inc/admin/wpf_admin_function.php:186 inc/admin/wpf_admin_function.php:194
+msgid "General Task"
+msgstr "Tâche Générale"
+
+#: wpfeedback.php:1287 inc/admin/wpf_admin_function.php:187
+msgid "Show Tasks"
+msgstr "Montrer les Tâches"
+
+#: wpfeedback.php:1288 inc/admin/wpf_admin_function.php:188
+msgid "Show Completed"
+msgstr "Montrer les Tâches Complétées"
+
+#: wpfeedback.php:1291 inc/admin/wpf_admin_function.php:191
+msgid "Powered by"
+msgstr "Propulsé par"
+
+#: wpfeedback.php:1294 inc/admin/wpf_admin_function.php:194
+msgid "Commenting enabled"
+msgstr "Commentaires activés"
+
+#: wpfeedback.php:1294 inc/admin/wpf_admin_function.php:194
+msgid "Cancel"
+msgstr "Annuler"
+
+#: inc/wpf_ajax_functions.php:175 inc/wpf_function.php:391
+#: inc/wpf_popup_string.php:25 inc/admin/page-settings.php:134
+msgid "General"
+msgstr "Générale"
+
+#: inc/wpf_ajax_functions.php:183 inc/wpf_function.php:399
+#: inc/admin/page-settings.php:136
+msgid "Admin"
+msgstr "Admin"
+
+#: inc/wpf_ajax_functions.php:200 inc/wpf_function.php:434
+#: inc/wpf_popup_string.php:28
+msgid "by "
+msgstr "par "
+
+#: inc/wpf_function.php:435
+msgid "By "
+msgstr "par "
+
+#: inc/wpf_function.php:525
+msgid "Your settings have been saved!"
+msgstr ""
+
+#: inc/wpf_function.php:532
+msgid "Your Settings not saved. "
+msgstr ""
+
+#: inc/wpf_function.php:584
+#, php-format
+msgid " %d seconds ago"
+msgstr " Il y a %d secondes"
+
+#: inc/wpf_function.php:586
+#, php-format
+msgid " %d minutes ago"
+msgstr " Il y a %d minutes"
+
+#: inc/wpf_function.php:589
+#, php-format
+msgid " %d hours ago"
+msgstr " Il y a %d heures"
+
+#: inc/wpf_function.php:592
+#, php-format
+msgid " %d days ago"
+msgstr " Il y a %d jours"
+
+#: inc/wpf_function.php:595
+#, php-format
+msgid " %d months ago"
+msgstr " Il y a %d mois"
+
+#: inc/wpf_function.php:598
+#, php-format
+msgid " %d years ago"
+msgstr " Il y a %d ans"
+
+#: inc/wpf_function.php:654
+msgid "WP Feedback Information"
+msgstr ""
+
+#: inc/wpf_function.php:660
+msgid "User Type"
+msgstr "Type d'Utilisateur"
+
+#: inc/wpf_function.php:665
+msgid "Select"
+msgstr ""
+
+#: inc/wpf_function.php:680 inc/admin/page-settings.php:367
+msgid "Email notifications"
+msgstr "Notifications par e-mail"
+
+#: inc/wpf_function.php:748
+msgid "Receive email notification for every new task"
+msgstr "Recevoir un e-mail de notification pour chaque nouvelle tâche"
+
+#: inc/wpf_function.php:760
+msgid "Receive email notification for every new comment"
+msgstr "Recevoir un e-mail de notification pour chaque nouveau commentaire"
+
+#: inc/wpf_function.php:772
+msgid "Receive email notification when a task is marked as complete"
+msgstr ""
+"Recevoir un e-mail de notification pour chaque tâche marquée comme complétée"
+
+#: inc/wpf_function.php:784
+msgid "Receive email notification for every status change"
+msgstr "Recevoir un e-mail de notification pour chaque changement de statut"
+
+#: inc/wpf_function.php:822
+msgid "Auto receive email notification for daily report"
+msgstr ""
+"Recevoir automatiquement un e-mail de notification pour le rapport quotidien"
+
+#: inc/wpf_function.php:834
+msgid "Auto receive email notification for weekly report"
+msgstr ""
+"Recevoir automatiquement un e-mail de notification pour le rapport "
+"hebdomadaire"
+
+#: inc/wpf_function.php:973
+msgid "Reset"
+msgstr "Remise à zéro"
+
+#: inc/wpf_popup_string.php:2
+msgid "Low"
+msgstr "Faible"
+
+#: inc/wpf_popup_string.php:3
+msgid "Medium"
+msgstr "Moyenne"
+
+#: inc/wpf_popup_string.php:4
+msgid "High"
+msgstr "Élevée"
+
+#: inc/wpf_popup_string.php:5
+msgid "Critical"
+msgstr "Critique"
+
+#: inc/wpf_popup_string.php:6
+msgid "Open Task"
+msgstr "Ouvrir Tâche"
+
+#: inc/wpf_popup_string.php:7
+msgid "In Progress"
+msgstr "En progrès"
+
+#: inc/wpf_popup_string.php:8
+msgid "Pending Review"
+msgstr "En attente d'examen"
+
+#: inc/wpf_popup_string.php:9
+msgid "Complete"
+msgstr "Complete"
+
+#: inc/wpf_popup_string.php:10
+msgid "Screenshot The Current View"
+msgstr "Capture d'écran de la vue courante"
+
+#: inc/wpf_popup_string.php:11
+msgid "Leave a comment..."
+msgstr "Laisser un commentaire..."
+
+#: inc/wpf_popup_string.php:12
+msgid "Add comment"
+msgstr "Ajouter un commentaire"
+
+#: inc/wpf_popup_string.php:13
+msgid "A user must be selected to post a comment"
+msgstr "Un utilisateur doit être sélectionné pour poster un commentaire"
+
+#: inc/wpf_popup_string.php:14
+msgid "Please enter a comment before performing this action"
+msgstr "Merci de déposer un commentaire avant d'exécuter cette action"
+
+#: inc/wpf_popup_string.php:15
+msgid ""
+"You are trying to upload an invalid filetype <br>Allowed File Types: JPG, "
+"PNG, GIF, PDF, DOC, DOCX and XLSX, MP4, WEBM, MOV, WMV, AVI"
+msgstr ""
+
+#: inc/wpf_popup_string.php:16
+msgid "Resolution:"
+msgstr "Résolution"
+
+#: inc/wpf_popup_string.php:17
+msgid "Browser:"
+msgstr ""
+
+#: inc/wpf_popup_string.php:18
+msgid "User Name:"
+msgstr "Nom d'Utilisateur :"
+
+#: inc/wpf_popup_string.php:19
+msgid "User IP:"
+msgstr ""
+
+#: inc/wpf_popup_string.php:20
+msgid "Task ID:"
+msgstr ""
+
+#: inc/wpf_popup_string.php:21
+msgid "Delete ticket"
+msgstr "Effacer le Ticket"
+
+#: inc/wpf_popup_string.php:22
+msgid "Better to change the status to complete."
+msgstr ""
+"Il est conseillé de changer le statut à \"Complétée\". Êtes-vous certain de "
+"vouloir effacer ?"
+
+#: inc/wpf_popup_string.php:23
+msgid "Are you sure you want to delete?"
+msgstr "Êtes-vous certain de vouloir effacer ?"
+
+#: inc/wpf_popup_string.php:24
+msgid "Yes"
+msgstr "Oui"
+
+#: inc/wpf_popup_string.php:26
+msgid "just now"
+msgstr "à l'instant"
+
+#: inc/wpf_popup_string.php:27
+msgid "Send message"
+msgstr "Envoyer le message"
+
+#: inc/admin/wpf_backend_initial_setup.php:17
+msgid "Let's get you up and running"
+msgstr "Commençons par vous"
+
+#: inc/admin/wpf_backend_initial_setup.php:18
+msgid "Good to have you here"
+msgstr "Ravis de vous avoir içi"
+
+#: inc/admin/wpf_backend_initial_setup.php:18
+msgid "! There are only 4 steps."
+msgstr "! Il n'y a que 4 étapes."
+
+#: inc/admin/wpf_backend_initial_setup.php:22
+msgid "1. Add your license key."
+msgstr "1. Ajouter votre clé de licence"
+
+#: inc/admin/wpf_backend_initial_setup.php:23
+msgid "Found on your purchase confirmation email or within"
+msgstr "Disponible dans votre e-mail de confirmation d'achat ou sur "
+
+#: inc/admin/wpf_backend_initial_setup.php:23
+msgid "your account."
+msgstr "votre compte"
+
+#: inc/admin/wpf_backend_initial_setup.php:36
+msgid "Validate Domain"
+msgstr "Valider le domaine"
+
+#: inc/admin/wpf_backend_initial_setup.php:37
+msgid "Your domain is not validated,please visit your account on our website."
+msgstr ""
+
+#: inc/admin/wpf_backend_initial_setup.php:38
+msgid "The plugin will not work until you complete this step."
+msgstr "L'extension ne pourra fonctionner sans avoir complété cette étape"
+
+#: inc/admin/wpf_backend_initial_setup.php:42
+msgid "2. Who should comment?"
+msgstr "2. Qui devrait commenter ?"
+
+#: inc/admin/wpf_backend_initial_setup.php:43
+msgid "The user roles that are allowed to create tickets and give feedback."
+msgstr ""
+"Les rôles utilisateurs qui sont autorisés pour créer des tickets et faire du "
+"feedback"
+
+#: inc/admin/wpf_backend_initial_setup.php:64
+msgid "Allow guests to create tickets, without the need to log in to the site."
+msgstr ""
+"Permettre aux utilisateurs de créer des tickets, sans avoir besoin de se "
+"connecter sur le site"
+
+#: inc/admin/wpf_backend_initial_setup.php:66
+msgid ""
+"This is great for staging sites or during the build, but not ideal for live "
+"websites. The real magic is getting your clients used to using WordPress by "
+"encouraging them to log in to their own website."
+msgstr ""
+"C'est idéal pour les sites provisoires ou pendant le développement, mais pas "
+"idéal pour les sites en production. La vraie magie est d'habituer vos "
+"clients à utiliser Wordpress en les encourageant à se connecter à leur "
+"propre site internet. "
+
+#: inc/admin/wpf_backend_initial_setup.php:71
+#: inc/admin/wpf_backend_initial_setup.php:128
+msgid "<< Back"
+msgstr "Retour"
+
+#: inc/admin/wpf_backend_initial_setup.php:73
+#: inc/admin/wpf_backend_initial_setup.php:130
+msgid "Next >>"
+msgstr "Suivant"
+
+#: inc/admin/wpf_backend_initial_setup.php:79
+msgid "3. Choose notifications"
+msgstr "3. Choisir les notifications"
+
+#: inc/admin/wpf_backend_initial_setup.php:81
+msgid "Which notifications would you like the plugin to send out?"
+msgstr "Quelles notifications souhaitez-vous que l'extension envoit ?"
+
+#: inc/admin/wpf_backend_initial_setup.php:82
+msgid ""
+"These are global settings. Each user can then choose their own notifications "
+"out of the options selected here."
+msgstr ""
+"Voici les paramètres globaux. Chaque utilisateur peut alors choisir ses "
+"propres notifications parmi les options sélectionnées içi."
+
+#: inc/admin/wpf_backend_initial_setup.php:87 inc/admin/page-settings.php:376
+msgid "Send email notification for every new task"
+msgstr "Envoyer un e-mail de notification pour chaque nouvelle tâche"
+
+#: inc/admin/wpf_backend_initial_setup.php:92 inc/admin/page-settings.php:383
+msgid "Send email notification for every new comment"
+msgstr "Envoyer un e-mail de notification pour chaque nouveau commentaire"
+
+#: inc/admin/wpf_backend_initial_setup.php:97 inc/admin/page-settings.php:390
+msgid "Send email notification when a task is marked as complete"
+msgstr ""
+"Envoyer un e-mail de notification quand une tâche est marquée comme complétée"
+
+#: inc/admin/wpf_backend_initial_setup.php:102 inc/admin/page-settings.php:397
+msgid "Send email notification for every status change"
+msgstr "Envoyer un e-mail de notification pour tout changement de statut"
+
+#: inc/admin/wpf_backend_initial_setup.php:107 inc/admin/page-settings.php:404
+msgid "Send email notification for last 24 hours report"
+msgstr ""
+"Envoyer un e-mail de notification pour le rapport des dernières 24 heures"
+
+#: inc/admin/wpf_backend_initial_setup.php:112 inc/admin/page-settings.php:411
+msgid "Send email notification for last 7 days report"
+msgstr "Envoyer un e-mail de notification pour le rapport des 7 derniers jours"
+
+#: inc/admin/wpf_backend_initial_setup.php:117 inc/admin/page-settings.php:418
+msgid "Auto send email notification for daily report"
+msgstr ""
+"Envoyer automatiquement un e-mail de notification pour le rapport quotidien"
+
+#: inc/admin/wpf_backend_initial_setup.php:122 inc/admin/page-settings.php:425
+msgid "Auto send email notification for weekly report"
+msgstr ""
+"Envoyer automatiquement un e-mail de notification pour le rapport "
+"hebdomadaire"
+
+#: inc/admin/wpf_backend_initial_setup.php:135
+msgid "4. All done!"
+msgstr "4. Tout est réglé !"
+
+#: inc/admin/wpf_backend_initial_setup.php:136
+msgid ""
+"Watch this short video to show you how to use WP Feedback to its full "
+"potential, saving you loaaaads of time and getting your client to love you "
+"even more."
+msgstr ""
+"Regardez cette courte vidéo pour vous montrer comment utiliser WP Feedback à "
+"son plein potentiel, et vous permettre d'économiser beaaaaaaucoup de temps "
+"et que vos clients vous aiment encore plus."
+
+#: inc/admin/wpf_backend_initial_setup.php:147
+msgid "Let's rock"
+msgstr "C'est parti !"
+
+#: inc/admin/wpf_backend_initial_setup.php:151
+msgid "Skip Wizard"
+msgstr "Ignorer l'assistant"
+
+#: inc/admin/page-settings.php:64 inc/admin/page-settings-permissions.php:26
+msgid "Tasks"
+msgstr "Tâches"
+
+#: inc/admin/page-settings.php:79 inc/admin/page-settings-permissions.php:42
+msgid "Integrate"
+msgstr "Intégrer"
+
+#: inc/admin/page-settings.php:127
+msgid "Filter Tasks"
+msgstr "Filtrer les Tâches"
+
+#: inc/admin/page-settings.php:130
+msgid "Task Types"
+msgstr "Types de Tâches"
+
+#: inc/admin/page-settings.php:138
+msgid "Page"
+msgstr "Page"
+
+#: inc/admin/page-settings.php:150
+msgid "By Users"
+msgstr "Par Utilisateur"
+
+#: inc/admin/page-settings.php:152
+msgid "Filter"
+msgstr "Filtre"
+
+#: inc/admin/page-settings.php:158
+msgid "Tasks Found"
+msgstr "Tâches Trouvée"
+
+#: inc/admin/page-settings.php:173
+msgid "No Tasks found."
+msgstr "Aucune tâche trouvée"
+
+#: inc/admin/page-settings.php:173
+msgid "Please have a look at the video to understand the process."
+msgstr ""
+
+#: inc/admin/page-settings.php:203
+msgid "Task Attributes"
+msgstr "Attributs de Tâche"
+
+#: inc/admin/page-settings.php:205
+msgid "Open Task's Page"
+msgstr "Ouvrir Page Tâche"
+
+#: inc/admin/page-settings.php:209
+msgid "Additional Information"
+msgstr "Infomations Additionnelles"
+
+#: inc/admin/page-settings.php:236
+msgid "Notify Users"
+msgstr "Notifier les Utilisateurs"
+
+#: inc/admin/page-settings.php:249
+msgid "WP Feedback Settings"
+msgstr ""
+
+#: inc/admin/page-settings.php:253
+msgid "General Settings"
+msgstr "Paramètres Généraux"
+
+#: inc/admin/page-settings.php:266
+msgid "Enable WP Feedback on this website"
+msgstr "Activer WP Feedback sur ce site internet"
+
+#: inc/admin/page-settings.php:266
+msgid ""
+"This is used to disable the plugin on this website, to save you the trouble "
+"of having to deactivate it in your plugin settings."
+msgstr ""
+"Utilisé pour désactiver l'extension sur ce site web, pour vous éviter le "
+"trouble de devoir la désactiver depuis vos paramètres d'extension"
+
+#: inc/admin/page-settings.php:276
+msgid "Show task stickers by default"
+msgstr "Afficher les étiquettes de tâche par défaut"
+
+#: inc/admin/page-settings.php:276
+msgid ""
+"If this is switched off, you will not see stickers unless you open the "
+"sidebar while on the front-end"
+msgstr ""
+"Wenn dies ausgeschaltet ist werden Sie keine Markierungen sehen, außer Sie "
+"öffnen die Seitenleiste auf der Webseite im Frontend"
+
+#: inc/admin/page-settings.php:286
+msgid "Remove backend commenting"
+msgstr "Retirer du back-end la fonction de commentaire "
+
+#: inc/admin/page-settings.php:286
+msgid ""
+"By default you can create tasks on the front end AND on the back end. By "
+"ticking this option on, users will not be able to create tasks on any of the "
+"WP admin screens."
+msgstr ""
+"Par défaut, vous pouvez créer des taches sur le front-end et en back-end. En "
+"cochant cette otpion, les utilisateurs ne pourront pas créer des tâches sur "
+"toutes pages des écrans de l'administation WP."
+
+#: inc/admin/page-settings.php:296
+msgid "Remove Font-Awesome Script"
+msgstr "Désactiver le script Font-Awesome"
+
+#: inc/admin/page-settings.php:296
+msgid ""
+"If Font-Awesome is already integrated on this website, you might notice some "
+"icons not showing correctly. Ticking this removes WP Feedback’s integration "
+"to avoid this conflict."
+msgstr ""
+"Wenn Font-Awesome bereits auf dieser Webseite eingebunden ist, werden einige "
+"Icons möglicherweise nicht korrekt dargestellt. Durch Aktivieren dieser "
+"Option wird die WP Feedback Integration entfernt, um diesen Konflikten "
+"vorzubeugen."
+
+#: inc/admin/page-settings.php:298
+msgid "ONLY if you already have the script running on all pages of the site "
+msgstr "SEULEMENT si le script est déjà activé pour toutes les pages du site"
+
+#: inc/admin/page-settings.php:303
+msgid "White Label"
+msgstr "Marque Blanche"
+
+#: inc/admin/page-settings.php:305
+msgid "Replace the WP Feedback logo"
+msgstr "Remplacer le logo WP Feedback"
+
+#: inc/admin/page-settings.php:305
+msgid ""
+"This will replace the logo in the top right of this page and the logo on the "
+"notification emails that are sent out."
+msgstr ""
+"Cela remplacera le logo dans le coin supérieur droit de votre page ainsi que "
+"le logo situé dans les emails de notification qui sont envoyés."
+
+#: inc/admin/page-settings.php:306
+msgid "The new logo should be 180px width X 45px height"
+msgstr "Le nouveau logo doit faire 180px de largeur sur 45px de hauteur "
+
+#: inc/admin/page-settings.php:309
+msgid "Upload image"
+msgstr "Téléverser l'image"
+
+#: inc/admin/page-settings.php:317
+msgid "Change the main color"
+msgstr "Changer la couleur dominante"
+
+#: inc/admin/page-settings.php:317
+msgid ""
+"Where ever you see the blue, this option will change it to whatever colour "
+"you want!"
+msgstr ""
+"Où que vous puissiez voir la couleur bleue, cette option la changera pour la "
+"couleur que vous souhaitez"
+
+#: inc/admin/page-settings.php:320
+msgid "Replace the WP Feedback blue with your own brand color"
+msgstr "Remplacez le bleu WP Feedback par la couleur de votre propre marque"
+
+#: inc/admin/page-settings.php:323
+msgid "Change the tutorial video"
+msgstr ""
+
+#: inc/admin/page-settings.php:323
+msgid ""
+"The video will be replaced on the frontend wizard as well as tasks screen on "
+"backend when empty."
+msgstr ""
+
+#: inc/admin/page-settings.php:326
+msgid "Replace the WP Feedback video with your own tutorial video"
+msgstr ""
+
+#: inc/admin/page-settings.php:334
+msgid "Remove the “Powered by” link"
+msgstr "Retirer le lien \"Powered by\""
+
+#: inc/admin/page-settings.php:334
+msgid ""
+"Ticking this option will remove our WP Feedback link that is on the bottom "
+"of the sidebar."
+msgstr ""
+"Cocher cette option retire notre lien WP Feedback se situant en bas de la "
+"barre latérale"
+
+#: inc/admin/page-settings.php:339
+msgid "Reset plugin settings"
+msgstr "Remise à zéro des paramètres de l'extension"
+
+#: inc/admin/page-settings.php:347
+msgid "Notifications Settings"
+msgstr "Paramètres de Notifications"
+
+#: inc/admin/page-settings.php:355
+msgid "Sent from email address"
+msgstr "E-mail de l'expéditeur"
+
+#: inc/admin/page-settings.php:356
+msgid "Set a \"From\" email address to send all notifications."
+msgstr "Paramétrer un e-mail"
+
+#: inc/admin/page-settings.php:361
+msgid "Send email notifications to the following address"
+msgstr "Envoyer les notifications par e-mail aux adresses suivantes"
+
+#: inc/admin/page-settings.php:362
+msgid ""
+"This option is in addition to the user emails. Seperate with comma for "
+"multipe addresses."
+msgstr ""
+"Cette option est en supplément des e-mails de l'utilisateur. Séparer avec "
+"une virgule pour plusieurs adresses"
+
+#: inc/admin/page-settings.php:369
+msgid ""
+"These are global notifications settings, then each user can choose the ones "
+"they would like to receive (on the front end wizard or inside the WordPress "
+"user profile)."
+msgstr ""
+
+#: inc/admin/page-settings.php:437 inc/admin/page-settings-permissions.php:216
+msgid "Save Changes"
+msgstr "Sauvegarder les modifications"
+
+#: inc/admin/page-settings.php:447
+msgid "WPFeedback Integrations"
+msgstr ""
+
+#: inc/admin/page-settings.php:458
+msgid "Support From WP Feedback"
+msgstr "Support de WP Feedback"
+
+#: inc/admin/page-settings.php:465
+msgid "Join the tribe on Facebook"
+msgstr "Rejoindre la tribu sur Facebook"
+
+#: inc/admin/page-settings.php:467
+msgid ""
+"Get faster answers by leveraging the community, we're there too of course!"
+msgstr ""
+"Bénéficier de réponses plus rapides en profitant de la communauté. Nous "
+"sommes là aussi, bien sûr !"
+
+#: inc/admin/page-settings.php:470
+msgid "Video walkthrough"
+msgstr "Procédure Vidéo"
+
+#: inc/admin/page-settings.php:488
+msgid "These should help"
+msgstr "Ceci devrait aider"
+
+#: inc/admin/page-settings.php:490
+msgid "Licenses and domains"
+msgstr "Licences et domaines"
+
+#: inc/admin/page-settings.php:491
+msgid ""
+"Can&#39;t validate the license? You probably didn&#39;t add the domain. "
+"Follow the steps above."
+msgstr ""
+"Vous ne pouvez valider la licence ? Vous n'avez probablement pas ajouter le "
+"domaine. Suivez les étapes ci-dessus."
+
+#: inc/admin/page-settings.php:495
+msgid "Zapier Integration"
+msgstr "Intégration Zapier"
+
+#: inc/admin/page-settings.php:496
+msgid ""
+"Step by step guide to integrating WP Feedback to 1500+ apps - Connect your "
+"workflow."
+msgstr ""
+"Guide pas à pas d'intégration de WP Feedback aux + de 1500 apps - Connectez "
+"votre flux de travail"
+
+#: inc/admin/page-settings.php:498
+msgid ""
+"Notifications\n"
+"                                issues"
+msgstr "Problèmes de notifications"
+
+#: inc/admin/page-settings.php:500
+msgid "Can&#39;t send emails? Getting too many emails? Answers inside."
+msgstr ""
+"Vous ne pouvez pas envoyer vos emails ? Vous en recevez trop ? Des réponses "
+"à l'intérieur"
+
+#: inc/admin/page-settings.php:502
+msgid "Partner with us"
+msgstr "Devenez notre partenaire"
+
+#: inc/admin/page-settings.php:503
+msgid ""
+"If you&#39;re talking about us and send some peeps over - We wanna pay you!"
+msgstr ""
+"Si vous parlez de nous et nous renvoyez des visites - Nous voulons vous "
+"rémunérer !"
+
+#: inc/admin/page-settings.php:505
+msgid "Public Roadmap"
+msgstr "Feuille de route (Roadmap) publique"
+
+#: inc/admin/page-settings.php:506
+msgid ""
+"If we&#39;re advocating for feedback we better lead by example. You&#39;re "
+"invited to request&nbsp;features."
+msgstr ""
+"Si nous nous faisons l'avocat des feedbacks, nous ferions mieux de montrer "
+"l'exemple. Vous êtes invités à demander de nouvelles fonctionnalités"
+
+#: inc/admin/page-settings.php:508
+msgid "Feeling stressed? (WP&amp;UP)"
+msgstr "Vous êtes stressé ? (WP&UP)"
+
+#: inc/admin/page-settings.php:509
+msgid ""
+"Dealing with clients is hard(!) This amazing charity for the WP community is "
+"here to help you grow and relax."
+msgstr ""
+"Faire avec les clients est difficile (!) Cette fantastique charité pour la "
+"communauté WP est içi pour vous aider à vous développer et relaxer"
+
+#: inc/admin/page-settings.php:514
+msgid "Create a support ticket"
+msgstr "Créer un ticket de support"
+
+#: inc/admin/page-settings.php:515
+msgid "We will reply via email in up to 24 hours (Weekdays)"
+msgstr "Nous vous répondrons par email en moins de 24h (lu-ve)"
+
+#: inc/admin/page-settings.php:515
+msgid "Support will only be given in English"
+msgstr "Le support ne sera proposé qu'en anglais"
+
+#: inc/admin/page-settings.php:518
+msgid ""
+"We collected your name, email, license key and domain so all you need to do, "
+"is tell us what's\n"
+"                        up."
+msgstr ""
+"Nous avons collecté votre nom, email, clé de licence et nom de domaine. Tout "
+"ce qui vous reste à faire : nous dire ce qu'il y a."
+
+#: inc/admin/page-settings.php:522
+msgid "Subject"
+msgstr "Sujet"
+
+#: inc/admin/page-settings.php:525
+msgid "Message"
+msgstr "Message"
+
+#: inc/admin/page-settings.php:530
+msgid "Name"
+msgstr "Nom"
+
+#: inc/admin/page-settings.php:535
+msgid "Email"
+msgstr "E-mail"
+
+#: inc/admin/page-settings.php:545
+msgid "Insert Site Health Info"
+msgstr "Insérer les informations Site Health"
+
+#: inc/admin/page-settings.php:545
+msgid "(WP 5.2 and up)"
+msgstr "(WP 5.2 et au-delà)"
+
+#: inc/admin/page-settings.php:549
+msgid "Click here to get site health info"
+msgstr "Cliquer içi pour avoir les informations Site Health"
+
+#: inc/admin/page-settings.php:555
+msgid "Request Support"
+msgstr "Demander une assistance"
+
+#: inc/admin/page-settings.php:556
+msgid "Sorry! Your message was not sent, please try after some time."
+msgstr ""
+"Désolé ! Votre message n'a pas été envoyé, merci d'essayer un peu plus tard"
+
+#: inc/admin/page-settings.php:557
+msgid ""
+"Your message was sent to the WP Feedback Team. Thanks for contacting us. We "
+"will reply to this email address shortly:"
+msgstr ""
+"Votre message a été envoyé à l'Equipe WP Feedback. Merci de nous avoir "
+"contacté. Nous répondrons à cette adresse dans les plus brefs délais : "
+"vito@acedigital.london"
+
+#: inc/admin/wpf_admin_function.php:176
+msgid "Frontend"
+msgstr "Front-End"
+
+#: inc/admin/wpf_admin_function.php:191
+msgid "WPFeedback"
+msgstr ""
+
+#: inc/admin/page-settings-permissions.php:62
+msgid "WP Feedback Permissions"
+msgstr ""
+
+#: inc/admin/page-settings-permissions.php:69
+msgid "Validate Your Installation"
+msgstr "Valider votre installation"
+
+#: inc/admin/page-settings-permissions.php:70
+msgid ""
+"The plugin will not work unless you insert a valid license key and <a "
+"href=\"https://wpfeedback.co/knowledge-base/faq/installation/\" "
+"target=\"_blank\">link the domain</a>."
+msgstr ""
+"L'extension ne fonctionnera pas sans l'insertion d'une clé de licence valide "
+"et Lier le domaine"
+
+#: inc/admin/page-settings-permissions.php:79
+msgid ""
+"If you don't have a valid license, <a href='https://wpfeedback.co/' "
+"target='_blank'>Please click here to get a new license key</a>"
+msgstr ""
+"Si vous ne possédez pas une licence valide, merci de cliquer içi pour "
+"recevoir une nouvelle clé de licence"
+
+#: inc/admin/page-settings-permissions.php:88
+msgid "User roles allowed to create tasks"
+msgstr "Rôles d'Utilisateur autorisés à créer des tâches"
+
+#: inc/admin/page-settings-permissions.php:88
+msgid ""
+"If a user role is not selected, they will not be able to see WP Feedback on "
+"the front-end, they will still be able to access the plugin settings though "
+"unless you restrict this someone else."
+msgstr ""
+"Wenn eine Benutzerrolle nicht ausgewählt ist, werden deren Benutzer das WP "
+"Feedback nicht auf der Frontendseite sehen können, aber sie werden trotzdem "
+"Zugriff auf die Plugineinstellungen haben, sofern dies nicht auf jemanden "
+"anderen beschränkt wurde."
+
+#: inc/admin/page-settings-permissions.php:89
+msgid "Hold down the CTRL key to choose multiple options"
+msgstr "Garder la touche CTRL enfoncée pour séléctionner plusieurs options"
+
+#: inc/admin/page-settings-permissions.php:100
+msgid "Guest allowed"
+msgstr "Invité autorisé"
+
+#: inc/admin/page-settings-permissions.php:100
+msgid ""
+"Enabling this will make WP Feedback visible to everyone who visits your site "
+"and will allow them to create tasks and comment on existing ones."
+msgstr ""
+"En autorisant cette option, vous rendrez visible WP Feedback à tout visiteur "
+"de votre site et leur permettra de créer des tâches et commentaires sur "
+"celles existantes"
+
+#: inc/admin/page-settings-permissions.php:110
+msgid "Stop comments for admins"
+msgstr "Arréter les commentaires pour les administrateurs"
+
+#: inc/admin/page-settings-permissions.php:110
+msgid "Stop comments for admins on front end."
+msgstr ""
+
+#: inc/admin/page-settings-permissions.php:118
+msgid "Customisations "
+msgstr "Personnalisation"
+
+#: inc/admin/page-settings-permissions.php:118
+msgid ""
+"These names are for the setup wizard when you first installed the plugin. "
+"Every user who comes to the website after installation will have to go "
+"through it and you can name the 3 options here."
+msgstr ""
+"Ces noms sont pour l'assistant d'installation lors de votre première "
+"installation de l'extension. Chaque utilisateur venant sur le site internet "
+"après l'installation devra passer à travers, et vous pouvez nommer vos 3 "
+"options içi."
+
+#: inc/admin/page-settings-permissions.php:119
+msgid "Client (Website Owner) "
+msgstr "Client (Propriétaire du Site Internet)"
+
+#: inc/admin/page-settings-permissions.php:119
+msgid ""
+"Can do everything except: Choose and change status, Access the settings, "
+"support and upgrade screens. Can only delete his own tickets. "
+msgstr ""
+"Peut tout faire sauf : Choisir et changer de statut, Accéder aux écrans de "
+"paramétrage, de support et de mise à niveau. Ne peut qu'effacer ses propres "
+"tickets"
+
+#: inc/admin/page-settings-permissions.php:120
+msgid "Webmaster"
+msgstr ""
+
+#: inc/admin/page-settings-permissions.php:120
+msgid "Super admin – he has full capabilities for all the plugin’s functions. "
+msgstr ""
+"Super admin - Il a les pleines capacités sur toutes les fonctionnalités de "
+"l'extension"
+
+#: inc/admin/page-settings-permissions.php:121
+msgid "Others "
+msgstr "Autres"
+
+#: inc/admin/page-settings-permissions.php:121
+msgid ""
+"Can do everything except: Choose and change status and urgency, Access the "
+"settings, support, integration and upgrade screens. Can only delete his own "
+"tickets. "
+msgstr ""
+"Peut tout fair sauf : Choisir et changer les statuts et urgences, Accéder "
+"aux écrans de paramétrage, de support, d'intégration et de mise à niveau. "
+"Peut seulement effacer ses propres tickets"
+
+#: inc/admin/page-settings-permissions.php:126
+msgid "User permissions"
+msgstr ""
+
+#: inc/admin/page-settings-permissions.php:133
+msgid "Guest "
+msgstr ""
+
+#: inc/admin/page-settings-permissions.php:185
+msgid "Default users"
+msgstr "Utilisateurs par défaut"
+
+#: inc/admin/page-settings-permissions.php:187
+msgid "The website builder"
+msgstr "Le constructeur du site internet"
+
+#: inc/admin/page-settings-permissions.php:188
+msgid ""
+"The website builder will add this user to all tasks by default, allowing the "
+"client to skip the \"choose a user\" tab when creating a task."
+msgstr ""
+"Le constructeur du site internet ajoutera par défaut cet utilisateur à "
+"toutes les tâches, permettant au client d'ignorer l'onglet \"choisir un "
+"utilisateur\" à la création d'une tâche"
+
+#: inc/admin/page-settings-permissions.php:190
+#: inc/admin/page-settings-permissions.php:205
+msgid "select"
+msgstr "Sélectionner"
+
+#: inc/admin/page-settings-permissions.php:202
+msgid "The client"
+msgstr "Le client"
+
+#: inc/admin/page-settings-permissions.php:203
+msgid ""
+"Create a user for the client and assign it here to allow the client to "
+"comment in guest mode but still be assigned to the tickets for replies and "
+"notifications."
+msgstr ""
+"Crée un utilisateur pour le client et l'assigne içi pour permettre au client "
+"de commenter en mode invité tout en permettant l'assignation des tickets "
+"pour les réponses et notifications"
+
+#: inc/frontend/wpf_login_modal.php:6
+msgid "Skip the login"
+msgstr ""
+
+#: inc/frontend/wpf_frontend_initial_setup.php:16
+msgid "Hi "
+msgstr "Hi"
+
+#: inc/frontend/wpf_frontend_initial_setup.php:16
+msgid ", Let's give feedback"
+msgstr ", donnons un feedback"
+
+#: inc/frontend/wpf_frontend_initial_setup.php:17
+msgid "To optimize your experience, which one describes you best?"
+msgstr "Pour optimiser votre expérience, lequel vous décrit le mieux ?"
+
+#: inc/frontend/wpf_frontend_initial_setup.php:45
+msgid "Please select anyone"
+msgstr "Merci de sélectionner quelqu'un"
+
+#: inc/frontend/wpf_frontend_initial_setup.php:48
+msgid "Notifications"
+msgstr "Notifications"
+
+#: inc/frontend/wpf_frontend_initial_setup.php:49
+msgid "Choose the emails you'd like to receive (Recommended to keep as is)"
+msgstr ""
+"Choisissez les e-mails que vous souhaiteriez recevoir (recommandé de le "
+"laisser ainsi)"
+
+#: inc/frontend/wpf_frontend_initial_setup.php:54
+msgid "One Last Step"
+msgstr "Une dernière étape"
+
+#: inc/frontend/wpf_frontend_initial_setup.php:58
+msgid "How to give feedback"
+msgstr "Comment faire un feedback"
+
+#: inc/frontend/wpf_frontend_initial_setup.php:59
+msgid "Watch this short tutorial to get started"
+msgstr "Regardez ce court tutoriel pour démarrer"
+
+#: inc/frontend/wpf_frontend_initial_setup.php:83
+msgid "Let's Start"
+msgstr "C'est parti !"
+
+#. Name of the plugin
+#. Author of the plugin
+msgid "WP Feedback"
+msgstr "WP Feedback"
+
+#. Description of the plugin
+msgid "Client feedback in 1 click - WP Feedback"
+msgstr "Feedback Client en 1 clic - WP Feedback"
+
+#. URI of the plugin
+#. Author URI of the plugin
+msgid "https://wpfeedback.co/"
+msgstr ""

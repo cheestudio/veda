@@ -1,0 +1,1628 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css?family=Exo:400,700,800,900');
+
+/* ------------ GENERAL ------------ */
+
+.wpfeedback-settings ::-webkit-scrollbar {width: 10px;}
+.wpfeedback-settings ::-webkit-scrollbar-track {background: white}
+.wpfeedback-settings ::-webkit-scrollbar-thumb {background: #dee2e6; border-radius: 10em;}
+.wpfeedback-settings ::-webkit-scrollbar-thumb:hover {background: var(--main-wpf-color);}
+
+.wrap.wpfeedback-settings {
+    margin: 20px 20px -30px 2px !important;
+}
+.wrap.wpfeedback-settings h1 {
+    padding: 0;
+}
+.wpf_logo {
+    float: right;
+    width: 180px;
+    margin-top: -15px;
+}
+.wpf_logo img {
+    width: 100%;
+}
+.wpf_tabs_tab {
+    text-align: center;
+    width: 120px;
+    display: inline-block;
+}
+
+
+.wpf_tabs_container button {
+    border-radius: 5px 5px 0 0;
+    border: none;
+    box-shadow: 0em 0em 3em 0em rgba(0,0,0,0.13);
+    padding: 8px 25px;
+    font-size: 14px;
+    cursor: pointer;
+    color: var(--main-wpf-color);
+    font-weight: 700;
+    text-decoration: none;
+    font-family: 'Arial', sans-serif;
+    background-color: #f7f7f7 !important;
+    transition: 0.7s;
+}
+
+.wpf_tabs_container button:hover, .wpf_tabs_container button.active {
+    background-color: var(--main-wpf-color) !important;
+    color: white;
+    opacity: 0.9;
+}
+
+.wpf_container {
+    /*box-shadow: 0em 0em 3em 0em rgba(0,0,0,0.13);*/
+    border-radius: 0 5px 5px 5px;
+    background-color: #fff !important;
+}
+/*
+.wpf_inner_container {
+    padding: 25px;
+}
+*/
+.wpf_section_title {
+    font-family: 'Arial', sans-serif;
+    background-color: #fff;
+    padding: 15px;
+    color: var(--main-wpf-color);
+	border-top: 3px solid var(--main-wpf-color);
+    font-size: 150%;
+    font-weight: 800;
+	border-bottom: 1px solid #dee2e6;
+    margin-bottom: -1px;
+}
+.wpf_title {
+    font-size: 125%;
+    font-weight: 700;
+    margin-bottom: 15px;
+    color: var(--main-wpf-color);
+    font-family: 'Arial', sans-serif;
+}
+.wpf_container input[type=checkbox] {
+    border: 2px solid #ccc;
+    height: 22px;
+    width: 22px;
+    margin-top:0;
+    border-radius: 5px !important;
+}
+.wpf_container input[type=checkbox]:checked:before {
+    margin: 0;
+}
+.wpf_checkbox {
+    margin: 10px 0;
+}
+.wpf_button {
+    color: #fff;
+    background-color: var(--main-wpf-color);
+    border-radius: 0.25em;
+    font-size: 14px;
+    font-family: 'Arial', sans-serif;
+    font-weight: 700;
+    cursor: pointer;
+    padding: 15px 30px;
+    border: none;
+    -webkit-transition: all 0.2s ease-in;
+    -moz-transition: all 0.2s ease-in;
+    -ms-transition: all 0.2s ease-in;
+    -o-transition: all 0.2s ease-in;
+    transition: all 0.2s ease-in;
+}
+.wpf_button:hover {
+    opacity: 0.8;
+    color: #fff;
+}
+
+.wpfeedback-settings select {
+    width: 100%;
+    height: 40px !important;
+    padding-left: 10px !important;
+    border-radius: 5px;
+    box-shadow: none;
+    display: block;
+    max-width: 100%;
+    margin-top: 10px;
+	margin-bottom: 15px;
+}
+
+.wpfeedback-settings input[type="text"], .wpfeedback-settings input[type="email"] {
+    height: 40px;
+    box-shadow: none;
+    border-radius: 5px;
+    padding-left: 10px;
+	margin-top: 10px;
+    margin-bottom: 15px;
+}
+
+
+.wpf_hide{
+    display: none;
+}
+
+/* ------------ TASK PAGE ------------ */
+p.wpf_no_task_message {
+    font-size: 150%;
+    margin-top: 0;
+    color: var(--main-wpf-color);
+    font-family: 'Arial', sans-serif;
+}
+.wpf_no_tasks_found {
+    color: var(--main-wpf-color);
+    font-family: 'Arial', sans-serif;
+    font-weight: 700;
+    height: 100%;
+    padding-top: 10%;
+    padding: 45px 15px;
+    text-align: center;
+    font-size: 22px;
+    opacity: 0.5;
+}
+.wpf_no_tasks_found .fa {
+    display: block;
+    margin-bottom: 10px;
+    font-size: 200%;
+}
+
+input#send_chat {
+    width: calc(100% - 60px);
+}
+
+.wpf_flex_wrap {
+    display: flex;
+    min-height: calc(100vh - 220px);
+    margin: 0;
+    box-sizing: border-box;
+    flex-wrap: wrap;
+}
+
+
+.wpf_filter_col {
+    padding: 15px;
+    flex: 1;
+    min-width: 170px;
+    border-right: 1px solid #dee2e6;
+    overflow-y: auto;
+    max-height: calc(100vh - 120px);
+}
+
+.wpf_tasks_col {
+    flex: 1.5;
+    min-width: 270px;
+    border-right: 1px solid #dee2e6;
+}
+
+.wpf_chat_col {
+    display: flex;
+    flex-direction: column;
+    border-right: 1px solid #dee2e6;
+    flex: 5;
+    min-width: 450px;
+}
+
+.wpf_attributes_col {
+    flex: 1.5;
+    min-width: 240px;
+    display: flex;
+    align-items: flex-start;
+    align-content: flex-start;
+    flex-wrap: wrap;
+}
+
+.wpf_gen_col{
+    border-top: 1px solid #dee2e6;
+}
+.wpf_report_buttons {
+    float: right;
+    margin-top: -3px;
+}
+.wpf_icon_title {
+    color: var(--main-wpf-color);
+    font-family: 'Arial', sans-serif;
+    margin: 5px 0;
+    font-size: 14px;
+    font-weight: 700;
+}
+.wpf_report_buttons a {
+    text-decoration: none;
+    background-color: #dde1e5;
+    color: var(--main-wpf-color);
+    padding: 8px 15px;
+    font-size: 12px;
+	font-weight: 700;
+    border-radius: 5px;
+    -webkit-transition: all 0.2s ease-in;
+    -moz-transition: all 0.2s ease-in;
+    -ms-transition: all 0.2s ease-in;
+    -o-transition: all 0.2s ease-in;
+    transition: all 0.2s ease-in;
+}
+.wpf_report_buttons a:hover {
+    opacity: 0.8;
+}
+.wpf_icon_title .fa, .wpf_icon_title .fas {
+    width: 15px;
+    text-align: center;
+}
+.wpf_icon_box {
+    margin-bottom: 15px;
+}
+
+.wpf_display_all_taskmeta_div {
+    float: right;
+    margin-top: 14px;
+    margin-right: 5px;
+}
+
+.wpf_tasks-list {
+    min-height: 420px;
+    max-height:calc(100vh - 220px);
+    overflow-y: auto;
+    overflow-x: hidden;
+}
+
+
+.wpf_chat_top {
+    padding: 15px;
+    display: flex;
+}
+
+.wpf_chat_box{
+    flex: 1;
+    padding: 15px;
+    overflow: auto;
+    min-height: calc(100vh - 410px);
+    max-height: calc(100vh - 410px);
+}
+
+.wpf_chat_reply {
+    border: 1px solid #dee2e6;
+    margin: -10px 15px 10px 15px;
+    border-radius: 5px;
+}
+.wpf_chat_reply p.comment-form-comment {
+    margin: 0;
+}
+textarea#wpf_comment {
+    min-height: 100px;
+    border: none;
+    padding: 15px;
+}
+p.form-submit.chat_button {
+    margin: -8px 5px 3px 15px;
+    width: 270px;
+    float: right;
+}
+.wpf_task_num_top {
+    width: 50px;
+    background-color: var(--main-wpf-color);
+    text-align: center;
+    height: 50px;
+    border-radius: 50%;
+    color: #fff;
+    font-family: 'Exo', sans-serif;
+    font-weight: 800;
+    font-size: 20px;
+    line-height: 2.5;
+    margin-top: -5px;
+    margin-right: 10px;
+	opacity: 0.5;
+}
+.wpf_task_main_top {
+    font-weight: 700;
+    color: var(--main-wpf-color);
+    font-family: 'Arial', sans-serif;
+    width: calc(100% - 60px);
+}
+.wpf_task_title_top {
+    font-size: 150%;
+    width: auto;
+    display: inline-block;
+}
+.wpf_chat_top a#wpf_edit_title {
+    margin-left: 10px;
+    font-size: 100% !important;
+    vertical-align: top;
+    color: var(--main-wpf-color);
+}
+#wpf_task_details input#wpf_title_val {
+    width: 80%;
+}
+button#wpf_title_update_btn {
+    padding: 8px;
+}
+.wpf_task_details_top {
+    margin-top: 5px;
+	color: #000;
+    opacity: 0.5;
+}
+li.complete .wpf_task_num_top,.wpf_task_num_top.complete {
+    background-color: #5EA171;
+}
+
+/*  ------------ Inner Tasks Col Style  ------------ */
+
+a.wpf_general_comment_btn {
+    background-color: #dde1e5;
+    color: var(--main-wpf-color);
+    padding: 7px 10px 5px 5px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-size: 12px;
+    float: right;
+    font-family: 'Arial', sans-serif;
+    font-weight: 700;
+    margin: 10px 10px 0px 0px;
+    -webkit-transition: all 0.2s ease-in;
+    -moz-transition: all 0.2s ease-in;
+    -ms-transition: all 0.2s ease-in;
+    -o-transition: all 0.2s ease-in;
+    transition: all 0.2s ease-in;
+}
+a.wpf_general_comment_btn:hover {
+    opacity: 0.8;
+}
+a.wpf_general_comment_btn i {
+    font-size: 18px;
+    margin: -4px 0px 0px 0px !important;
+    display: inline-block;
+    vertical-align: middle;
+}
+.wpf_tasks_col .wpf_chat_top {
+    padding: 5px;
+    position: relative;
+	min-height: 85px;
+}
+.wpf_top_found {
+    border-bottom: 1px solid #dee2e6;
+}
+.wpf_top_found .wpf_title {
+    display: inline-block;
+}
+.wpf_tasks_col .wpf_title {
+    padding: 15px;
+    margin-bottom: 0;
+}
+.wpf_task_num {
+    width: 40px;
+    background-color: #fff;
+    text-align: center;
+    height: 40px;
+    border-radius: 50%;
+    color: var(--main-wpf-color);
+    font-weight: 800;
+    font-size: 20px;
+    line-height: 2.1;
+    display: inline-block;
+    margin-right: 5px;
+    vertical-align: top;
+}
+.wpf_tasks_col .wpf_task_num_top {
+    background-color: var(--main-wpf-color);
+    color: #fff;
+    font-weight: 800;
+    width: 32px;
+    float: left;
+    height: 32px;
+    line-height: 2.4;
+    text-align: center;
+    border-radius: 50%;
+    display: inline-block;
+    vertical-align: middle;
+    font-size: 14px;
+    font-family: 'Exo', sans-serif;
+    position: relative;
+    margin: 0px 10px 0 0;
+	opacity: 1;
+}
+.wpf_task_details_top span,#wpf_message_list level span {
+    font-family: 'Arial', sans-serif;
+    font-weight: 700;
+}
+.wpf_task_desc {
+    width: calc( 90% - 50px );
+    display: inline-block;
+}
+.wpf_task_single_title {
+    font-weight: 700;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+.wpf_task_single_meta {
+    font-size: 85%;
+    line-height: 1.2;
+}
+.wpf_task_done {
+    display: inline-block;
+    vertical-align: top;
+    padding-top: 7%;
+    width: 10%;
+    float: right;
+}
+li.wpf_list {
+    margin: 0;
+}
+li.wpf_list.active {
+    background-color: #dee2e6;
+}
+ul#all_wpf_list {
+    margin-top: 0;
+}
+li.wpf_list a {
+    text-decoration: none;
+}
+.wpf_tasks-list .wpf_task_title_top {
+    height: 32px;
+    line-height: 1.2;
+    overflow: hidden;
+    white-space: normal;
+    margin-top: -5px;
+    font-family: arial;
+    color: #4B4B4B;
+    font-size: 14px;
+    font-weight: 400;
+}
+.wpf_tasks-list .wpf_task_details_top {
+    margin-top: 0;
+    font-size: 11px;
+    color: #000;
+    font-family: arial;
+    opacity: 0.5;
+	overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+	font-weight: 800;
+}
+.wpf_task_pagename {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    margin-bottom: 5px;
+}
+
+
+/*----------New desing css--------*/
+.wpf_task_meta {
+    display: inline-block;
+    vertical-align: top;
+    transition: all 0.2s ease-in;
+    opacity: 0.5;
+    margin-top: -5px;
+    position: absolute;
+    right: 0;
+    background-color: transparent;
+    box-shadow: none;
+    padding: 0 5px;
+    height: 100%;
+    text-align: right;
+}
+.wpf_task_meta:hover, .wpf_task_meta.wpf_active  {
+    opacity: 1;
+    right: 0;
+	background-color: rgba(255, 255, 255, 0.9);
+}
+.wpf_tasks-list .wpf_task_meta_icon {
+    display: inline-block;
+    color: var(--main-wpf-color);
+    vertical-align: top;
+    font-size: 14px;
+    padding: 32px 10px !important;
+    opacity: 1;
+    transition: all 0.2s ease-in;
+    height: 100%;
+	position: absolute;
+    right: 0;
+}
+.wpf_task_meta:hover > .wpf_task_meta_icon, .wpf_task_meta.wpf_active .wpf_task_meta_icon {
+    opacity: 0;
+    z-index: -1;
+}
+
+.wpf_task_meta_details {
+	display: inline-block;
+    vertical-align: middle;
+    margin-right: -100px;
+    transition: all 0.2s ease-in;
+	overflow: hidden;
+	opacity: 0;
+	padding: 5px;
+}
+.wpf_task_meta:hover > .wpf_task_meta_details, .wpf_task_meta.wpf_active .wpf_task_meta_details {
+    margin-right: 0;
+	opacity: 1;
+}
+span.wpf_task_type {
+    background-color: var(--main-wpf-color);
+    color: #fff;
+    font-size: 11px;
+    font-weight: 700;
+    padding: 2px 5px;
+    border-radius: 15px;
+}
+.wpf_tasks-list .wpf_task_label {
+    margin-top: 0px !important;
+    margin-bottom: 2px;
+}
+.wpf_task_label span {
+    width: 18px;
+    height: 18px;
+    padding: 1px;
+    text-align: center;
+    border-radius: 50%;
+    color: #fff;
+    margin: 1px 1px 0px 1px;
+    font-weight: 100;
+    display: inline-block;
+    font-size: 10px;
+    line-height: 1.9;
+}
+span.wpf_task_tag, span.wpf_task_tag_more {
+    background-color: #dee2e6;
+    font-size: 11px;
+    padding: 2px 5px;
+    border-radius: 15px;
+    margin-right: 2px;
+	color: #000;
+}
+span.wpf_task_tag:last-child, span.wpf_task_tag_more:last-child {
+    margin-right: 0px;
+}
+/*  ------------ Inner Chat Style  ------------ */
+
+#wpf_comment{ width:100%; }
+
+.wpf_loader_admin {
+    position: fixed;
+    z-index: 999;
+    width: 100%;
+    overflow: visible;
+    margin: auto;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    background-image: url(../images/Loader-slider-WPFeedback.svg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-color: rgba(255, 255, 255, 0.5);
+    background-size: 60px;
+}
+.wpf_task_status_title, .wpf_task_priority_title {
+    color: var(--main-wpf-color);
+}
+input#wp_feedback_filter_btn {
+    text-decoration: none;
+    background-color: #dde1e5;
+    color: var(--main-wpf-color);
+    padding: 8px 15px;
+    font-size: 12px;
+    font-weight: 700;
+    border-radius: 5px;
+    width: 100%;
+}
+li.not_chat_author {
+    margin-bottom: 10px;
+    border: 1px solid #dee2e6;
+    border-radius: 5px;
+    padding: 5px 10px;
+    width: 85%;
+	margin-left: 10%;
+    -webkit-animation: fade-in-top 0.6s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
+    animation: fade-in-top 0.6s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
+}
+li.chat_author {
+    margin-bottom: 10px;
+    border: 1px solid #dee2e6;
+    border-radius: 5px;
+    padding: 5px 10px;
+    width: 85%;
+    background-color: #dee2e6;
+    -webkit-animation: fade-in-top 0.6s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
+    animation: fade-in-top 0.6s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
+}
+level.wpf-author, level.chat-author {
+    font-family: arial;
+    margin-bottom: 10px;
+    white-space: pre-wrap;
+    cursor: auto;
+    font-size: 11px;
+    color: #000;
+    margin: 3px 0 7px 0 !important;
+    display: block;
+    opacity: 0.5;
+    font-weight: 800;
+}
+p.task_text {
+    margin-top: 0;
+}
+
+li .tag_img {
+    width: 100% !important;
+    height: auto !important;
+    border-radius: 5px;
+    overflow: hidden;
+    margin-bottom: -10px;
+    margin-top: -10px;
+}
+/*  ------------ Inner Attr Col Style  ------------ */
+
+.wpf_attributes_col a.wpf_button {
+    font-size: 100%;
+    display: block;
+    text-align: center;
+    margin: 0;
+    text-decoration: none;
+	padding: 14px;
+	margin-bottom: 20px;
+}
+.wpf_task_attr.wpf_task_title .wpf_title {
+    margin-bottom: 0px;
+}
+.wpf_task_page p {
+    margin: 0 0 3px 0px !important;
+}
+
+.wpf_task_attr {
+    flex: 1;
+    min-width: 170px;
+    padding: 10px 15px;
+}
+
+.wpf_attributes_col input.wpf_button {
+    padding: 0;
+}
+
+.wpf_task_status {
+    margin-bottom: 15px;
+}
+
+.wpf_attributes_col {
+    min-height: 420px;
+    overflow: auto;
+    max-height: calc(100vh - 120px);
+}
+div#wpf_delete_task_container a {
+    color: #bb0000;
+}
+div#wpf_delete_task_container {
+    padding: 15px 0;
+}
+/* ------------ SETTINGS PAGE ------------ */
+.wpf_title_section {
+    font-size: 150%;
+    font-weight: 700;
+    margin-bottom: 15px;
+    color: var(--main-wpf-color);
+    font-family: 'Arial', sans-serif;
+}
+.wpf_title_secondery {
+    margin: 10px 0;
+}
+.wpf_settings_ctt_wrap {
+    display: flex;
+    box-sizing: border-box;
+    flex-wrap: wrap
+}
+
+.wpf_settings_col {
+    flex: 1;
+    padding: 15px;
+    min-width: 300px;
+}
+
+.wpf_settings_ctt_wrap select[multiple] {
+    height: 125px !important;
+    padding: 10px !important;
+    border-radius: 5px;
+    /*overflow: hidden;*/
+}
+
+.wpfeedback_main_color {
+    margin: 15px 0;
+}
+
+.wpfeedback_licence_key {
+    padding: 15px;
+    border: 2px dashed #cccccc;
+    margin-bottom: 20px;
+    border-radius: 10px;
+}
+
+.wpfeedback_user_role_list {
+    margin-bottom: 20px;
+}
+
+.wpfeedback_licence_key i.fas.fa-times {
+    font-size: 20px;
+    margin-left: 10px;
+    color: #e23f18;
+}
+
+.wpfeedback_licence_key_field {
+    margin: 10px 0;
+}
+
+.wpfeedback_licence_key_field input, .wpfeedback_item_name_field input {
+    width: calc(100% - 50px);
+    height: 40px;
+    box-shadow: none;
+    border-radius: 5px;
+    padding-left: 10px;
+}
+
+.wpfeedback_item_name_field {
+    margin-top: 20px;
+}
+
+.wpfeedback_more_emails input {
+    width: 100%;
+}
+
+input#wpf_save_setting {
+    width: 100%;
+    margin-top: 25px;
+}
+
+.wpfeedback_replace_logo input#upload_image_button {
+    border-radius: 0.25em;
+    margin-top: 10px;
+    -webkit-transition: all 0.2s ease-in;
+    -moz-transition: all 0.2s ease-in;
+    -ms-transition: all 0.2s ease-in;
+    -o-transition: all 0.2s ease-in;
+    transition: all 0.2s ease-in;
+    height: auto;
+    border-width: 3px;
+    border-style: solid;
+    border-color: var(--main-wpf-color);
+    color: var(--main-wpf-color);
+    background-color: transparent;
+    width: 100%;
+    font-size: 16px;
+    font-family: 'Arial', sans-serif;
+    font-weight: 700;
+    cursor: pointer;
+    box-shadow: none;
+    text-shadow: none;
+    padding: 6px 30px;
+}
+.wpfeedback_replace_logo input#upload_image_button:hover {
+    opacity: 0.8;
+}
+.wpfeedback_image-preview-wrapper img {
+    max-width: 180px;
+    margin: auto;
+    display: block;
+}
+input#wpfeedback_color {
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    text-align: center;
+    margin: 5px 0px;
+}
+textarea#wpf_tutorial_video {
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    margin: 5px 0px;
+}
+.wpfeedback_youtube_url{
+    margin: 15px 0;
+}
+.wrap.wpfeedback-settings input[type=checkbox]:checked:before {
+    color: var(--main-wpf-color);
+    margin: -1px 0px 0 -2px !important;
+}
+.wpfeedback_reset_setting input.wpf_button {
+    border-width: 3px;
+    border-style: solid;
+    border-color: var(--main-wpf-color);
+    color: var(--main-wpf-color);
+    background-color: transparent;
+    width: 100%;
+}
+
+.wpf_resync_dashboard input.wpf_button {
+    border-width: 3px;
+    border-style: solid;
+    border-color: var(--main-wpf-color);
+    color: var(--main-wpf-color);
+    background-color: transparent;
+    width: 100%;
+}
+
+input.wpf_customise_field {
+    width: 100%;
+    margin-bottom: 5px;
+}
+img.wpf_settings_image {
+    width: 400px;
+    display: block;
+    max-width: 100%;
+}
+
+.wpf_golbalsettings_buttons {
+    padding: 15px;
+    border: 1px solid #dee2e6;
+    border-radius: 5px;
+}
+div#wpf_global_settings_overlay p {
+    color: #222;
+    font-family: arial;
+    font-weight: 400;
+}
+.wpf_settings_icon {
+    display: inline-block;
+    font-size: 14px;
+    vertical-align: top;
+    opacity: 0.7;
+    margin: 1px 5px;
+}
+/* ------------ PERMISSIONS PAGE ------------ */
+
+.wpf_user_permissions {
+    margin-bottom: 25px;
+}
+table.wpf_perm_table {
+    width: 100%;
+    text-align: center;
+}
+td.wpf_perm_top {
+    background-color: #dee2e6;
+    padding: 10px;
+    color: var(--main-wpf-color);
+    font-weight: 700;
+}
+td.wpf_left_cell {
+    text-align: left;
+    font-weight: 700;
+    color: var(--main-wpf-color);
+}
+table.wpf_perm_table td {
+    border-bottom: 1px solid #dee2e6;
+    padding: 5px;
+}
+
+/* ------------ ADDONS PAGE ------------ */
+
+img.wpf_integration_image {
+    width: 1200px;
+    max-width: 100%;
+    margin-top: 2%;
+}
+.wpf_addon_box_wrap{display:flex;}
+
+.wpf_inner_container {
+    text-align: center;
+}
+
+.wpf_addon_box {
+    box-shadow: 0em 0em 3em 0em rgba(0,0,0,0.13);
+    border-radius: 0 5px 5px 5px;
+    border: 1px solid #dee2e6;
+    background-color: #fff !important;
+    padding: 25px;
+    text-align: center;
+    margin: 20px;
+}
+
+.wpf_addon_box img {
+    width: 200px;
+    max-width: 100%;
+}
+
+/* ------------ SUPPORT PAGE ------------ */
+
+
+.wpf_support_col_left {
+    width: 45%;
+    padding: 15px;
+    vertical-align: top;
+    display: inline-block;
+}
+.wpf_support_col_right {
+    width: 45%;
+    padding: 15px;
+    vertical-align: top;
+    display: inline-block;
+}
+form#wpf_user_support {
+    box-shadow: 0em 0em 3em 0em rgba(0,0,0,0.13);
+    padding: 20px 40px;
+    border-radius: 5px;
+    border: 1px solid #dee2e6;
+    background-color: #fff !important;
+    width: 100%;
+    max-width: 400px;
+    margin-bottom: 45px;
+}
+textarea#wpf_support_message {
+    min-height: 200px;
+}
+
+form#wpf_user_support input, form#wpf_user_support textarea {
+    width: 100%;
+    margin-bottom: 15px;
+    margin-top: 5px;
+    border-radius: 5px;
+}
+.wpf_facebook_group {
+    padding: 15px;
+    border: 2px dashed #cccccc;
+    margin-bottom: 20px;
+    border-radius: 10px;
+}
+.wpf_fb_icon {
+    display: inline-block;
+    font-size: 60px;
+    color: var(--main-wpf-color);
+    width: 65px;
+    vertical-align: top;
+}
+.wpf_fb_text {
+    width: calc(100% - 70px);
+    display: inline-block;
+}
+.wpf_fb_text .wpf_title {
+    margin-bottom: 5px;
+}
+.wpf_fb_text p {
+    margin: 0 !important;
+}
+.wpf_support_sent {
+    color: green;
+    font-weight: 700;
+}
+
+
+/* ------------ Setup Wizard ------------ */
+
+.wpf_backend_initial_setup_inner input[type=checkbox] {
+    border: 2px solid #ccc;
+    height: 22px;
+    width: 22px;
+    margin-top: 0;
+    border-radius: 5px !important;
+}
+.wpf_backend_initial_setup_inner input[type=checkbox]:checked:before {
+    color: var(--main-wpf-color);
+    margin: -1px 0px 0 -2px !important;
+}
+
+.wpf_backend_initial_setup {
+    position: fixed;
+    top: 32px;
+    left: 0;
+    width: 100%;
+    background-color: #fff;
+    background-image: url(../images/wpf-wizard-back-1.png);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    z-index: 10000;
+    height: calc(100vh - 32px);
+    overflow: auto;
+}
+.wpf_backend_initial_setup_inner {
+    width: 88%;
+    max-width: 450px;
+    margin: auto;
+    margin-top: 10px;
+    box-shadow: 0em 0em 3em 0em rgba(0,0,0,0.13);
+    padding: 25px;
+    border-radius: 5px;
+    border: 1px solid #dee2e6;
+    background-color: #fff !important;
+    z-index: 10000;
+    position: relative;
+}
+.wpf_backend_initial_setup_inner p {
+    margin-top: 0;
+}
+.wpf_backend_initial_setup_inner .wpf_button {
+    padding: 15px;
+    display: block;
+    text-align: center;
+}
+.wpf_title_wizard {
+    font-size: 200%;
+    font-weight: 700;
+    margin-bottom: 5px;
+    color: var(--main-wpf-color);
+    font-family: 'Arial', sans-serif;
+    line-height: 1.1;
+}
+.wpf_logo_wizard {
+    width: 180px;
+    margin: 15px auto;
+}
+.wpf_backend_initial_setup .wpfeedback_licence_key_field input {
+    padding: 10px;
+}
+.wpf_backend_initial_setup_inner .wpf_title {
+    font-size: 150%;
+    margin-top: 25px;
+    margin-bottom: 5px;
+}
+.wpf_wizard_footer {
+    text-align: right;
+}
+btn.wpf_button.wpf_next {
+    display: inline-block;
+    padding: 15px 35px;
+    margin-left: 25px;
+}
+.wpf_backend_initial_setup_inner iframe {
+    width: 100%;
+}
+.wpf_skip_wizard {
+    display: block;
+    text-align: center;
+    margin: 25px;
+}
+.wpf_skip_wizard a {
+    color: #8d9ba9;
+}
+.wpfeedback_image-preview-wrapper img , .wpf_logo_wizard img{
+    width: 100%;
+    height: 100%;
+}
+
+span#wpf_back_report_sent_span {
+    font-size: 80%;
+    margin-right: 10px;
+}
+
+#wpf_form input#wpf_uploadfile {
+    opacity: 0;
+    position: absolute;
+    height: auto;
+    display: inline-block;
+    max-width: 50px;
+}
+a.wpf_upload_button.wpf_button {
+	width: 50px !important;
+    display: inline-block;
+    text-align: center;
+    vertical-align: top;
+    margin-top: 5px;
+    padding: 13.5px 0px;
+    margin-left: 5px;
+    margin-right: 5px !important;
+    background-color: #dee2e6 !important;
+    min-width: auto !important;
+    position: relative;
+    color: var(--main-wpf-color) !important;
+    float: right;
+    border-radius: 50%;
+    cursor: pointer !important;
+}
+#wpf_upload_error, #wpf_error,#wpf_error_page {
+    color: var(--main-wpf-color);
+    font-weight: bold;
+}
+.wpf_support_name, .wpf_support_email {
+    width: 48%;
+    padding: 10px 3px;
+    vertical-align: top;
+    display: inline-block;
+}
+div#wpf_launcher .ui-draggable-dragging {
+    width: auto;
+}
+
+ul#wpf_message_list li .task_text {
+    word-break: break-word;
+    max-width: 100%;
+    overflow: hidden;
+    color: #000;
+    font-size: 14px;
+}
+.wpf_globals_container {
+    margin-top: 15px;
+}
+.wpf_gsettings_text {
+    width: 60%;
+    display: inline-block;
+}
+.wpf_gsettings_toggle {
+    width: 34%;
+    display: inline-block;
+    vertical-align: top;
+    margin-right: 10px;
+    text-align: center;
+    border: 1px solid #dddddd;
+    padding: 15px 0;
+    border-radius: 5px;
+}
+.wpf_gsettings_toggle i {
+    color: var(--main-wpf-color);
+    opacity: 0.5;
+    font-size: 20px;
+    margin: 4px;
+}
+
+
+/*===== HEBREW BACKEND===========*/
+
+.rtl .wpf_report_trigger a:nth-child(1)
+{
+    margin-right: 0;
+    margin-left: 2%;
+}
+.rtl a.wpf_comment_mode_general_task
+{
+    margin-left: 10px;
+}
+.rtl .wpf_logo, .rtl a.wpf_general_comment_btn
+, .rtl .wpf_report_buttons
+{
+    float: left;
+}
+.rtl .wpf_section_title
+{
+    font-family: Arial,sans-serif;
+}
+.rtl .wpf_task_num_top
+{
+    margin-right: 0;
+    margin-left: 10px;
+}
+.rtl a.wpf_upload_button.wpf_button
+{
+    margin-right: 5px;
+    margin-left: 0;
+}
+.rtl .wpf_support_col_left
+{
+    text-align: right;
+}
+.rtl .wpf_button.wpf_next
+{
+    margin-left: 0;
+    margin-right: 25px;
+}
+
+
+/*========wpf translation adaptations =========*/
+.wpf_chat_top {
+    width: 100%;
+}
+.wpf_tasks_col .wpf_title:lang(nl), .wpf_tasks_col .wpf_title:lang(cs) {
+    padding: 15px 5px;
+    font-size: 14px;
+}
+a.wpf_general_comment_btn i.fas.fa-plus-square:lang(fr) {
+    display: none;
+}
+
+a.wpf_general_comment_btn:lang(fr),a.wpf_general_comment_btn:lang(cs) {
+    font-size: 12px;
+}
+a.wpf_general_comment_btn:lang(de), a.wpf_general_comment_btn:lang(es), a.wpf_general_comment_btn:lang(it) {
+    display: block;
+    float: none;
+    margin-top: -10px;
+}
+@media (max-width: 660px) {
+    .wpf_report_buttons:lang(de) {
+        display: block;
+        float: none;
+        margin-top: 15px;
+    }
+}
+@media (max-width: 515px) {
+    .wpf_report_buttons a:lang(de), .wpf_report_buttons a:lang(fr), .wpf_report_buttons a:lang(nl) {
+        display: block;
+        margin-bottom: 5px;
+    }
+}
+/* ------------ MOBILE ------------ */
+
+@media (max-width: 1050px) {
+.wpf_tabs_container button {
+	    padding: 8px !important;
+}
+}
+@media (max-width: 767px) {
+    .wpf_logo {
+        float: none;
+        text-align: center;
+        width: 100%;
+    }
+    .wpf_logo img{
+        max-width:250px;
+        margin-bottom: 10px;
+    }
+    .wpf_tabs_container button {
+        width: 24%;
+        padding: 8px;
+    }
+    .wpf_support_col_left, .wpf_support_col_right {
+        width: 100%;
+    }
+}
+@media (max-width: 480px) {
+    .wpf_section_title {
+        text-align: center !important;
+    }
+    .wpf_report_buttons {
+        display: block;
+        float: none !important;
+        margin-top: 15px;
+    }
+    .wpf_filter_col.wpf_gen_col {
+        max-height: 25vh;
+    }
+    input#wp_feedback_filter_btn {
+        width: 100%;
+    }
+    div#wpf_task_details {
+        min-width: auto;
+    }
+}
+/*========wpf login form=========*/
+#wpf_login_container {
+    position: fixed;
+    z-index: 199999;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgba(255, 255, 255, 0.85);
+}
+#wpf_login_container .wpf_wizard_modal {
+    width: 350px;
+    max-width: 88%;
+    margin: auto;
+    margin-top: 5%;
+    box-shadow: 0em 0em 3em 0em rgba(0,0,0,0.13);
+    padding: 15px;
+    border-radius: 5px;
+    border: 1px solid #dee2e6;
+    background-color: #fff !important;
+    text-align: center;
+    font-family: arial, sans-serif;
+    font-size: 14px;
+}
+img#wpfeedback_image-preview {
+    margin-bottom: 8px;
+}
+#wpf_login_container #login_form_content .wpf_submit_button {
+    background-color: var(--main-wpf-color) !important;
+    color: #ffffff !important;
+    margin: 5px 0 0 0;
+    border-radius: 5px;
+    width: 100%;
+    padding: 15px !important;
+    font-size: 16px;
+    font-family: 'Arial', sans-serif;
+    border: none !important;
+    box-shadow: none !important;
+    font-weight: 700 !important;
+}
+#wpf_login_container a.wpf_login_close {
+    font-size: 30px;
+    margin-top: -5px;
+    color: var(--main-wpf-color);
+    float: right;
+    font-weight: 700;
+    line-height: 1;
+    text-shadow: 0 1px 0 #fff;
+    opacity: .5;
+    text-decoration: none;
+}
+#wpf_login_container a.wpf_skip.wpf_login_close {
+    float: initial;
+    font-size: 14px;
+}
+form#wpf_login input#username, form#wpf_login input#password {
+    padding: 25px !important;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    width: 100% !important;
+}
+form#wpf_login p.wpf_status {
+    color: red;
+    margin-top: 10px;
+}
+div#wpf_tasks_overlay {
+    position: absolute;
+    width: 100%;
+    background-color: rgba(255, 255, 255, 0.95);
+    height: 100%;
+    left: 0;
+    padding-top: 5%;
+    font-size: 30px;
+    color: var(--main-wpf-color);
+    font-weight: 700;
+    text-decoration: none;
+    font-family: 'Arial', sans-serif;
+    z-index: 10;
+}
+.wpf_welcome_wrap {
+    box-shadow: 0em 0em 3em 0em rgba(0,0,0,0.13);
+    padding: 45px;
+    border-radius: 5px;
+    border: 1px solid #dee2e6;
+    background-color: #fff !important;
+    width: 100%;
+    max-width: 400px;
+    margin: auto;
+    text-align: center;
+}
+.wpf_welcome_title {
+    margin-bottom: 10px;
+	line-height: 0.9;
+}
+.wpf_welcome_note {
+    font-size: 60%;
+    line-height: 1.1;
+}
+.wpf_welcome_note u {
+    cursor: pointer;
+}
+.wpf_welcome_image img {
+    display: block;
+    width: 100%;
+}
+.wpf_welcome_image img {
+    width: 100%;
+}
+.wpf_video {
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+/*=========Graphics Tab=========*/
+.wpfeedback_graphics_file .button {
+    width: auto;
+    color: #fff;
+    background-color: var(--main-wpf-color);
+    border-radius: 0.25em;
+    font-family: 'Arial', sans-serif;
+    font-weight: 700;
+    margin-top: 10px;
+    cursor: pointer;
+    -webkit-transition: all 0.2s ease-in;
+    -moz-transition: all 0.2s ease-in;
+    -ms-transition: all 0.2s ease-in;
+    -o-transition: all 0.2s ease-in;
+    transition: all 0.2s ease-in;
+    height: auto;
+}
+
+#wpf_graphics input#wpf_save_setting {
+    width: auto;
+}
+.theme-browser .theme .theme-name {
+    box-sizing: unset !important;
+}
+
+#wpf_tabs_container a.wpf_tab_item {
+    text-decoration: none;
+}
+
+.themes h2.theme-name {
+    box-sizing: unset !important;
+}
+#fusionredux-form-wrapper *, ::after, ::before {
+    box-sizing: unset;
+}
+
+.settings_page_updraftplus .ui-dialog .ui-dialog-buttonpane button,.plugins-php .ui-dialog .ui-dialog-buttonpane button{
+    padding: .4em 1em;
+    border: 1px solid #CCC;
+    background: #f6f6f6;
+    font-weight: normal;
+    color: #2b2b2b;
+}
+.ui-corner-all button.ui-dialog-titlebar-close:after,.settings_page_updraftplus button.ui-dialog-titlebar-close:after,.plugins-php button.ui-dialog-titlebar-close:after {
+    content: "X";
+}
+.ui-corner-all.ui-dialog .ui-dialog-content {
+    width: 100% !important;
+}
+.ui-draggable .ui-dialog-titlebar{height: auto !important;}
+
+#redux-sticky *, ::after, ::before {
+    box-sizing: unset;
+}
+#uc_list_items i.fa.fa-cloud-download {
+    font: normal normal normal 14px/1 FontAwesome !important;
+}
+/*====Toggle Switch====*/
+.wpf_switch {
+    position: relative;
+    display: inline-block;
+    width: 53px;
+    height: 27px;
+    /*float: right;*/
+    margin-top: -5px;
+}
+
+.wpf_switch input {
+    opacity: 0;
+    width: 0;
+    height: 0;
+}
+
+.wpf_switch_slider {
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #ccc;
+    -webkit-transition: .4s;
+    transition: .4s;
+}
+
+.wpf_switch_slider:before {
+    position: absolute;
+    content: "";
+    height: 21px;
+    width: 21px;
+    left: 3px;
+    bottom: 3px;
+    background-color: white;
+    -webkit-transition: .4s;
+    transition: .4s;
+}
+
+input:checked + .wpf_switch_slider {
+    background-color: green;
+}
+
+input:focus + .wpf_switch_slider {
+    box-shadow: 0 0 1px #dee2e6;
+}
+
+input:checked + .wpf_switch_slider:before {
+    -webkit-transform: translateX(26px);
+    -ms-transform: translateX(26px);
+    transform: translateX(26px);
+}
+
+/* Rounded sliders */
+.wpf_switch_slider.wpf_switch_round {
+    border-radius: 34px;
+}
+
+.wpf_switch_slider.wpf_switch_round:before {
+    border-radius: 50%;
+}
+div#wpf_global_settings_overlay {
+    position: absolute;
+    width: 100%;
+    background-color: rgba(255, 255, 255, 0.95);
+    height: 100%;
+    left: 0;
+    padding-top: 5%;
+    font-size: 30px;
+    color: var(--main-wpf-color);
+    font-weight: 700;
+    text-decoration: none;
+    font-family: 'Arial', sans-serif;
+    z-index: 10;
+}
+.wpf_task_label span {
+    width: 20px;
+    height: 20px;
+    padding: 1px;
+    text-align: center;
+    border-radius: 50%;
+    color: #fff;
+    margin: 0px 1px;
+    display: inline-block;
+}
+.wpf_task_label .wpf_pending-review,.wpf_task_label .wpf_medium{
+    background-color: rgb(248, 202, 94);
+}
+.wpf_task_label .wpf_high,.wpf_task_label .wpf_in-progress{
+    background-color: rgb(230, 121, 26);
+}
+.wpf_task_label .wpf_complete,.wpf_task_label .wpf_low{
+    background-color: rgb(93, 161, 112);
+}
+.wpf_task_label .wpf_open,.wpf_task_label .wpf_critical {
+    background-color: rgb(222, 0, 0);
+}
+span.wpf_tag_name a {
+    margin-left: 5px;
+    color: var(--main-wpf-color) !important;
+}
+#wpf_tasks span.wpf_tag_name {
+    display: inline-block;
+    background: #e2e4e7;
+    transition: all .2s cubic-bezier(.4,1,.4,1);
+    margin-right: 5px;
+    border-radius: 12px;
+    padding: 5px 8px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    font-size: 14px;
+}
+input.wpf_tag {
+    padding: initial;
+    width: 100%;
+    margin-bottom: 5px;
+}
+
+/*=============For tag auto-completed css===============*/
+/*the container must be positioned relative:*/
+.wpf_tag_autocomplete {
+    position: relative;
+    display: block;
+}
+.wpf_tag_autocomplete-items {
+    font-size: 12px;
+    position: absolute;
+    border: 1px solid #d4d4d4;
+    z-index: 199998 !important;
+    top: 100%;
+    left: 0;
+    right: 0;
+    margin-top: -9px;
+    max-height: 125px;
+    overflow: auto;
+    background-color: #dee2e6;
+    border-radius: 0 0 5px 5px;
+}
+
+.wpf_tag_autocomplete-items div {
+    padding: 5px 10px 5px 10px;
+    cursor: pointer;
+    border-bottom: 1px solid #d4d4d4;
+}
+
+/*when hovering an item:*/
+.wpf_tag_autocomplete-items div:hover {
+    background-color: #e9e9e9;
+}
+
+/*when navigating through the items using the arrow keys:*/
+.wpf_tag_autocomplete-active {
+    background-color: var(--main-wpf-color) !important;
+    color: #ffffff;
+}
+#wpf_tasks .wpf_tag_autocomplete button {
+    position: absolute;
+    right: 5px;
+    top: 0;
+    bottom: 0;
+    width: 24px;
+    margin-top: 10px !important;
+    margin-bottom: 0px;
+    height: 24px;
+    background-color: transparent;
+    opacity: 0.9;
+    cursor: pointer;
+    border: 0px;
+    padding: 12px 5px !important;
+}
+#wpf_tasks button.wpf_tag_submit_btn img {
+    width: 100%;
+}
+#wpf_tasks .wpf_tag_autocomplete button i {
+    vertical-align: top;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+}
+#wpf_tasks button.wpf_tag_submit_btn:hover,#wpf_tasks button.wpf_tag_submit_btn:focus {
+    background: transparent;
+}
+#wpf_tasks .wpf_tag_autocomplete button:focus {
+    outline: none !important;
+}
+/*-------------Start CSS for conflict with CiviCRM Plugin-------------*/
+.ui-dialog-content.crm-ajax-container{
+     max-width: unset !important;
+     pointer-events: auto;
+}
+/*-------------END with CiviCRM Plugin-------------*/

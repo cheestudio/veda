@@ -1,0 +1,1591 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: WP Feedback\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-11-27 11:17+0000\n"
+"PO-Revision-Date: 2019-12-18 11:51+0000\n"
+"Last-Translator: roivitopeleg <vito@acedigital.london>\n"
+"Language-Team: Czech\n"
+"Language: cs_CZ\n"
+"Plural-Forms: nplurals=3; plural=( n == 1 ) ? 0 : ( n >= 2 && n <= 4 ) ? 1 : "
+"2;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Loco https://localise.biz/\n"
+"X-Loco-Version: 2.3.0; wp-5.2.5"
+
+#: wpfeedback.php:74
+msgctxt "Post Type General Name"
+msgid "Wp feedback Types"
+msgstr ""
+
+#: wpfeedback.php:75
+msgctxt "Post Type Singular Name"
+msgid "Wp feedback Type"
+msgstr ""
+
+#: wpfeedback.php:76
+msgid "WP feedBack"
+msgstr ""
+
+#: wpfeedback.php:77
+msgid "WP feedBack Type"
+msgstr ""
+
+#: wpfeedback.php:78
+msgid "WP feedBack Item Archives"
+msgstr ""
+
+#: wpfeedback.php:79
+msgid "WP feedBack Item Attributes"
+msgstr ""
+
+#: wpfeedback.php:80
+msgid "WP feedBack Parent Item:"
+msgstr ""
+
+#: wpfeedback.php:81
+msgid "WP feedBack All Items"
+msgstr ""
+
+#: wpfeedback.php:82
+msgid "WP feedBack Add New Item"
+msgstr ""
+
+#: wpfeedback.php:83
+msgid "Add New WP feedBack"
+msgstr ""
+
+#: wpfeedback.php:84
+msgid "WP feedBack New Item"
+msgstr ""
+
+#: wpfeedback.php:85
+msgid "WP feedBack Edit Item"
+msgstr ""
+
+#: wpfeedback.php:86
+msgid "WP feedBack Update Item"
+msgstr ""
+
+#: wpfeedback.php:87
+msgid "WP feedBack View Item"
+msgstr ""
+
+#: wpfeedback.php:88
+msgid "WP feedBack View Items"
+msgstr ""
+
+#: wpfeedback.php:89
+msgid "WP feedBack Search Item"
+msgstr ""
+
+#: wpfeedback.php:90
+msgid "Not found WP feedBack"
+msgstr ""
+
+#: wpfeedback.php:91
+msgid "WP feedBack Not found in Trash"
+msgstr ""
+
+#: wpfeedback.php:92
+msgid "WP feedBack Featured Image"
+msgstr ""
+
+#: wpfeedback.php:93
+msgid "WP feedBack Set featured image"
+msgstr ""
+
+#: wpfeedback.php:94
+msgid "WP feedBack Remove featured image"
+msgstr ""
+
+#: wpfeedback.php:95
+msgid "WP feedBack Use as featured image"
+msgstr ""
+
+#: wpfeedback.php:96
+msgid "WP feedBack Insert into item"
+msgstr ""
+
+#: wpfeedback.php:97 wpfeedback.php:159
+msgid "Uploaded to this item"
+msgstr ""
+
+#: wpfeedback.php:98
+msgid "WP feedBack Items list"
+msgstr ""
+
+#: wpfeedback.php:99
+msgid "WP feedBack Items list navigation"
+msgstr ""
+
+#: wpfeedback.php:100
+msgid "WP feedBack Filter items list"
+msgstr ""
+
+#: wpfeedback.php:103
+msgid "Wp feedback Type"
+msgstr ""
+
+#: wpfeedback.php:104
+msgid "Post Type Description"
+msgstr ""
+
+#: wpfeedback.php:136
+msgctxt "Post Type General Name"
+msgid "Graphics Type"
+msgstr ""
+
+#: wpfeedback.php:137
+msgctxt "Post Type Singular Name"
+msgid "Graphics Type"
+msgstr ""
+
+#: wpfeedback.php:138
+msgid "Graphics Types"
+msgstr ""
+
+#: wpfeedback.php:139 wpfeedback.php:165
+msgid "Graphics Type"
+msgstr ""
+
+#: wpfeedback.php:140
+msgid "Graphics Archives"
+msgstr ""
+
+#: wpfeedback.php:141
+msgid "Graphics Attributes"
+msgstr ""
+
+#: wpfeedback.php:142
+msgid "Graphics Parent Item:"
+msgstr ""
+
+#: wpfeedback.php:143
+msgid "Graphics All Items"
+msgstr ""
+
+#: wpfeedback.php:144
+msgid "Add Graphics Item"
+msgstr ""
+
+#: wpfeedback.php:145
+msgid "Add New Graphics"
+msgstr ""
+
+#: wpfeedback.php:146
+msgid "Graphics New Item"
+msgstr ""
+
+#: wpfeedback.php:147
+msgid "Graphics Edit Item"
+msgstr ""
+
+#: wpfeedback.php:148
+msgid "Graphics Update Item"
+msgstr ""
+
+#: wpfeedback.php:149
+msgid "Graphics View Item"
+msgstr ""
+
+#: wpfeedback.php:150
+msgid "Graphics View Items"
+msgstr ""
+
+#: wpfeedback.php:151
+msgid "Search Graphics Item"
+msgstr ""
+
+#: wpfeedback.php:152
+msgid "Not found Graphics"
+msgstr ""
+
+#: wpfeedback.php:153
+msgid "Graphics Not found in Trash"
+msgstr ""
+
+#: wpfeedback.php:154
+msgid "Graphics Featured Image"
+msgstr ""
+
+#: wpfeedback.php:155
+msgid "Graphics Set featured image"
+msgstr ""
+
+#: wpfeedback.php:156
+msgid "Graphics Remove featured image"
+msgstr ""
+
+#: wpfeedback.php:157
+msgid "Graphics Use as featured image"
+msgstr ""
+
+#: wpfeedback.php:158
+msgid "Insert into Graphics item"
+msgstr ""
+
+#: wpfeedback.php:160
+msgid "Graphics Items list"
+msgstr ""
+
+#: wpfeedback.php:161
+msgid "Graphics Items list navigation"
+msgstr ""
+
+#: wpfeedback.php:162
+msgid "Graphics Filter items list"
+msgstr ""
+
+#: wpfeedback.php:166
+msgid "Graphics Type Description"
+msgstr ""
+
+#: wpfeedback.php:455 wpfeedback.php:456 inc/admin/page-settings.php:118
+msgid "Tasks Center"
+msgstr "Centrum úkolů"
+
+#: wpfeedback.php:463 wpfeedback.php:464 inc/wpf_ajax_functions.php:283
+#: inc/wpf_function.php:426 inc/wpf_popup_string.php:26
+#: inc/admin/page-settings-graphics.php:30 inc/admin/page-settings.php:74
+#: inc/admin/page-settings.php:151 inc/admin/page-settings-permissions.php:41
+msgid "Graphics"
+msgstr "Grafika"
+
+#: wpfeedback.php:472 wpfeedback.php:473 wpfeedback.php:524
+#: inc/admin/page-settings-graphics.php:35 inc/admin/page-settings.php:79
+#: inc/admin/page-settings-permissions.php:46
+msgid "Settings"
+msgstr "Nastavení"
+
+#: wpfeedback.php:482 wpfeedback.php:483
+#: inc/admin/page-settings-graphics.php:40 inc/admin/page-settings.php:84
+#: inc/admin/page-settings-permissions.php:51
+msgid "Permissions"
+msgstr "Práva"
+
+#: wpfeedback.php:492 wpfeedback.php:493
+msgid "Integrations"
+msgstr "Integrace"
+
+#: wpfeedback.php:503 wpfeedback.php:504
+#: inc/admin/page-settings-graphics.php:52 inc/admin/page-settings.php:93
+#: inc/admin/page-settings-permissions.php:63
+msgid "Support"
+msgstr "Podpora"
+
+#: wpfeedback.php:511 wpfeedback.php:512
+#: inc/admin/page-settings-graphics.php:57 inc/admin/page-settings.php:97
+#: inc/admin/page-settings-permissions.php:68
+msgid "Upgrade"
+msgstr "Upgradovat"
+
+#: wpfeedback.php:1437
+msgid "Backend"
+msgstr "Backend"
+
+#: wpfeedback.php:1447
+msgid "Go to the Dashboard"
+msgstr "Přejít na nástěnku"
+
+#: wpfeedback.php:1450 inc/admin/page-settings.php:124
+#: inc/admin/wpf_admin_function.php:153
+msgid "Daily Report"
+msgstr "Denní přehled"
+
+#: wpfeedback.php:1453 inc/wpf_email_notifications.php:143
+#: inc/admin/page-settings.php:129 inc/admin/wpf_admin_function.php:156
+msgid "Weekly Report"
+msgstr "Týdenní přehled"
+
+#: wpfeedback.php:1455 inc/admin/page-settings.php:120
+#: inc/admin/wpf_admin_function.php:158
+msgid "Your report was sent"
+msgstr "Váš přehled byl poslán"
+
+#: wpfeedback.php:1464 wpfeedback.php:1469 wpfeedback.php:1474
+#: wpfeedback.php:1480 inc/admin/page-settings.php:155
+#: inc/admin/page-settings.php:241 inc/admin/wpf_admin_function.php:167
+msgid "Task Status"
+msgstr "Status úkolu"
+
+#: wpfeedback.php:1465 wpfeedback.php:1470 wpfeedback.php:1475
+#: wpfeedback.php:1481 inc/admin/page-settings.php:160
+#: inc/admin/page-settings.php:247 inc/admin/wpf_admin_function.php:168
+msgid "Task Urgency"
+msgstr "Priorita úkolu"
+
+#: wpfeedback.php:1497 inc/admin/wpf_admin_function.php:174
+msgid "Task already exist for this element"
+msgstr "Pro tento element již existuje úkol"
+
+#: wpfeedback.php:1497
+msgid "Remapping task...."
+msgstr ""
+
+#: wpfeedback.php:1497 inc/admin/wpf_admin_function.php:174
+msgid "Click to give your feedback!"
+msgstr "Klikněte pro přidání zpětné vazby"
+
+#: wpfeedback.php:1502 inc/admin/wpf_admin_function.php:179
+msgid "On This Page"
+msgstr "Na této stránce"
+
+#: wpfeedback.php:1503 inc/admin/wpf_admin_function.php:180
+msgid "All Pages"
+msgstr "Všechny stránky"
+
+#: wpfeedback.php:1513 wpfeedback.php:1521 inc/admin/page-settings.php:172
+#: inc/admin/wpf_admin_function.php:191 inc/admin/wpf_admin_function.php:199
+msgid "General Task"
+msgstr "Všeobecný úkol"
+
+#: wpfeedback.php:1514 inc/admin/wpf_admin_function.php:192
+msgid "Show Tasks"
+msgstr "Ukázat úkoly"
+
+#: wpfeedback.php:1515 inc/admin/wpf_admin_function.php:193
+msgid "Show Completed"
+msgstr "Ukázat hotové"
+
+#: wpfeedback.php:1518 inc/wpf_email_notifications.php:868
+#: inc/admin/wpf_admin_function.php:196
+msgid "Powered by"
+msgstr "Powered by"
+
+#: wpfeedback.php:1521 inc/admin/wpf_admin_function.php:199
+msgid "Commenting enabled"
+msgstr "Komentování povoleno"
+
+#: wpfeedback.php:1521 inc/admin/wpf_admin_function.php:199
+msgid "Cancel"
+msgstr "Zrušit"
+
+#: graphics/wpf_graphics_all_list.php:13
+#: inc/admin/page-settings-graphics.php:77
+msgid "Create Graphics"
+msgstr "Vytvořit grafiku"
+
+#: inc/wpf_ajax_functions.php:280 inc/wpf_function.php:423
+#: inc/wpf_popup_string.php:25 inc/admin/page-settings.php:145
+msgid "General"
+msgstr "Všeobecné"
+
+#: inc/wpf_ajax_functions.php:291 inc/wpf_function.php:434
+#: inc/admin/page-settings.php:147
+msgid "Admin"
+msgstr "Administrace"
+
+#: inc/wpf_ajax_functions.php:312 inc/wpf_function.php:471
+#: inc/wpf_email_notifications.php:870 inc/wpf_popup_string.php:29
+msgid "by "
+msgstr "od "
+
+#: inc/wpf_ajax_functions.php:530 inc/wpf_popup_string.php:27
+msgid "just now"
+msgstr "právě teď"
+
+#: inc/wpf_function.php:472 inc/wpf_email_notifications.php:871
+msgid "By "
+msgstr "od "
+
+#: inc/wpf_function.php:562
+msgid "Your settings have been saved!"
+msgstr ""
+
+#: inc/wpf_function.php:569
+msgid "Your Settings not saved. "
+msgstr ""
+
+#: inc/wpf_function.php:631
+msgid " seconds ago"
+msgstr " před sekundami"
+
+#: inc/wpf_function.php:633
+msgid " minutes ago"
+msgstr " před minutami"
+
+#: inc/wpf_function.php:636
+msgid " hours ago"
+msgstr " před hodinami"
+
+#: inc/wpf_function.php:639
+msgid " days ago"
+msgstr " před dny"
+
+#: inc/wpf_function.php:642
+msgid " months ago"
+msgstr " před měsíci"
+
+#: inc/wpf_function.php:645
+msgid " years ago"
+msgstr " před lety"
+
+#: inc/wpf_function.php:706
+msgid "WP Feedback Information"
+msgstr "Informace o WP Feedback"
+
+#: inc/wpf_function.php:712
+msgid "User Type"
+msgstr "Typ uživatele"
+
+#: inc/wpf_function.php:717
+msgid "Select"
+msgstr "Zvolit"
+
+#: inc/wpf_function.php:732 inc/admin/page-settings.php:456
+msgid "Email notifications"
+msgstr "Emailová upozornění"
+
+#: inc/wpf_function.php:800
+msgid "Receive email notification for every new task"
+msgstr "Dostávat emailové upozornění pro každý nový úkol"
+
+#: inc/wpf_function.php:812
+msgid "Receive email notification for every new comment"
+msgstr "Dostávat e-mailové upozornění pro každý nový komentář"
+
+#: inc/wpf_function.php:824
+msgid "Receive email notification when a task is marked as complete"
+msgstr "Dostávat e-mailové upozornění, když je úkol označen jako hotový"
+
+#: inc/wpf_function.php:836
+msgid "Receive email notification for every status change"
+msgstr "Dostávat e-mailové upozornění pro každou změnu statusu"
+
+#: inc/wpf_function.php:874
+msgid "Auto receive email notification for daily report"
+msgstr "Automaticky dostávat e-mailové upozornění pro denní přehled"
+
+#: inc/wpf_function.php:886
+msgid "Auto receive email notification for weekly report"
+msgstr "Automaticky dostávat e-mailové upozornění pro týdenní přehled"
+
+#: inc/wpf_function.php:1037
+msgid "Reset"
+msgstr ""
+
+#: inc/wpf_function.php:1114 inc/wpf_function.php:1117
+msgid "Version"
+msgstr "Verze"
+
+#: inc/wpf_function.php:1123
+msgid "Version 1"
+msgstr ""
+
+#: inc/wpf_email_notifications.php:89 inc/wpf_email_notifications.php:830
+msgid "You have a new task on"
+msgstr "Máte nový úkol na"
+
+#: inc/wpf_email_notifications.php:94 inc/wpf_email_notifications.php:831
+msgid "You have a new reply on"
+msgstr "Máte novou odpověď na"
+
+#: inc/wpf_email_notifications.php:105 inc/wpf_email_notifications.php:832
+msgid "Your task on"
+msgstr "Váš úkol na"
+
+#: inc/wpf_email_notifications.php:110 inc/wpf_email_notifications.php:834
+msgid "Your task status on"
+msgstr "Váš úkol na"
+
+#: inc/wpf_email_notifications.php:110 inc/wpf_email_notifications.php:835
+msgid "has changed"
+msgstr "se změnil"
+
+#: inc/wpf_email_notifications.php:117
+msgid "Your tasks summary for the day"
+msgstr ""
+
+#: inc/wpf_email_notifications.php:208 inc/wpf_email_notifications.php:253
+#: inc/wpf_email_notifications.php:443 inc/wpf_email_notifications.php:491
+#: inc/wpf_email_notifications.php:694 inc/wpf_email_notifications.php:742
+#: inc/wpf_email_notifications.php:857
+msgid "Open"
+msgstr "Otevřít"
+
+#: inc/wpf_email_notifications.php:340 inc/wpf_email_notifications.php:591
+msgid "Your tasks summary for the day for"
+msgstr ""
+
+#: inc/wpf_email_notifications.php:372 inc/wpf_email_notifications.php:623
+msgid "Weekly Report for"
+msgstr ""
+
+#: inc/wpf_email_notifications.php:833
+msgid "is done"
+msgstr "je hotový"
+
+#: inc/wpf_email_notifications.php:836
+msgid "Your daily report for"
+msgstr "Váš denní přehled pro"
+
+#: inc/wpf_email_notifications.php:837
+msgid "Posted on"
+msgstr "Vloženo na"
+
+#: inc/wpf_email_notifications.php:838
+msgid "It is now marked as"
+msgstr "Nyní je označen jako"
+
+#: inc/wpf_email_notifications.php:840
+msgid "Open task"
+msgstr "Otevřený úkol"
+
+#: inc/wpf_email_notifications.php:841
+msgid "In progress"
+msgstr "Pracujeme se na tom"
+
+#: inc/wpf_email_notifications.php:842 inc/wpf_popup_string.php:8
+msgid "Pending Review"
+msgstr "Čeká na schválení"
+
+#: inc/wpf_email_notifications.php:843 inc/wpf_popup_string.php:9
+msgid "Complete"
+msgstr "Dokončené"
+
+#: inc/wpf_email_notifications.php:845
+msgid "Tasks summary for the day"
+msgstr "Přehled úkolu pro dnešek"
+
+#: inc/wpf_email_notifications.php:846
+msgid "Tasks completed today"
+msgstr "Úkoly hotový dnes"
+
+#: inc/wpf_email_notifications.php:847
+msgid "Tasks summary for the week"
+msgstr "Přehled úkolu pro týden"
+
+#: inc/wpf_email_notifications.php:848
+msgid "Tasks completed this week"
+msgstr "Úkoly dokončení tento týden"
+
+#: inc/wpf_email_notifications.php:849
+msgid "Task ID"
+msgstr "ID uživatele"
+
+#: inc/wpf_email_notifications.php:850
+msgid "Task"
+msgstr "Úkoly"
+
+#: inc/wpf_email_notifications.php:851
+msgid "Post Name"
+msgstr "Název příspěvku"
+
+#: inc/wpf_email_notifications.php:852
+msgid "Post name"
+msgstr "Název příspěvku"
+
+#: inc/wpf_email_notifications.php:853
+msgid "Post"
+msgstr "Příspěvek"
+
+#: inc/wpf_email_notifications.php:854
+msgid "Priority"
+msgstr "Priorita"
+
+#: inc/wpf_email_notifications.php:855
+msgid "Status"
+msgstr "Status"
+
+#: inc/wpf_email_notifications.php:856
+msgid "View"
+msgstr "Zobrazit"
+
+#: inc/wpf_email_notifications.php:858
+msgid "Click here to reply"
+msgstr "Klikněte zde pro odpověď"
+
+#: inc/wpf_email_notifications.php:859
+msgid "Direct URL"
+msgstr "Příma URL"
+
+#: inc/wpf_email_notifications.php:860
+msgid "Original Request"
+msgstr "Původní požadavek"
+
+#: inc/wpf_email_notifications.php:861
+msgid "Users"
+msgstr "Uživatelé"
+
+#: inc/wpf_email_notifications.php:863
+msgid "DIV Handle"
+msgstr "DIV"
+
+#: inc/wpf_email_notifications.php:864
+msgid "DIV handle"
+msgstr "DIV"
+
+#: inc/wpf_email_notifications.php:865
+msgid "Screensize"
+msgstr "Velikost obrazovky"
+
+#: inc/wpf_email_notifications.php:866
+msgid "Browser"
+msgstr "Prohlížeč"
+
+#: inc/wpf_email_notifications.php:867
+msgid "User IP"
+msgstr "IP uživatele"
+
+#: inc/wpf_email_notifications.php:869 inc/wpf_popup_string.php:2
+msgid "Low"
+msgstr "Nízká"
+
+#: inc/wpf_email_notifications.php:872
+msgid "Click here to view the task"
+msgstr "Klepnutím sem zobrazíte úlohu"
+
+#: inc/wpf_email_notifications.php:877
+msgid ""
+"This email and any attachments to it may be confidential and are intended "
+"solely for the use of the individual to whom it is addressed."
+msgstr ""
+"Tento email a jeho jakékoliv přílohy mohou být považovány za soukromé a jsou "
+"určené pouze pro adresáta tohoto emailu."
+
+#: inc/wpf_email_notifications.php:878
+msgid ""
+"If you are not the intended recipient of this email, you must neither take "
+"any action based upon its contents nor copy or show it to anyone."
+msgstr ""
+"Pokud nejste zamýšleným příjemcem tohoto e-mailu, nesmíte podniknout žádné "
+"kroky na základě jeho obsahu ani kopírovat nebo ukazovat jeho obsah nikomu."
+
+#: inc/wpf_email_notifications.php:879
+msgid ""
+"Please contact the sender if you believe you have received this email in "
+"error."
+msgstr ""
+"Prosím kontaktujte odesílatele pokud věříte, že jste obdrželi tento email "
+"omylem"
+
+#: inc/wpf_popup_string.php:3
+msgid "Medium"
+msgstr "Střední"
+
+#: inc/wpf_popup_string.php:4
+msgid "High"
+msgstr "Vysoká"
+
+#: inc/wpf_popup_string.php:5
+msgid "Critical"
+msgstr "Kritická"
+
+#: inc/wpf_popup_string.php:6
+msgid "Open Task"
+msgstr "Otevřené"
+
+#: inc/wpf_popup_string.php:7
+msgid "In Progress"
+msgstr "Probíhá"
+
+#: inc/wpf_popup_string.php:10
+msgid "Screenshot The Current View"
+msgstr "Vyfotit aktuální zobrazení"
+
+#: inc/wpf_popup_string.php:11
+msgid "Leave a comment..."
+msgstr "Zanechat komentář"
+
+#: inc/wpf_popup_string.php:12
+msgid "Add comment"
+msgstr "Přidat komentář"
+
+#: inc/wpf_popup_string.php:13
+msgid "A user must be selected to post a comment"
+msgstr "Pro přidání komentáře musí být vybrán uživatel"
+
+#: inc/wpf_popup_string.php:14
+msgid "Please enter a comment before performing this action"
+msgstr "Před provedením této akce zadejte komentář"
+
+#: inc/wpf_popup_string.php:15
+msgid ""
+"You are trying to upload an invalid filetype <br>Allowed File Types: JPG, "
+"PNG, GIF, PDF, DOC, DOCX and XLSX, MP4, WEBM, MOV, WMV, AVI"
+msgstr ""
+"\"Pokoušíte se nahrát neplatný typ souboru Povolené typy souboru: JPG, PNG, "
+"GIF, PDF, DOC, DOCX and XLSX, MP4, WEBM, MOV, WMV, AVI\""
+
+#: inc/wpf_popup_string.php:16
+msgid "Resolution:"
+msgstr "Rozlišení"
+
+#: inc/wpf_popup_string.php:17
+msgid "Browser:"
+msgstr "Prohlížeč"
+
+#: inc/wpf_popup_string.php:18
+msgid "User Name:"
+msgstr "Uživatelské jméno"
+
+#: inc/wpf_popup_string.php:19
+msgid "User IP:"
+msgstr "IP uživatele"
+
+#: inc/wpf_popup_string.php:20
+msgid "Task ID:"
+msgstr "ID úkolu"
+
+#: inc/wpf_popup_string.php:21
+msgid "Delete ticket"
+msgstr "Smazat úkol"
+
+#: inc/wpf_popup_string.php:22
+msgid "Better to change the status to complete."
+msgstr "Lepší je změnit status úkolu na hotový."
+
+#: inc/wpf_popup_string.php:23
+msgid "Are you sure you want to delete?"
+msgstr "Jste si jisti, že to chcete smazat?"
+
+#: inc/wpf_popup_string.php:24
+msgid "Yes"
+msgstr "Ano"
+
+#: inc/wpf_popup_string.php:28
+msgid "Send message"
+msgstr "Poslat zprávu"
+
+#: inc/admin/page-settings-graphics.php:26 inc/admin/page-settings.php:70
+#: inc/admin/page-settings-permissions.php:37
+msgid "Tasks"
+msgstr "Úkol"
+
+#: inc/admin/page-settings-graphics.php:46 inc/admin/page-settings.php:89
+#: inc/admin/page-settings-permissions.php:57
+msgid "Integrate"
+msgstr ""
+
+#: inc/admin/page-settings-graphics.php:67
+msgid "WPFeedback Graphics"
+msgstr "WPFeedback Grafika"
+
+#: inc/admin/page-settings-graphics.php:67
+msgid "Graphics Created successfully"
+msgstr "Grafika vytvořena úspěšně"
+
+#: inc/admin/page-settings-graphics.php:94 inc/admin/page-settings.php:385
+msgid "Upload image"
+msgstr "Nahrát obrázek"
+
+#: inc/admin/wpf_backend_initial_setup.php:17
+msgid "Let's get you up and running"
+msgstr "Pojďme na to"
+
+#: inc/admin/wpf_backend_initial_setup.php:18
+msgid "Good to have you here"
+msgstr "Jsme rádi, že vás tu máme"
+
+#: inc/admin/wpf_backend_initial_setup.php:18
+msgid "! There are only 4 steps."
+msgstr "! Jsou tu pouze 4 kroky."
+
+#: inc/admin/wpf_backend_initial_setup.php:22
+msgid "1. Add your license key."
+msgstr "Přidejte svůj licenční klíč."
+
+#: inc/admin/wpf_backend_initial_setup.php:23
+msgid "Found on your purchase confirmation email or within"
+msgstr "Nalezeno v e-mailu s potvrzením nákupu nebo v něm."
+
+#: inc/admin/wpf_backend_initial_setup.php:23
+msgid "your account."
+msgstr "Váš účet"
+
+#: inc/admin/wpf_backend_initial_setup.php:49
+msgid "Validate Domain"
+msgstr ""
+
+#: inc/admin/wpf_backend_initial_setup.php:50
+msgid "Your domain is not validated,please visit your account on our website."
+msgstr "Vaše doména není zvalidována, prosím navštivte váš účet na našem webu"
+
+#: inc/admin/wpf_backend_initial_setup.php:51
+msgid "The plugin will not work until you complete this step."
+msgstr "Plugin nebude fungovat dokud nedokončíte tento krok."
+
+#: inc/admin/wpf_backend_initial_setup.php:55
+msgid "2. Who should comment?"
+msgstr "2. Kdo může komentovat?"
+
+#: inc/admin/wpf_backend_initial_setup.php:56
+msgid "The user roles that are allowed to create tickets and give feedback."
+msgstr "Uživatelské role, které mohou vytvářet tickety a dávat zpětnou vazbu."
+
+#: inc/admin/wpf_backend_initial_setup.php:77
+msgid "Allow guests to create tickets, without the need to log in to the site."
+msgstr "Umožněte hostům vytvířet tickety bez potřeby přihlášení na stránky."
+
+#: inc/admin/wpf_backend_initial_setup.php:79
+msgid ""
+"This is great for staging sites or during the build, but not ideal for live "
+"websites. The real magic is getting your clients used to using WordPress by "
+"encouraging them to log in to their own website."
+msgstr ""
+"To je skvělé pro staging weby nebo během vytváření, ale není to ideální pro "
+"weby, které jsou online. Skutečnou magií je, že si vaši klienti zvykají "
+"používat WordPress tím, že je povzbuzujete, aby se přihlásili na vlastní web."
+
+#: inc/admin/wpf_backend_initial_setup.php:83
+msgid "3. Global Settings"
+msgstr "3. Globální nastavení"
+
+#: inc/admin/wpf_backend_initial_setup.php:99
+#: inc/admin/wpf_backend_initial_setup.php:156
+msgid "<< Back"
+msgstr "<< Zpět"
+
+#: inc/admin/wpf_backend_initial_setup.php:101
+#: inc/admin/wpf_backend_initial_setup.php:158
+msgid "Next >>"
+msgstr "Další >>"
+
+#: inc/admin/wpf_backend_initial_setup.php:107
+msgid "3. Choose notifications"
+msgstr "3. Zvolte notifikace"
+
+#: inc/admin/wpf_backend_initial_setup.php:109
+msgid "Which notifications would you like the plugin to send out?"
+msgstr "Které notifikace chcete, aby plugin posílal?"
+
+#: inc/admin/wpf_backend_initial_setup.php:110
+msgid ""
+"These are global settings. Each user can then choose their own notifications "
+"out of the options selected here."
+msgstr ""
+"Toto jsou globální nastavení. Každý uživatel si pak může vybrat vlastní "
+"notifikace z možností vybraných zde."
+
+#: inc/admin/wpf_backend_initial_setup.php:115 inc/admin/page-settings.php:465
+msgid "Send email notification for every new task"
+msgstr "Odeslat e-mailové upozornění pro každý nový úkol"
+
+#: inc/admin/wpf_backend_initial_setup.php:120 inc/admin/page-settings.php:472
+msgid "Send email notification for every new comment"
+msgstr "Odeslat e-mailové upozornění pro každý nový komentář"
+
+#: inc/admin/wpf_backend_initial_setup.php:125 inc/admin/page-settings.php:479
+msgid "Send email notification when a task is marked as complete"
+msgstr "Send email notification when a task is marked as complete"
+
+#: inc/admin/wpf_backend_initial_setup.php:130 inc/admin/page-settings.php:486
+msgid "Send email notification for every status change"
+msgstr "Odeslat e-mailové upozornění pro každou změnu statusu"
+
+#: inc/admin/wpf_backend_initial_setup.php:135 inc/admin/page-settings.php:493
+msgid "Send email notification for last 24 hours report"
+msgstr "Odeslat e-mailové upozornění pro poslední 24 hodinový přehled"
+
+#: inc/admin/wpf_backend_initial_setup.php:140 inc/admin/page-settings.php:500
+msgid "Send email notification for last 7 days report"
+msgstr "Odeslat e-mailové upozornění pro poslední 7 denní přehled"
+
+#: inc/admin/wpf_backend_initial_setup.php:145 inc/admin/page-settings.php:507
+msgid "Auto send email notification for daily report"
+msgstr "Automaticky posílat emailové upozornění pro denní přehled"
+
+#: inc/admin/wpf_backend_initial_setup.php:150 inc/admin/page-settings.php:514
+msgid "Auto send email notification for weekly report"
+msgstr "Automaticky posílat emailové upozornění pro týdenní přehled"
+
+#: inc/admin/wpf_backend_initial_setup.php:163
+msgid "4. All done!"
+msgstr "4. Vše hotovo!"
+
+#: inc/admin/wpf_backend_initial_setup.php:164
+msgid ""
+"Watch this short video to show you how to use WP Feedback to its full "
+"potential, saving you loaaaads of time and getting your client to love you "
+"even more."
+msgstr ""
+"Podívejte se na toto krátké video, které vám ukáže, jak využít WP Feedback k "
+"jeho plnému potenciálu, což vám ušetří spoustu času a přiměje klienta, aby "
+"vás ještě více miloval."
+
+#: inc/admin/wpf_backend_initial_setup.php:175
+msgid "Let's rock"
+msgstr "Rozjeďme to"
+
+#: inc/admin/wpf_backend_initial_setup.php:179
+msgid "Skip Wizard"
+msgstr "Přeskočit průvodce"
+
+#: inc/admin/page-settings.php:138
+msgid "Filter Tasks"
+msgstr "Filtrovat úkoly"
+
+#: inc/admin/page-settings.php:141
+msgid "Task Types"
+msgstr "Typ úkolu"
+
+#: inc/admin/page-settings.php:149
+msgid "Page"
+msgstr "Stránka"
+
+#: inc/admin/page-settings.php:163
+msgid "By Users"
+msgstr "Podle uživatele"
+
+#: inc/admin/page-settings.php:165
+msgid "Filter"
+msgstr "Filtrovat"
+
+#: inc/admin/page-settings.php:171
+msgid "Tasks Found"
+msgstr "Nalezené úkoly"
+
+#: inc/admin/page-settings.php:189
+msgid "No Tasks found."
+msgstr "Žádný úkol nenalezen"
+
+#: inc/admin/page-settings.php:189
+msgid "Please have a look at the video to understand the process."
+msgstr ""
+
+#: inc/admin/page-settings.php:219
+msgid "Task Attributes"
+msgstr "Atributy úkolu"
+
+#: inc/admin/page-settings.php:221
+msgid "Open Task's Page"
+msgstr "Otevřít stránku úkolu"
+
+#: inc/admin/page-settings.php:225
+msgid "Additional Information"
+msgstr "Dodatečné informace"
+
+#: inc/admin/page-settings.php:234
+msgid "Custom Tags"
+msgstr ""
+
+#: inc/admin/page-settings.php:262
+msgid "Notify Users"
+msgstr "Upozornit uživatele"
+
+#: inc/admin/page-settings.php:293 inc/admin/page-settings.php:424
+msgid "Resync dashboard"
+msgstr ""
+
+#: inc/admin/page-settings.php:296 inc/admin/page-settings.php:427
+msgid ""
+"Websites should now be resync / added now to the dashboard. Please contact "
+"support in case if does not."
+msgstr ""
+
+#: inc/admin/page-settings.php:304
+msgid "WP Feedback Settings"
+msgstr ""
+
+#: inc/admin/page-settings.php:318
+msgid "General Settings"
+msgstr "Obecné nastavení"
+
+#: inc/admin/page-settings.php:331
+msgid "Enable WP Feedback on this website"
+msgstr "Povolit WP Feedback na tomto webu"
+
+#: inc/admin/page-settings.php:331
+msgid ""
+"This is used to disable the plugin on this website, to save you the trouble "
+"of having to deactivate it in your plugin settings."
+msgstr ""
+"Používá se k deaktivaci pluginu na tomto webu, abyste si ušetřili potíže s "
+"jeho deaktivací v nastavení pluginu."
+
+#: inc/admin/page-settings.php:341
+msgid "Show task stickers by default"
+msgstr "Ve výchozím nastavení zobrazovat nálepky úkolů"
+
+#: inc/admin/page-settings.php:341
+msgid ""
+"If this is switched off, you will not see stickers unless you open the "
+"sidebar while on the front-end"
+msgstr ""
+"Pokud je tato funkce vypnutá, neuvidíte nálepky, dokud neotevřete postranní "
+"panel na front-endu"
+
+#: inc/admin/page-settings.php:351
+msgid "Remove backend commenting"
+msgstr "Zakázat komentování na backendu"
+
+#: inc/admin/page-settings.php:351
+msgid ""
+"By default you can create tasks on the front end AND on the back end. By "
+"ticking this option on, users will not be able to create tasks on any of the "
+"WP admin screens."
+msgstr ""
+"Ve výchozím nastavení můžete vytvářet úkoly na front-endu a na back-endu. "
+"Zaškrtnutím této možnosti nebudou uživatelé moci vytvářet úkoly na žádné z "
+"obrazovek WP administrace."
+
+#: inc/admin/page-settings.php:361
+msgid "Remove Font-Awesome Script"
+msgstr "Odstranit scripty Font-Awesome"
+
+#: inc/admin/page-settings.php:361
+msgid "ONLY if you already have the script running on all pages of the site. "
+msgstr ""
+
+#: inc/admin/page-settings.php:361
+msgid ""
+"If Font-Awesome is already integrated on this website, you might notice some "
+"icons not showing correctly. Ticking this removes WP Feedback’s integration "
+"to avoid this conflict."
+msgstr ""
+"Pokud je na tomto webu již integrovaný Font-Awesome, můžete si všimnout, že "
+"se některé ikony nezobrazují správně. Zaškrtnutí odstraní integraci WP "
+"Feedback, aby se tomuto konfliktu zabránilo."
+
+#: inc/admin/page-settings.php:363
+msgid "ONLY if you already have the script running on all pages of the site "
+msgstr "POUZE pokud již máte spuštěný skript na všech stránkách webu "
+
+#: inc/admin/page-settings.php:372
+msgid "Remove the data when removing the plugin"
+msgstr "smazat data když je plugin odstraněn"
+
+#: inc/admin/page-settings.php:372
+msgid ""
+" If this is checked on (not recommended), all the tasks and comments will be "
+"deleted from the database once the plugin is deactivated and deleted."
+msgstr ""
+
+#: inc/admin/page-settings.php:379
+msgid "White Label"
+msgstr "White Label"
+
+#: inc/admin/page-settings.php:381
+msgid "Replace the WP Feedback logo"
+msgstr "Vyměňte WP Feedback logo"
+
+#: inc/admin/page-settings.php:381
+msgid ""
+"This will replace the logo in the top right of this page and the logo on the "
+"notification emails that are sent out."
+msgstr ""
+"Toto nahradí logo v právem horním rohu této stránky a logo v emailových "
+"upozorněních, která jsou odeslána."
+
+#: inc/admin/page-settings.php:382
+msgid "The new logo should be 180px width X 45px height"
+msgstr "Nové logo by mělo být 180px široké a 45px vysoké"
+
+#: inc/admin/page-settings.php:393
+msgid "Change the main color"
+msgstr "Změnit hlavní barvu"
+
+#: inc/admin/page-settings.php:393
+msgid ""
+"Where ever you see the blue, this option will change it to whatever colour "
+"you want!"
+msgstr ""
+"Kdekoliv uvidíte modrou, toto nastavení jí změní na cokoliv budete chtít!"
+
+#: inc/admin/page-settings.php:396
+msgid "Replace the WP Feedback blue with your own brand color"
+msgstr "Nahraďte WP Feedback modrou svojí vlastní barvou"
+
+#: inc/admin/page-settings.php:399
+msgid "Change the tutorial video"
+msgstr "Změnit výukové video"
+
+#: inc/admin/page-settings.php:399
+msgid ""
+"The video will be replaced on the frontend wizard as well as tasks screen on "
+"backend when empty."
+msgstr ""
+"Video bude nahrazeno na frontend průvodci stejně jako na obrazovce úkolů "
+"když je prázdná."
+
+#: inc/admin/page-settings.php:402
+msgid "Replace the WP Feedback video with your own tutorial video"
+msgstr "Nahraďte WP Feedback video svým vlastním výukovým videem"
+
+#: inc/admin/page-settings.php:410
+msgid "Remove the “Powered by” link"
+msgstr "Odstranit \"Powered by\" odkaz"
+
+#: inc/admin/page-settings.php:410
+msgid ""
+"Ticking this option will remove our WP Feedback link that is on the bottom "
+"of the sidebar."
+msgstr ""
+"Zaškrtnutím tohoto nastavení odstraníte náš WP Feedback odkaz, který je na "
+"spodu postraního panelu."
+
+#: inc/admin/page-settings.php:415
+msgid "Reset plugin settings"
+msgstr "Resetovat nastavení pluginu"
+
+#: inc/admin/page-settings.php:437
+msgid "Notifications Settings"
+msgstr "Nastavení upozornění"
+
+#: inc/admin/page-settings.php:445
+msgid "Sent from email address"
+msgstr "Poslat z emailové adresy"
+
+#: inc/admin/page-settings.php:445
+msgid "Set a \"From\" email address to send all notifications."
+msgstr "Nastavit \"Od\" emailovou adresu pro posílání všech upozornění"
+
+#: inc/admin/page-settings.php:450
+msgid "Send email notifications to the following address"
+msgstr ""
+
+#: inc/admin/page-settings.php:451
+msgid ""
+"This option is in addition to the user emails. Seperate with comma for "
+"multipe addresses."
+msgstr ""
+"Tato možnost je navíc k uživatelským emailům. Oddělte středníkem pro více "
+"adres."
+
+#: inc/admin/page-settings.php:458
+msgid ""
+"These are global notification settings for each user to choose which ones "
+"they receive on the front-end wizard. They can also be chosen for each user "
+"inside their WordPress profile."
+msgstr ""
+
+#: inc/admin/page-settings.php:465 inc/admin/page-settings.php:472
+#: inc/admin/page-settings.php:479 inc/admin/page-settings.php:486
+#: inc/admin/page-settings.php:507 inc/admin/page-settings.php:514
+msgid ""
+"Allow users to choose this setting on the front-end wizard and inside their "
+"WordPress Profile."
+msgstr ""
+
+#: inc/admin/page-settings.php:526 inc/admin/page-settings-permissions.php:239
+msgid "Save Changes"
+msgstr "Uložit změny"
+
+#: inc/admin/page-settings.php:536
+msgid "WPFeedback Integrations"
+msgstr ""
+
+#: inc/admin/page-settings.php:546
+msgid "Support From WP Feedback"
+msgstr ""
+
+#: inc/admin/page-settings.php:553
+msgid "Join the tribe on Facebook"
+msgstr "Připojte se k nám na Facebooku"
+
+#: inc/admin/page-settings.php:555
+msgid ""
+"Get faster answers by leveraging the community, we're there too of course!"
+msgstr ""
+"Získejte rychlejší odpovědi využíváním komunity, my jsme tu samozřejmě také!"
+
+#: inc/admin/page-settings.php:558
+msgid "Video walkthrough"
+msgstr "Video návod"
+
+#: inc/admin/page-settings.php:576
+msgid "These should help"
+msgstr "Toto by mělo pomoci"
+
+#: inc/admin/page-settings.php:578
+msgid "Licenses and domains"
+msgstr "Licence a domény"
+
+#: inc/admin/page-settings.php:579
+msgid ""
+"Can&#39;t validate the license? You probably didn&#39;t add the domain. "
+"Follow the steps above."
+msgstr ""
+"Nemůžete ověřit licenci? Pravděpodobně jste nepřidali doménu. Následujte "
+"kroky nahoře."
+
+#: inc/admin/page-settings.php:583
+msgid "Zapier Integration"
+msgstr "Inetgrace Zapieru"
+
+#: inc/admin/page-settings.php:584
+msgid ""
+"Step by step guide to integrating WP Feedback to 1500+ apps - Connect your "
+"workflow."
+msgstr ""
+"Krok za krok návod na integraci WP Feedback do 1500+ aplikací - Propojte "
+"svojí workflow."
+
+#: inc/admin/page-settings.php:586
+msgid ""
+"Notifications\n"
+"                                issues"
+msgstr "Problémy s oznámeními"
+
+#: inc/admin/page-settings.php:588
+msgid "Can&#39;t send emails? Getting too many emails? Answers inside."
+msgstr ""
+"Nemůžete posílat emaily? Dostáváte přiliž mnoho emailů? Odpověď uvnitř."
+
+#: inc/admin/page-settings.php:590
+msgid "Partner with us"
+msgstr "Spolupracujte s námi"
+
+#: inc/admin/page-settings.php:591
+msgid ""
+"If you&#39;re talking about us and send some peeps over - We wanna pay you!"
+msgstr "Pokud o nás mluvíš a pošleš nám pár lidí - chceme ti zaplatit!"
+
+#: inc/admin/page-settings.php:593
+msgid "Public Roadmap"
+msgstr "Veřejná Roadmapa"
+
+#: inc/admin/page-settings.php:594
+msgid ""
+"If we&#39;re advocating for feedback we better lead by example. You&#39;re "
+"invited to request&nbsp;features."
+msgstr ""
+"Pokud se zasazujeme o zpětnou vazbu, měli bychom jít příkladem. Nebojte se "
+"požádat o nové funkce."
+
+#: inc/admin/page-settings.php:596
+msgid "Feeling stressed? (WP&amp;UP)"
+msgstr "Cítíte se stresovaní? (WP&UP)"
+
+#: inc/admin/page-settings.php:597
+msgid ""
+"Dealing with clients is hard(!) This amazing charity for the WP community is "
+"here to help you grow and relax."
+msgstr ""
+"Jednání s klienty je těžké (!) Tato úžasná charita pro komunitu WP je tu, "
+"aby vám pomohla růst a relaxovat."
+
+#: inc/admin/page-settings.php:602
+msgid "Create a support ticket"
+msgstr "Vytvořit support ticket"
+
+#: inc/admin/page-settings.php:603
+msgid "We will reply via email in up to 24 hours (Weekdays)"
+msgstr "Odpovíme přes email do 24 hodin (V pracovní dny)"
+
+#: inc/admin/page-settings.php:603
+msgid "Support will only be given in English"
+msgstr "Podpora je poskytována pouze v angličtině"
+
+#: inc/admin/page-settings.php:606
+msgid ""
+"We collected your name, email, license key and domain so all you need to do, "
+"is tell us what's\n"
+"                        up."
+msgstr ""
+"Shromáždili jsme vaše jméno, e-mail, licenční klíč a doménu, takže vše, co "
+"musíte udělat, je říct, co se děje."
+
+#: inc/admin/page-settings.php:610
+msgid "Subject"
+msgstr "Předmět"
+
+#: inc/admin/page-settings.php:613
+msgid "Message"
+msgstr "Zpráva"
+
+#: inc/admin/page-settings.php:618
+msgid "Name"
+msgstr "Jméno"
+
+#: inc/admin/page-settings.php:623
+msgid "Email"
+msgstr "Email"
+
+#: inc/admin/page-settings.php:633
+msgid "Insert Site Health Info"
+msgstr "Vložit informace o stavu webu"
+
+#: inc/admin/page-settings.php:633
+msgid "(WP 5.2 and up)"
+msgstr "(WP 5.2 s vyšší)"
+
+#: inc/admin/page-settings.php:637
+msgid "Click here to get site health info"
+msgstr "Klikněte zde pro získání informací o stavu webu"
+
+#: inc/admin/page-settings.php:643
+msgid "Request Support"
+msgstr "Požádat o podporu"
+
+#: inc/admin/page-settings.php:644
+msgid "Sorry! Your message was not sent, please try after some time."
+msgstr "Omlouváme se! Vaše zpráva nebyla poslaná, prosím zkuste to později."
+
+#: inc/admin/page-settings.php:645
+msgid ""
+"Your message was sent to the WP Feedback Team. Thanks for contacting us. We "
+"will reply to this email address shortly:"
+msgstr ""
+"Vaše zpráva byla odeslána týmu WP Feedback. Děkujeme, že jste nás "
+"kontaktovali. Na tuto e-mailovou adresu brzy odpovíme:"
+
+#: inc/admin/wpf_admin_function.php:181
+msgid "Frontend"
+msgstr "Frontend"
+
+#: inc/admin/wpf_admin_function.php:196
+msgid "WPFeedback"
+msgstr ""
+
+#: inc/admin/page-settings-permissions.php:77
+msgid "WP Feedback Permissions"
+msgstr ""
+
+#: inc/admin/page-settings-permissions.php:84
+msgid "Validate Your Installation"
+msgstr "Ověřte Vaší instalaci"
+
+#: inc/admin/page-settings-permissions.php:85
+msgid ""
+"The plugin will not work unless you insert a valid license key and <a "
+"href=\"https://wpfeedback.co/knowledge-base/faq/installation/\" "
+"target=\"_blank\">link the domain</a>."
+msgstr ""
+"Plugin nebude fungovat, pokud nezadáte platný licenční klíč odkaz na doménu"
+
+#: inc/admin/page-settings-permissions.php:94
+msgid ""
+"If you don't have a valid license, <a href='https://wpfeedback.co/' "
+"target='_blank'>Please click here to get a new license key</a>"
+msgstr ""
+"\"Pokud nemáte platnou licenci, <a href='https://wpfeedback.co/' "
+"target='_blank'>kliknutím sem získáte nový licenční klíč.\""
+
+#: inc/admin/page-settings-permissions.php:103
+msgid "User roles allowed to create tasks"
+msgstr "Uživatelské účty, které mohou vytvářet úkoly"
+
+#: inc/admin/page-settings-permissions.php:103
+msgid ""
+"If a user role is not selected, they will not be able to see WP Feedback on "
+"the front-end, they will still be able to access the plugin settings though "
+"unless you restrict this someone else."
+msgstr ""
+"Pokud není vybrána role uživatele, nebudou moci vidět  WP Feedback na front-"
+"endu, ale stále budou mít přístup k nastavení pluginu, pokud je ovšem jinak "
+"neomezíte."
+
+#: inc/admin/page-settings-permissions.php:104
+msgid "Hold down the CTRL key to choose multiple options"
+msgstr "Podržte CTRL pro zvolení více možností"
+
+#: inc/admin/page-settings-permissions.php:115
+msgid "Guest allowed"
+msgstr "Hosté povoleni"
+
+#: inc/admin/page-settings-permissions.php:115
+msgid ""
+"Enabling this will make WP Feedback visible to everyone who visits your site "
+"and will allow them to create tasks and comment on existing ones."
+msgstr ""
+"Pokud to povolíte, zviditelní se WP Feedback každému, kdo navštíví váš web, "
+"a umožní jim vytvářet úkoly a komentovat stávající."
+
+#: inc/admin/page-settings-permissions.php:125
+msgid "Stop comments for admins"
+msgstr "Zastavit komentáře pro adminy"
+
+#: inc/admin/page-settings-permissions.php:125
+msgid "Stop comments for admins on front end."
+msgstr ""
+
+#: inc/admin/page-settings-permissions.php:133
+msgid "Customisations "
+msgstr "Přizpůsobení"
+
+#: inc/admin/page-settings-permissions.php:133
+msgid ""
+"These names are for the setup wizard when you first installed the plugin. "
+"Every user who comes to the website after installation will have to go "
+"through it and you can name the 3 options here."
+msgstr ""
+"Tyto názvy jsou pro průvodce nastavením při první instalaci pluginu. Každý "
+"uživatel, který přijde na web po instalaci, bude muset tímto projít a zde "
+"můžete pojmenovat 3 možnosti."
+
+#: inc/admin/page-settings-permissions.php:134
+msgid "Client (Website Owner) "
+msgstr "Klient (Vlastník webu)"
+
+#: inc/admin/page-settings-permissions.php:134
+msgid ""
+"Can do everything except: Choose and change status, Access the settings, "
+"support and upgrade screens. Can only delete his own tickets. "
+msgstr ""
+"Může dělat vše kromě: Zvolit a změnit status, Přístup k nastavení, obrazovka "
+"podpory a vylepšení. Může mazat pouze své úkoly."
+
+#: inc/admin/page-settings-permissions.php:135
+msgid "Webmaster"
+msgstr "Webmaster"
+
+#: inc/admin/page-settings-permissions.php:135
+msgid "Super admin – he has full capabilities for all the plugin’s functions. "
+msgstr "Super admin - má plná práva na všechny funkce pluginu. "
+
+#: inc/admin/page-settings-permissions.php:136
+msgid "Others "
+msgstr "Ostatní"
+
+#: inc/admin/page-settings-permissions.php:136
+msgid ""
+"Can do everything except: Choose and change status and urgency, Access the "
+"settings, support, integration and upgrade screens. Can only delete his own "
+"tickets. "
+msgstr ""
+"Může dělat vše kromě: Zvolit a změnit status, Přístup k nastavení, obrazovka "
+"podpory a vylepšení. Může mazat pouze své úkoly."
+
+#: inc/admin/page-settings-permissions.php:141
+msgid "User permissions"
+msgstr "uživatelské oprávnění"
+
+#: inc/admin/page-settings-permissions.php:148
+msgid "Guest "
+msgstr "Host"
+
+#: inc/admin/page-settings-permissions.php:208
+msgid "Default users"
+msgstr "Výchozí uživatel"
+
+#: inc/admin/page-settings-permissions.php:210
+msgid "The website builder"
+msgstr "Tvůrce webu"
+
+#: inc/admin/page-settings-permissions.php:211
+msgid ""
+"The website builder will add this user to all tasks by default, allowing the "
+"client to skip the \"choose a user\" tab when creating a task."
+msgstr ""
+"Tento uživatel bude přidán ke každému úkolu ve výchozím nastavení, což "
+"umožňuje klientovy přeskočit záložku volby uživatele při vytváření úkolu."
+
+#: inc/admin/page-settings-permissions.php:213
+#: inc/admin/page-settings-permissions.php:228
+msgid "select"
+msgstr "Zvolit"
+
+#: inc/admin/page-settings-permissions.php:225
+msgid "The client"
+msgstr "Klient"
+
+#: inc/admin/page-settings-permissions.php:226
+msgid ""
+"Create a user for the client and assign it here to allow the client to "
+"comment in guest mode but still be assigned to the tickets for replies and "
+"notifications."
+msgstr ""
+"Vytvořte uživatele pro klienta a přiřaďte jej sem. Klient nyní může přidávat "
+"komentáře i v hostovaném řežimu a a bude přiřazen k úkolům pro odpovědi a "
+"notifikace."
+
+#: inc/frontend/wpf_login_modal.php:6
+msgid "Skip the login"
+msgstr ""
+
+#: inc/frontend/wpf_frontend_initial_setup.php:16
+msgid "Hi "
+msgstr "Ahoj "
+
+#: inc/frontend/wpf_frontend_initial_setup.php:16
+msgid ", Let's give feedback"
+msgstr ", dejte nám zpětnou vazbu"
+
+#: inc/frontend/wpf_frontend_initial_setup.php:17
+msgid "To optimize your experience, which one describes you best?"
+msgstr "Pro co nejlepší zážitek, popište, co vás nejlépe popisuje?"
+
+#: inc/frontend/wpf_frontend_initial_setup.php:45
+msgid "Please select anyone"
+msgstr "Prosím zvolte někoho"
+
+#: inc/frontend/wpf_frontend_initial_setup.php:48
+msgid "Notifications"
+msgstr "Upozornění"
+
+#: inc/frontend/wpf_frontend_initial_setup.php:49
+msgid "Choose the emails you'd like to receive (Recommended to keep as is)"
+msgstr "Zvolte emaily, které chcete dostávat (Doporučeno nechat tak jak je)"
+
+#: inc/frontend/wpf_frontend_initial_setup.php:54
+msgid "One Last Step"
+msgstr "Jeden poslední krok"
+
+#: inc/frontend/wpf_frontend_initial_setup.php:58
+msgid "How to give feedback"
+msgstr "Jak dát zpětnou vazbu"
+
+#: inc/frontend/wpf_frontend_initial_setup.php:59
+msgid "Watch this short tutorial to get started"
+msgstr "Podívejte se na tento krátky tutorial a můžete začít"
+
+#: inc/frontend/wpf_frontend_initial_setup.php:83
+msgid "Let's Start"
+msgstr "Začněme"
+
+#. Name of the plugin
+#. Author of the plugin
+msgid "WP Feedback"
+msgstr ""
+
+#. Description of the plugin
+msgid "Client feedback in 1 click - WP Feedback"
+msgstr "Uživatelská zpětná vazba na 1 klik - WP Feedback"
+
+#. URI of the plugin
+#. Author URI of the plugin
+msgid "https://wpfeedback.co/"
+msgstr ""
+
+msgid "Add user"
+msgstr "Přidat uživatele"
+
+msgid "Screenshort"
+msgstr "Snímek obrazovky"
+
+msgid "Delete"
+msgstr "Smazat"
+
+msgid "Auto screenshort"
+msgstr "Automatický snímek obrazovky"
+
+msgid "Start Here"
+msgstr "Začněte zde"
+
+msgid "Please enter graphics title"
+msgstr "Prosím vložte titulek ke grafice"
+
+msgid "Select a image to upload"
+msgstr "Zvolte obrázek pro nahrání"
+
+msgid "Use this image"
+msgstr "Použít tento obrázek"
+
+msgid "Mark as complete"
+msgstr "Označit jako hotové"
+
+msgid "Enter your Graphics name"
+msgstr "Vložte jméno vaší grafiky"
+
+msgid "Enter your graphics discription"
+msgstr "Vložte popis vaší grafiky"
+
+msgid "Please select image"
+msgstr "Prosím zvolte obrázek"
+
+msgid "Completed"
+msgstr "Hotovo"
+
+msgid "Upload any image to collaborate visually."
+msgstr "Nahrajte jakýkoliv obrázek pro vizuální spolupráci"
+
+msgid ""
+"This is great for screen mockups, logos, flyers or any other graphic items."
+msgstr "To je skvělé pro mockupy, loga, letáky nebo jiné grafické prvky."
+
+msgid "general task: choose a page/ post to comment"
+msgstr "všeobecný úkol: zvolte stránku/ příspěvek pro komentář"
