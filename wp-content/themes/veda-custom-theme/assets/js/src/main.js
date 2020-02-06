@@ -123,7 +123,7 @@ if ( (tags.length && refs.length) ) {
   });
 
   tags.click(function() {
-    singleContent.slideToggle('slow');
+    singleContent.slideDown('slow');
     singleTrigger.find('.close').toggle();
     singleTrigger.find('.open').toggle();
   });

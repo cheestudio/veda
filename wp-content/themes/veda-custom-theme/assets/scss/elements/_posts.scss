@@ -1,0 +1,201 @@
+/* Posts Grid Index
+========================================================= */
+$article:".post-entry";
+
+.posts-grid {
+  .flex {
+    justify-content: center;
+    flex-wrap: wrap;
+
+    #{$article} {
+      @include box-shadow;
+      background: white;
+      flex: 0 1 31%;
+      margin: 16px;
+      max-width: 450px;
+      @include for-size(laptop) {
+        flex-basis: 45%;
+      }
+      @include for-size(tablet-sm) {
+        flex-basis: 100%;
+      }
+
+      a {
+        display: block;
+        height: 100%;
+        &:hover, &:focus, &:active {
+          background-color: #f4f7e2;
+        }
+      }
+
+      #{$article}__image {
+        @include bg;
+        min-height: 250px;
+      }
+
+      #{$article}__content {
+        padding: 24px;
+        .title {
+          h3 {
+            font-size: em(24);
+            font-weight: 700;
+            margin-bottom: 24px;
+          }
+        }
+        .excerpt {
+          p {
+            color: $blue;
+          }
+        }
+        .button-wrap {
+          p {
+            @include button-alt;
+            color: $orange;
+          }
+        }
+      }
+    }
+  }
+}
+
+
+/* BLOG Posts Grid Index (w Featured Post)
+========================================================= */
+.posts-index {
+  &--grid {
+    padding-top: 48px;
+    padding-bottom: 48px;
+    
+    .posts-grid {
+      #{$article} {
+        &.featured {
+          flex: 1 1 100%;
+          margin-bottom: 48px;
+          max-width: 100%;
+          .inner {
+            @include for-size(tablet-sm, up) {
+              display: flex;
+            }
+
+            #{$article}__image {
+              flex: 0 1 36%;
+              min-height: 370px;
+            }
+
+            #{$article}__content {
+              flex: 1;
+              align-self: center;
+              .excerpt {
+                p {
+                  color: $body;
+                }
+              }
+              .button-wrap {
+                padding-top: 10px;
+                p {
+                  @include button;
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+
+/* Category Filter
+========================================================= */
+.posts-index-filter {
+  background: $olive;
+  padding-top: 16px;
+  padding-bottom: 16px;
+  
+  &--content {
+    .flex {
+      align-items: baseline;
+      justify-content: center;
+      @include for-size(tablet-sm) {
+        flex-direction: column;
+        align-items: center;
+      }
+      h3 {
+        font-weight: bold;
+        font-size: 1em;
+        margin-top: 0;
+        margin-bottom: 0;
+        margin-right: 16px;
+        @include for-size(tablet-sm) {
+          margin-right: 0;
+          margin-bottom: 16px;
+        }
+      }
+      input {
+        @include for-size(tablet-sm, up) {
+          margin-right: 16px;
+        }
+      }
+      select {
+        min-width: 200px;
+        padding: 8px;
+        border-radius: 20px;
+        border: 1px solid #e6e6e6;
+        background: white;
+        option {
+          padding: 16px;
+          border-color: rgba(43, 43, 43, 0.04);
+        }
+      }
+      form {
+        button {
+          @include for-size(tablet-sm) {
+            margin-top: 16px;
+          }
+        }
+      }
+    }
+  }
+}
+
+
+/* Post Navigation
+========================================================= */
+nav.post-nav {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 32px;
+  a, span {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    width: 18px;
+    text-align: center;
+    font-size: 15px;
+    line-height: 18px;
+    font-weight: 700;
+  }
+  a {
+    padding-left: 12px;
+    padding-right: 12px;
+  }
+  .current {
+    color: white;
+    border-radius: 50%;
+    background-color: $blue;
+    user-select: none;
+  }
+}
+
+
+/* BLOG Single
+========================================================= */
+.single-post {
+
+  .post-entry__content {
+    h2 {
+      margin-top: 32px;
+    }
+  }
+}

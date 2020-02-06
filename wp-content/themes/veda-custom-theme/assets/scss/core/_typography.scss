@@ -120,7 +120,7 @@ body {
         font-weight: 700;
       }
     }
-    ul, ol {
+    ul {
       &:not(.fl-builder-submenu) {
         @include list-reset;
         padding-left: 20px;
@@ -132,6 +132,14 @@ body {
           line-height: 2;
           margin-bottom: 16px;
         }
+      }
+    }
+    ol {
+      li {
+        padding-left: 8px;
+        color: $body;
+        line-height: 2;
+        margin-bottom: 16px;
       }
     }
   }
