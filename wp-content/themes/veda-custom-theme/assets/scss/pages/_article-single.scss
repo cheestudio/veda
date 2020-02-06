@@ -143,9 +143,14 @@
         @include for-size(phone) {
           flex-basis: 100%;
         }
-        p {
+        span, p {
           font-size: em(14);
           color: #333;
+          display: inline;
+        }
+
+        &__order {
+          font-weight: 500;
         }
       }
     }

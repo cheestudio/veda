@@ -2061,9 +2061,14 @@ body.healthcare-directory .hero-basic--search {
   padding-left: 24px;
   padding-right: 24px
 }
-.article-references--content .flex .reference p {
+.article-references--content .flex .reference p,
+.article-references--content .flex .reference span {
   font-size: .88em;
-  color: #333
+  color: #333;
+  display: inline
+}
+.article-references--content .flex .reference__order {
+  font-weight: 500
 }
 body.healthcare-directory .hero-basic--search form input:not([type=submit]),
 body.healthcare-directory .hero-basic--search form select {

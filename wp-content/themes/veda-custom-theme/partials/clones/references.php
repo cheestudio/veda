@@ -1,5 +1,5 @@
 <?php // References
-$refs = get_field('article_refs_rep');
+$refs = get_field('article_refs_rep'); $r = 0;
 
 if ( $refs ) : ?>
   <section id="view-references" class="article-references">
@@ -9,8 +9,11 @@ if ( $refs ) : ?>
       </div>
       <div class="article-references--content">
         <div class="flex">
-          <?php foreach ( $refs as $ref ) : ?>
-            <div class="reference"><?= $ref['content']; ?></div>
+          <?php foreach ( $refs as $ref ) : $r++; ?>
+            <div class="reference">
+              <span class="reference__order"><?= $r; ?>  </span>
+              <?= $ref['content']; ?>
+              </div>
           <?php endforeach; ?>
         </div>
       </div>

@@ -123,7 +123,9 @@ if ( (tags.length && refs.length) ) {
   });
 
   tags.click(function() {
-    singleContent.slideDown();
+    singleContent.slideToggle('slow');
+    singleTrigger.find('.close').toggle();
+    singleTrigger.find('.open').toggle();
   });
 }
 
