@@ -25,7 +25,7 @@ $i = 0; ?>
 
             $posts = new WP_Query(array( 
              'post_type'      => $type,
-             'category_name ' => $cat,
+             //'category_name ' => $cat,
              'post__not_in'   => array( $post_id ),
              'orderby'        => 'date',
              'order'          => 'DESC',
