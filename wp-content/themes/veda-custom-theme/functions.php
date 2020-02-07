@@ -61,7 +61,6 @@ function the_content_max_words( $text ) {
 ========================================================= */
 function my_builder_color_presets( $colors ) {
     $colors = array();
-      
       $colors[] = '1796a4';
       $colors[] = '215378';
       $colors[] = 'b3e1e8';
@@ -70,7 +69,6 @@ function my_builder_color_presets( $colors ) {
       $colors[] = '5c5c5c';
       $colors[] = 'ffffff';
       $colors[] = '000000';
-  
     return $colors;
 }
 add_filter( 'fl_builder_color_presets', 'my_builder_color_presets' );

@@ -1,9 +1,10 @@
 
 <?php // Related Articles & Posts
-$posts = get_field('article_related_picker');
-$type  = get_post_type();
-$cat   = get_the_terms( get_the_ID(), $type );
-$title = is_singular('spotlight') ? 'Other Patients' : 'Related Articles';
+$posts   = get_field('article_related_picker');
+$post_id = get_the_ID();
+$type    = get_post_type();
+$cat     = get_the_terms( $post_id, $type );
+$title   = is_singular('spotlight') ? 'Other Patients' : 'Related Articles';
 $i = 0; ?>
 
 <section class="related-articles">
@@ -25,6 +26,7 @@ $i = 0; ?>
             $posts = new WP_Query(array( 
              'post_type'      => $type,
              'category_name ' => $cat,
+             'post__not_in'   => array( $post_id ),
              'orderby'        => 'date',
              'order'          => 'DESC',
              'posts_per_page' => 3

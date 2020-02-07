@@ -103,7 +103,6 @@ endif; ?>
 <?php endif; ?>
 
 
-<?php if ( have_posts() ) : ?>
 <section class="posts-index">
   <div class="container">
 
@@ -131,4 +130,3 @@ endif; ?>
 
   </div>
 </section>
-<?php endif; ?>

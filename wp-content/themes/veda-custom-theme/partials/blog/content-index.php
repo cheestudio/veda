@@ -3,7 +3,9 @@
 ========================================================= */
 
 $i++;
-$featured = ( is_home() ) ? true : false; // if is Blog Index page ?>
+$featured = ( is_home() ) ? true : false; // if is Blog Index page 
+$sticky = is_sticky();
+?>
 
 <article id="post-entry-<?= $i; ?>" class="post-entry<?php if ( $featured && $i == 1 ) echo " featured"; ?>">
   <a href="<?php the_permalink(); ?>" title="Read more about <?php the_title(); ?>">
