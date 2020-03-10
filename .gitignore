@@ -26,7 +26,7 @@
 !wp-content/
 
 # ignore the "uploads" directory.
-wp-content/uploads
+/wp-content/uploads/*
 
 # ignore all files starting with .
 .*
