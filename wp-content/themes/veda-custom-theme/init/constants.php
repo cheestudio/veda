@@ -19,6 +19,7 @@ if ( function_exists('add_image_size') ) {
   add_image_size('450', 450, 450, true);
   add_image_size('wide-short', 1050, 375, true);
   add_image_size('blog-thumb', 944, 400, true);
+  add_image_size('news-main', 400);
 }
 add_filter('image_size_names_choose', 'insert_custom_image_sizes');
 function insert_custom_image_sizes($sizes) {

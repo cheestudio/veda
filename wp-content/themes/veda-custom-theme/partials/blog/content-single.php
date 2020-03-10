@@ -16,6 +16,11 @@ endif; ?>
   </div>
 
   <div class="post-entry__content">
+
+    <?php
+    the_post_thumbnail( 'news-main' );
+    ?>
+
     <?php if ( is_singular('spotlight') ) : ?>
       <?php if ( $quote ) : ?>
         <div class="quote"><p>"<?= $quote; ?>"</p></div>

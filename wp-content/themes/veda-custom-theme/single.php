@@ -1,6 +1,5 @@
 <?php get_header(); ?>
 
-
 <?php // Hero
 $tax = get_field('post_article_category'); ?>
 <section class="hero-basic">
@@ -14,7 +13,6 @@ $tax = get_field('post_article_category'); ?>
   </div>
 </section>
 
-
 <?php // Main Content
 while ( have_posts() ) : the_post();?>
   <section class="post-single">
@@ -26,17 +24,13 @@ while ( have_posts() ) : the_post();?>
   </section>
 <?php endwhile; ?>
 
-
 <?php // References
 include( locate_template('partials/clones/references.php') ); ?>
-
 
 <?php // Related Articles
 include( locate_template('partials/related-articles.php') ); ?>
 
-
 <?php // Banner Menu
 include( locate_template('partials/banner-menu.php') ); ?>
-
 
 <?php get_footer(); ?>
