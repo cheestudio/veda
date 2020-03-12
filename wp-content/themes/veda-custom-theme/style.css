@@ -11,10 +11,6 @@ a,
 a[href^=tel] {
   text-decoration: none
 }
-body main ol li,
-hr {
-  margin-bottom: 16px
-}
 blockquote,
 q {
   quotes: none
@@ -127,6 +123,13 @@ video {
   font-size: 100%;
   font: inherit;
   vertical-align: baseline
+}
+body main ol li,
+body main p,
+body main ul:not(.fl-builder-submenu) li {
+  line-height: 1.5;
+  margin-bottom: 1.13em;
+  color: #5c5c5c
 }
 .wp-caption p,
 body em,
@@ -373,10 +376,7 @@ body {
   font-family: interstate,sans-serif
 }
 body main p {
-  font-size: 1.13em;
-  line-height: 1.5;
-  color: #5c5c5c;
-  margin-bottom: 10px
+  font-size: 1.13em
 }
 body main ul:not(.fl-builder-submenu) {
   margin: 0;
@@ -392,10 +392,7 @@ body main ul:not(.fl-builder-submenu) li {
   -webkit-box-align: baseline;
   -webkit-align-items: baseline;
       -ms-flex-align: baseline;
-          align-items: baseline;
-  color: #5c5c5c;
-  line-height: 2;
-  margin-bottom: 16px
+          align-items: baseline
 }
 body main ul:not(.fl-builder-submenu) li:before {
   font-family: 'Line Awesome Free';
@@ -413,9 +410,7 @@ body main ul:not(.fl-builder-submenu) li:before {
   font-size: 18px
 }
 body main ol li {
-  padding-left: 8px;
-  color: #5c5c5c;
-  line-height: 2
+  padding-left: 8px
 }
 body a,
 body a[href^=tel] {
@@ -462,6 +457,7 @@ blockquote {
 hr {
   height: 1px;
   margin-top: 16px;
+  margin-bottom: 16px;
   background-color: rgba(92,92,92,.25)
 }
 .embed-container,

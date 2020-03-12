@@ -112,7 +112,7 @@ body {
       font-size: em(18);
       line-height: 1.5;
       color: $body;
-      margin-bottom: 10px;
+      margin-bottom: em(18);
       @include for-size(tablet-sm) {
         font-size: em(16);
       }
@@ -129,8 +129,8 @@ body {
           display: flex;
           align-items: baseline;
           color: $body;
-          line-height: 2;
-          margin-bottom: 16px;
+          line-height: 1.5;
+          margin-bottom: em(18);
         }
       }
     }
@@ -138,8 +138,8 @@ body {
       li {
         padding-left: 8px;
         color: $body;
-        line-height: 2;
-        margin-bottom: 16px;
+        line-height: 1.5;
+        margin-bottom: em(18);
       }
     }
   }
