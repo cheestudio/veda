@@ -17,10 +17,6 @@ endif; ?>
 
   <div class="post-entry__content">
 
-    <?php
-    the_post_thumbnail( 'news-main' );
-    ?>
-
     <?php if ( is_singular('spotlight') ) : ?>
       <?php if ( $quote ) : ?>
         <div class="quote"><p>"<?= $quote; ?>"</p></div>
@@ -36,7 +32,13 @@ endif; ?>
       <div class="excerpt"><?php the_excerpt(); ?></div>
     <?php endif; ?>
     
-    <div class="inner"><?php the_content(); ?></div>
+    <div class="inner">
+      <?php
+      the_post_thumbnail( 'news-main' );
+      the_content();
+      ?>
+    </div>
+
   </div>
 
   <?php if ( !empty($author_bio) && is_singular('post') ) : ?>

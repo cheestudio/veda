@@ -35,36 +35,52 @@
           h2 {
             font-size: em(30);
           }
+
           h3 {
             font-size: em(24);
             font-weight: 500;
             margin-top: 32px;
             margin-bottom: 24px;
           }
+
           ul {
             padding-top: 6px;
+
             li {
               @include list-arrows($teal);
               line-height: 1.5;
               font-size: em(17);
-              a {
-
-              }
             }
           }
+
           img {
             display: block;
-            margin-bottom: 24px;
+            margin: 0 0 24px;
+            width: 100%;
+            height: auto;
+
+            @include for-size(phone, up) {
+              float: right;
+              margin-left: 24px;
+              width: 50%;
+            }
+
+            @include for-size(tablet-sm, up) {
+              width: 33%;
+            }
           }
+
           blockquote {
             margin-top: 16px;
             margin-bottom: 16px;
             padding: 13px 16px 13px 24px;
             border-left: 4px solid #b3e1e8;
             background-color: rgba(179, 225, 232, 0.09);
+
             p {
               font-size: em(20);
               line-height: em(32, 20);
+
               &:last-of-type {
                 color: $blue;
                 font-size: 1em;
