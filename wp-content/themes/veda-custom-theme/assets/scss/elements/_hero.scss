@@ -3,24 +3,43 @@
 
 .hero-basic {
   @include hero-gradient;
+
   padding-top: 40px;
   padding-bottom: 60px;
 
   &--heading {
+    width: 100%;
+    margin: 0 auto;
+
     .inner {
       text-align: center;
+
       p {
         color: white;
         font-size: em(14);
         text-transform: uppercase;
       }
+
       h1 {
         margin-top: 20px;
         color: white;
+
         @include for-size(tablet-sm, up) {
           font-size: em(58);
         }
       }
+    }
+
+    @include for-size(tablet-sm, up) {
+      width: 90%;
+    }
+
+    @include for-size(tablet, up) {
+      width: 80%;
+    }
+
+    @include for-size(laptop, up) {
+      width: 70%;
     }
   }
 }

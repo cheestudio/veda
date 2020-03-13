@@ -1206,6 +1206,10 @@ footer .container {
   padding-top: 40px;
   padding-bottom: 60px
 }
+.hero-basic--heading {
+  width: 100%;
+  margin: 0 auto
+}
 .hero-basic--heading .inner {
   text-align: center
 }
@@ -2278,6 +2282,9 @@ body.healthcare-directory .hero-basic--search form select {
   .hero-basic--heading .inner h1 {
     font-size: 3.63em
   }
+  .hero-basic--heading {
+    width: 90%
+  }
   .posts-index--grid .posts-grid .post-entry.featured .inner {
     display: -webkit-box;
     display: -webkit-flex;
@@ -2505,6 +2512,9 @@ body.healthcare-directory .hero-basic--search form select {
   .breadcrumbs {
     text-align: right
   }
+  .hero-basic--heading {
+    width: 80%
+  }
   .related-articles--grid .posts-grid .flex {
     -webkit-flex-wrap: nowrap;
         -ms-flex-wrap: nowrap;
@@ -2588,18 +2598,21 @@ body.healthcare-directory .hero-basic--search form select {
   .article-main-single .container,
   .article-main-single>.fl-row,
   .error404 .fl-builder-content .container,
-  .error404 .fl-builder-content>.fl-row,
+  .error404 .fl-builder-content > .fl-row,
   .healthcare-index .container,
   .healthcare-index>.fl-row,
   .healthcare-single .container,
   .healthcare-single>.fl-row,
   .page-template-default .fl-builder-content .container,
-  .page-template-default .fl-builder-content>.fl-row,
+  .page-template-default .fl-builder-content > .fl-row,
   .post-single .container,
   .post-single>.fl-row,
   .salsa-content .container,
   .salsa-intro .container {
     max-width: 75%
+  }
+  .hero-basic--heading {
+    width: 70%
   }
 }
 @media only screen and (max-width:1366px) {

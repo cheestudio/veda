@@ -1,6 +1,5 @@
 <?php get_header(); ?>
 
-
 <?php
 // Display Article Index (if page has a parent)
 if ( $post->post_parent === 0 ) :
@@ -18,7 +17,6 @@ else :
         <h1><?php the_title(); ?></h1>
       </div>
     </div>
-
     <?php include( locate_template('partials/section-nav-pages.php') ); ?>
   </section>
 
