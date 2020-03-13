@@ -1743,6 +1743,12 @@ nav.post-nav .current {
   margin-right: auto;
   display: block
 }
+.container .inner img {
+  display: block;
+  margin: 0 0 24px;
+  width: 100%;
+  height: auto
+}
 .post-single {
   padding: 5% 12%
 }
@@ -1783,12 +1789,6 @@ nav.post-nav .current {
 .post-single--content .post-entry__content .inner ul li:before {
   color: #1796a4;
   font-size: 18px
-}
-.post-single--content .post-entry__content .inner img {
-  display: block;
-  margin: 0 0 24px;
-  width: 100%;
-  height: auto
 }
 .post-single--content .post-entry__content .inner blockquote {
   margin-top: 16px;
@@ -2269,7 +2269,7 @@ body.healthcare-directory .hero-basic--search form select {
   }
 }
 @media only screen and (min-width:481px) {
-  .post-single--content .post-entry__content .inner img {
+  .container .inner img {
     float: right;
     margin-left: 24px;
     width: 50%
@@ -2307,7 +2307,7 @@ body.healthcare-directory .hero-basic--search form select {
     font-size: 1.63em;
     line-height: 1.46em
   }
-  .post-single--content .post-entry__content .inner img {
+  .container .inner img {
     width: 33%
   }
   body.healthcare-directory .hero-basic--search form input:not([type=submit]):not(:last-child),
