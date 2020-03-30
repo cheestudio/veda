@@ -859,8 +859,8 @@ footer .container {
 .footer--content .social-icons ul,
 .footer--menu ul {
   margin: 0;
-  padding: 0;
-  list-style: none
+  list-style: none;
+  padding: 0
 }
 .footer--content .logo a {
   display: inline-block
@@ -984,6 +984,15 @@ footer .container {
 .posts-grid .flex .post-entry .post-entry__content .button-wrap p:focus,
 .posts-grid .flex .post-entry .post-entry__content .button-wrap p:hover {
   opacity: .7!important
+}
+.page-content-wrapper {
+  padding: 5% 12%
+}
+.fl-builder .page-content-wrapper {
+  padding: 0
+}
+.fl-builder .page-content-wrapper > .container {
+  max-width: 100%
 }
 .error404 .fl-builder-content,
 .page-template-default .fl-builder-content {
@@ -2610,13 +2619,15 @@ body.healthcare-directory .hero-basic--search form select {
   .article-main-single .container,
   .article-main-single>.fl-row,
   .error404 .fl-builder-content .container,
-  .error404 .fl-builder-content > .fl-row,
+  .error404 .fl-builder-content>.fl-row,
   .healthcare-index .container,
   .healthcare-index>.fl-row,
   .healthcare-single .container,
   .healthcare-single>.fl-row,
+  .page-content-wrapper .container,
+  .page-content-wrapper>.fl-row,
   .page-template-default .fl-builder-content .container,
-  .page-template-default .fl-builder-content > .fl-row,
+  .page-template-default .fl-builder-content>.fl-row,
   .post-single .container,
   .post-single>.fl-row,
   .salsa-content .container,
@@ -2713,6 +2724,7 @@ body.healthcare-directory .hero-basic--search form select {
   .error404 .fl-builder-content,
   .healthcare-index,
   .healthcare-single,
+  .page-content-wrapper,
   .page-template-default .fl-builder-content,
   .post-single,
   .salsa-intro {

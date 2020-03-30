@@ -11,7 +11,13 @@
 
 <?php if ( have_posts() ) : ?>
   <?php while ( have_posts() ) : the_post(); ?>
-    <?php the_content();?>
+
+    <div class="page-content-wrapper">
+      <div class="container">
+        <?php the_content();?>
+      </div>
+    </div>
+
   <?php endwhile; ?>
 <?php endif;?>
 <?php wp_reset_query(); ?>
