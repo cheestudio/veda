@@ -4,7 +4,7 @@ Tags: calendar, date, event, event calendar, events, events calendar, meeting, o
 Requires at least: 3.9
 Tested up to: 5.3
 Requires PHP: 5.2
-Stable tag: 1.1.34
+Stable tag: 1.1.35
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -345,6 +345,10 @@ After downloading the ZIP file of the Event Calendar WD plugin,
 Event Calendar WD plugin optionally embeds Google Maps on front end to display events on the map. Embedded Google Maps behave in the exact same way as if visitor has opened Google Maps site. Google may collect data about visitors, use cookies and tracking, included their logged-in experience interaction with Google platform. Google Maps are regulated under terms of Google privacy policy https://policies.google.com/privacy. The plugin asks for your consent to collect site administrator’s email address and site URL to offer customer support, deals and discounts on premium products and more.
 
 == Changelog ==
+= 1.1.35 =
+* Added: Option for Event title style.
+* Fixed: Category metas ordering.
+
 = 1.1.34 =
 * Fixed: Minor bug.
 

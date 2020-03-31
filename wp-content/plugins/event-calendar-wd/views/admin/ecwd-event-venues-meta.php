@@ -29,6 +29,8 @@ $has_selected_venue = false;
 
 $args = array(
   'post_type' => ECWD_PLUGIN_PREFIX . '_venue',
+  'order' => "ASC",
+  'orderby' => 'post_title',
   'post_status' => 'publish',
   'posts_per_page' => -1,
   'ignore_sticky_posts' => 1

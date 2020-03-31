@@ -6,11 +6,12 @@ global $post;
 
 $single_event = $this->single_event_for_metas;
 
-
 $post_id = $post->ID;
 $type = ECWD_PLUGIN_PREFIX . '_organizer';
 $args = array(
   'post_type' => $type,
+  'order' => "ASC",
+  'orderby' => 'post_title',
   'post_status' => 'publish',
   'posts_per_page' => -1,
   'ignore_sticky_posts' => 1
