@@ -145,18 +145,26 @@ if ( (searchIcon.length && searchForm.length) ) {
 }
 
 
-/* Articles - Read More Button ( TESTING )
+/* Articles - Read More Button
 ========================================================= */
-var toggle        = $('#article-readmore-toggle');
-var content       = $('.article-main-single--content .fl-rich-text blockquote');
-if ( (toggle.length && content.length) ) {
-  content.nextAll().slideUp();
-  content.parents('.fl-row').nextAll().slideUp();
-  content.parents('.article-main-single--links').addClass('hide-content');
+var toggle             = $('.toggle');
+  var excerpt_div      = $('.article-excerpt');
+  var full_content_div = $('.article-fulltext');
+  var show_button      = $('.readmore');
+  var hide_button      = $('.hidemore');
+
+if ( (toggle.length && excerpt_div.length && full_content_div.length) ) {
+  console.log();
 
   toggle.click(function() {
-    content.parents('.fl-row').nextAll().slideToggle();
-    content.parents('.article-main-single--links').toggleClass('hide-content');
+    excerpt_div.toggleClass( 'show' );
+    excerpt_div.toggleClass( 'hide' );
+    full_content_div.toggleClass( 'show' );
+    full_content_div.toggleClass( 'hide' );
+    show_button.toggleClass( 'show' );
+    show_button.toggleClass( 'hide' );
+    hide_button.toggleClass( 'show' );
+    hide_button.toggleClass( 'hide' );
   });
 }
 

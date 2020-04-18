@@ -1,32 +1,41 @@
-
 // Child page of Article Index
 .single-article {
+
   main.article-child-page {
 
     // Hero
     .article-hero {
       margin-top: 0;
+
       .article-hero--heading {
+        min-height: 0;
+
         .inner {
           @include margin-center;
+
           text-align: center;
           padding: 40px 15px 60px 15px;
+
           p {
             color: white;
             font-size: em(14);
             margin-bottom: 0;
             text-transform: uppercase;
           }
+
           h1 {
             font-size: em(58);
             margin-top: 20px;
+          }
+
+          @include for-size(tablet, up) {
+            width: 100%;
           }
         }
       }
     }
   }
 }
-
 
 // Main Content
 .article-main-single {
@@ -62,6 +71,14 @@
           }
         }
       }
+
+      .hide {
+        display: none;
+      }
+
+      .show {
+        display: block;
+      }
     }
   }
 
@@ -92,8 +109,15 @@
         &:not(.read) {
           @include button-alt( $arrow:false );
         }
-        &.read {
+        &.readmore,
+        &.hidemore {
           @include button( $arrow:false );
+        }
+        &.hide {
+          display: none;
+        }
+        &.show {
+          display: block;
         }
       }
     }

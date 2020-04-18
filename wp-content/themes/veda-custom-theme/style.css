@@ -191,7 +191,8 @@ input:not(.media-button):not([class*=fl-builder])[type=submit]:after {
   content: '\f061';
   margin-left: 7px
 }
-.article-main-single--links .inner a.read,
+.article-main-single--links .inner a.hidemore,
+.article-main-single--links .inner a.readmore,
 .article-main-single--links .inner a:not(.read),
 .banner-cta--content .button-wrap a:nth-child(even),
 .banner-cta--content .button-wrap a:nth-child(odd),
@@ -234,8 +235,10 @@ input[type=submit]:not([class*=fl-builder]):not(.media-button) {
 hr {
   border: none
 }
-.article-main-single--links .inner a.read,
-.article-main-single--links .inner a.read span,
+.article-main-single--links .inner a.hidemore,
+.article-main-single--links .inner a.hidemore span,
+.article-main-single--links .inner a.readmore,
+.article-main-single--links .inner a.readmore span,
 .article-main-single--links .inner a:not(.read),
 .article-main-single--links .inner a:not(.read) span,
 .banner-cta--content .button-wrap a:nth-child(even),
@@ -1752,12 +1755,6 @@ nav.post-nav .current {
   margin-right: auto;
   display: block
 }
-.container .inner img {
-  display: block;
-  margin: 0 0 24px;
-  width: 100%;
-  height: auto
-}
 .post-single {
   padding: 5% 12%
 }
@@ -1863,6 +1860,8 @@ nav.post-nav .current {
 .article-hero--section-nav .toggle-content,
 .article-hero--section-nav .toggle-content ul li a:before,
 .article-hero--section-nav h5 a span.open,
+.article-main-single--content .inner .hide,
+.article-main-single--links .inner a.hide,
 .article-references--content,
 .article-references--toggle h6 a span.open {
   display: none
@@ -1923,6 +1922,9 @@ nav.post-nav .current {
 .single-article main.article-child-page .article-hero {
   margin-top: 0
 }
+.single-article main.article-child-page .article-hero .article-hero--heading {
+  min-height: 0
+}
 .single-article main.article-child-page .article-hero .article-hero--heading .inner {
   margin-left: auto;
   margin-right: auto;
@@ -1981,6 +1983,9 @@ nav.post-nav .current {
   color: #215378;
   font-size: 1.5em
 }
+.article-main-single--content .inner .show {
+  display: block
+}
 .article-main-single--links {
   -webkit-transition: .4s ease-in-out;
   transition: .4s ease-in-out;
@@ -2032,20 +2037,29 @@ body.healthcare-directory .hero-basic--search {
 .article-main-single--links .inner a:not(.read):hover {
   opacity: .7!important
 }
-.article-main-single--links .inner a.read {
+.article-main-single--links .inner a.hidemore,
+.article-main-single--links .inner a.readmore {
   background: #ea8024;
   color: #fff;
   border-color: #ea8024
 }
-.article-main-single--links .inner a.read:active,
-.article-main-single--links .inner a.read:hover {
+.article-main-single--links .inner a.hidemore:active,
+.article-main-single--links .inner a.hidemore:hover,
+.article-main-single--links .inner a.readmore:active,
+.article-main-single--links .inner a.readmore:hover {
   color: #fff;
   background: rgba(234,128,36,.7);
   border-color: rgba(234,128,36,0)
 }
-.article-main-single--links .inner a.read:focus,
+.article-main-single--links .inner a.hidemore:focus,
+.article-main-single--links .inner a.readmore:focus,
 .healthcare-index--results .member--details__link .button-wrap a:focus {
   border-color: #1796a4
+}
+.article-main-single--links .inner a.show,
+.healthcare-index--results .member--image img,
+.healthcare-single--member .member--image img {
+  display: block
 }
 .article-references {
   padding-top: 12px;
@@ -2129,9 +2143,6 @@ body.healthcare-directory .hero-basic--search form select {
   -webkit-flex: 0 0 20%;
       -ms-flex: 0 0 20%;
           flex: 0 0 20%
-}
-.healthcare-index--results .member--image img {
-  display: block
 }
 .healthcare-index--results .member--details {
   -webkit-box-flex: 1;
@@ -2220,9 +2231,6 @@ body.healthcare-directory .hero-basic--search form select {
           flex: 0 1 38%;
   padding: 32px 16px 16px
 }
-.healthcare-single--member .member--image img {
-  display: block
-}
 .healthcare-single--member .member--details {
   -webkit-box-flex: 1;
   -webkit-flex: 1 1 60%;
@@ -2277,13 +2285,6 @@ body.healthcare-directory .hero-basic--search form select {
             flex-basis: 50%
   }
 }
-@media only screen and (min-width:481px) {
-  .container .inner img {
-    float: right;
-    margin-left: 24px;
-    width: 50%
-  }
-}
 @media only screen and (min-width:481px) and (max-width:1366px) {
   .article-hero--heading .inner h1 {
     font-size: 3.13em
@@ -2315,9 +2316,6 @@ body.healthcare-directory .hero-basic--search form select {
   .home-testimonials--content .quote__content .inner p {
     font-size: 1.63em;
     line-height: 1.46em
-  }
-  .container .inner img {
-    width: 33%
   }
   body.healthcare-directory .hero-basic--search form input:not([type=submit]):not(:last-child),
   body.healthcare-directory .hero-basic--search form select:not(:last-child) {
@@ -2583,6 +2581,9 @@ body.healthcare-directory .hero-basic--search form select {
     top: -100px;
     position: relative;
     z-index: -1
+  }
+  .single-article main.article-child-page .article-hero .article-hero--heading .inner {
+    width: 100%
   }
   .healthcare-single--member .member--image {
     margin-right: 2%

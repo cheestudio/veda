@@ -1,6 +1,12 @@
-<?php get_header(); ?>
-
-<h4>(a top level article)</h4>
+<?php
+/**
+ * Top-level article template.
+ *
+ * This template is included in the "single-article" template.
+ *
+ * It is included if this is a "top level" article.
+ */
+?>
 
 <!-- Hero -->
 <?php $hero = get_field('article_hero_group'); ?>

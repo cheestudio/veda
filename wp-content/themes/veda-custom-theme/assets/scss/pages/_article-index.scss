@@ -1,33 +1,41 @@
-
 // Hero
 .article-hero {
   margin-top: 60px;
   position: relative;
+
   .flex {
     flex-direction: column;
   }
 
   &--heading {
     @include hero-gradient;
+
     display: flex;
     align-items: center;
+
     @include for-size(tablet, up) {
       min-height: 312px;
     }
+
     .inner {
       padding: 80px 10%;
+
       @include for-size(tablet, up) {
         width: 35%;
       }
+
       @include for-size(tablet) {
         @include margin-center;
       }
+
       h1 {
         color: white;
         margin-bottom: 0;
+
         @include between-sizes(phone, laptop) {
           font-size: em(50);
         }
+
         @include for-size(tablet) {
           text-align: center;
         }
