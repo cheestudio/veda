@@ -1,15 +1,20 @@
 <?php get_header(); ?>
 
+<h3>This is an article</h3>
+
 <?php
-// Display Article Index (if page has a parent)
+// Display Article Index (if page has no parent)
 if ( $post->post_parent === 0 ) :
   get_template_part('templates/tpl-article-index');
 
-// Display Child/Single View (page has no parent)
+// Display Child/Single View (page has a parent)
 else :
 
   // Hero
   $category = wp_get_post_terms( $post->ID, 'article_category' ); ?>
+
+  <h4>(a "sub" level article)</h4>
+
   <section class="article-hero">
     <div class="article-hero--heading">
       <div class="inner">
@@ -19,7 +24,6 @@ else :
     </div>
     <?php include( locate_template('partials/section-nav-pages.php') ); ?>
   </section>
-
 
   <?php // Main Content
   if ( have_posts() ) : ?>
