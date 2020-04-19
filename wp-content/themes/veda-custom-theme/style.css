@@ -1944,10 +1944,6 @@ nav.post-nav .current {
 .article-main-single {
   padding: 5% 12%
 }
-.article-main-single--content .excerpt p {
-  font-size: 1.38em;
-  font-weight: 500
-}
 .article-main-single--content .inner {
   position: relative
 }

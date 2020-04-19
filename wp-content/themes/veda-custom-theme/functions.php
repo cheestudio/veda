@@ -88,3 +88,10 @@ function custom_order_post_type($query) {
   return $query;
 }
 add_filter('pre_get_posts', 'custom_order_post_type');
+
+/* Make excerpt longer than the default 55 words.
+========================================================= */
+function custom_excerpt_length( $length ) {
+  return 150;
+}
+add_filter( 'excerpt_length', 'custom_excerpt_length', 999 );
