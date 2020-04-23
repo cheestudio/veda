@@ -1,10 +1,10 @@
 <?php // Sponsored Ad
 $sponsored = get_field('sponsored_ad'); ?>
 <?php if ( $sponsored ) : ?>
-  <section class="sponsored-ad">
+  <section class="sponsored">
     <div class="container flex">
-      <div class="sponsored-ad--title"><h5>Sponsored Ad</h5></div>
-      <div class="sponsored-ad--content">
+      <div class="sponsored--title"><h5>Sponsored</h5></div>
+      <div class="sponsored--content">
         <div class="inner"><?= $sponsored; ?></div>
       </div>
     </div>

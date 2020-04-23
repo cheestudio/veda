@@ -1,34 +1,47 @@
 /* Sponsored Ad
 ========================================================= */
 
-.sponsored-ad {
+.sponsored {
   padding-top: 16px;
   padding-bottom: 16px;
-      @include for-size(tablet-sm) {
-      padding: 32px;
-      padding-bottom: 32px;
-      .container {
-        flex-direction: column;
-        .sponsored-ad--title {
-          margin-bottom: 24px;
-        }
+
+  @include for-size(tablet-sm) {
+    padding: 32px;
+
+    .container {
+      flex-direction: column;
+
+      .sponsored--title {
+        margin-bottom: 10px;
+        max-width: 100%;
+      }
+
+      .sponsored--content {
+        max-width: 100%;
       }
     }
+  }
+
   .container {
     align-items: center;
+    justify-content: space-evenly;
   }
 
   &--title {
-    flex: 1 1 40%;
-
+    flex: none;
+    max-width: 40%;
   }
 
   &--content {
-    flex: 1 1 60%;
+    flex: none;
+    max-width: 60%;
+
     img {
       display: block;
     }
+
     p {
+
       &:last-of-type {
         margin-bottom: 0;
       }
